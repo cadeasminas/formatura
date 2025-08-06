@@ -282,7 +282,7 @@ const speakers = [
     }
 ];
 
-// Dados das palestras - Placeholders para as palestrantes preencherem
+// Dados das palestras - Placeholders para as palestrantes preencherem aaaaa 
 const talks = [
     // BLOCO 1 - MANHÃ (10:10 - 12:40)
     {
