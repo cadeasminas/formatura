@@ -5,8 +5,12 @@ function renderTalksPage() {
     const container = document.getElementById('talks-container');
     if (!container) return;
 
-    container.innerHTML = talks.map(talk => `
-        <div class="talk-card-detailed fade-in" 
+    container.innerHTML = talks.map(talk => {
+        const placeholderClass = talk.isPlaceholder ? 'placeholder-talk' : '';
+        const speakerLink = `<a href="palestrantes.html?speaker=${encodeURIComponent(talk.speaker)}" class="speaker-link">${talk.speaker}</a>`;
+        
+        return `
+        <div class="talk-card-detailed fade-in ${placeholderClass}" 
              data-block="${talk.block}" 
              data-category="${getCategoryFromTags(talk.tags)}"
              data-time="${talk.time}">
@@ -24,7 +28,7 @@ function renderTalksPage() {
                 <h3 class="talk-title-detailed">${talk.title}</h3>
                 <div class="talk-speaker-info">
                     <i class="fas fa-user-circle"></i>
-                    <span class="speaker-name">${talk.speaker}</span>
+                    <span class="speaker-name">${speakerLink}</span>
                 </div>
                 
                 <div class="talk-description-detailed">
@@ -32,14 +36,23 @@ function renderTalksPage() {
                 </div>
                 
                 <div class="talk-tags-detailed">
-                    ${talk.tags.map(tag => `<span class="tag-detailed ${getTagClass(tag)}">${tag}</span>`).join('')}
+                    ${talk.tags.map(tag => `<span class="tag-detailed ${getTagClass(tag)} ${talk.isPlaceholder ? 'tag-placeholder' : ''}">${tag}</span>`).join('')}
                 </div>
+                
+                ${talk.isPlaceholder ? `
+                <div class="placeholder-notice-detailed">
+                    <i class="fas fa-edit"></i>
+                    <span>Esta palestra será personalizada pela palestrante</span>
+                    <a href="COMO-ATUALIZAR.md" class="edit-guide-link">Ver guia de edição</a>
+                </div>
+                ` : ''}
             </div>
             
             <div class="talk-actions">
                 <button class="btn-icon" onclick="viewSpeakerProfile('${talk.speaker}')" title="Ver perfil da palestrante">
                     <i class="fas fa-user"></i>
                 </button>
+                ${!talk.isPlaceholder ? `
                 <button class="btn-icon" onclick="shareTalk(${talk.id})" title="Compartilhar palestra">
                     <i class="fas fa-share-alt"></i>
                 </button>
@@ -49,9 +62,21 @@ function renderTalksPage() {
                 <button class="btn-icon" onclick="addToCalendar(${talk.id})" title="Adicionar ao calendário">
                     <i class="fas fa-calendar-plus"></i>
                 </button>
+                ` : `
+                <button class="btn-icon disabled" title="Disponível após personalização">
+                    <i class="fas fa-share-alt"></i>
+                </button>
+                <button class="btn-icon disabled" title="Disponível após personalização">
+                    <i class="far fa-heart"></i>
+                </button>
+                <button class="btn-icon disabled" title="Disponível após personalização">
+                    <i class="fas fa-calendar-plus"></i>
+                </button>
+                `}
             </div>
         </div>
-    `).join('');
+    `;
+    }).join('');
 }
 
 // Função para determinar categoria baseada nas tags
