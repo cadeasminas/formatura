@@ -284,10 +284,10 @@ const speakers = [
 
 // Dados das palestras reorganizadas em 2 blocos
 const talks = [
-    // BLOCO 1 - MANHÃ (10:00 - 13:00)
+    // BLOCO 1 - MANHÃ (10:10 - 13:00)
     {
         id: 1,
-        time: "10:00 - 10:18",
+        time: "10:10 - 10:25",
         title: "Inteligência Artificial e o Futuro do Trabalho",
         speaker: "Midian Brandão",
         description: "Como a IA está transformando o mercado de trabalho e criando novas oportunidades para mulheres na tecnologia.",
@@ -296,7 +296,7 @@ const talks = [
     },
     {
         id: 2,
-        time: "10:18 - 10:36",
+        time: "10:25 - 10:40",
         title: "Desenvolvimento Frontend Moderno",
         speaker: "Camila Marques de Oliveira",
         description: "Explorando as últimas tendências em React, Vue.js e as melhores práticas para desenvolvimento frontend.",
@@ -305,7 +305,7 @@ const talks = [
     },
     {
         id: 3,
-        time: "10:36 - 10:54",
+        time: "10:40 - 10:55",
         title: "Segurança Cibernética: Protegendo o Futuro Digital",
         speaker: "Gabriela Milet Matias",
         description: "Estratégias essenciais de segurança cibernética e como as mulheres estão liderando essa área crítica.",
@@ -314,7 +314,7 @@ const talks = [
     },
     {
         id: 4,
-        time: "10:54 - 11:12",
+        time: "10:55 - 11:10",
         title: "DevOps e Cloud Computing",
         speaker: "Laryssa Viana Rocha",
         description: "Implementando práticas DevOps eficientes e aproveitando o poder da computação em nuvem.",
@@ -323,7 +323,7 @@ const talks = [
     },
     {
         id: 5,
-        time: "11:12 - 11:30",
+        time: "11:10 - 11:25",
         title: "Data Science e Machine Learning",
         speaker: "Elizabeth Cristina de Souza",
         description: "Descobrindo insights valiosos através da ciência de dados e algoritmos de aprendizado de máquina.",
@@ -332,7 +332,7 @@ const talks = [
     },
     {
         id: 6,
-        time: "11:30 - 11:48",
+        time: "11:25 - 11:40",
         title: "UX/UI Design: Criando Experiências Incríveis",
         speaker: "Bianca Pinto Cardoso",
         description: "Princípios fundamentais de design de experiência do usuário e interface que fazem a diferença.",
@@ -341,7 +341,7 @@ const talks = [
     },
     {
         id: 7,
-        time: "11:48 - 12:06",
+        time: "11:40 - 11:55",
         title: "Blockchain e Criptomoedas",
         speaker: "Juliana de Jesus de Oliveira",
         description: "Entendendo a tecnologia blockchain e seu impacto revolucionário nos sistemas financeiros.",
@@ -350,7 +350,7 @@ const talks = [
     },
     {
         id: 8,
-        time: "12:06 - 12:24",
+        time: "11:55 - 12:10",
         title: "Mobile Development: iOS e Android",
         speaker: "Marília Melo Favalesso",
         description: "Desenvolvimento de aplicativos móveis nativos e cross-platform para iOS e Android.",
@@ -359,7 +359,7 @@ const talks = [
     },
     {
         id: 9,
-        time: "12:24 - 12:42",
+        time: "12:10 - 12:25",
         title: "Internet das Coisas (IoT)",
         speaker: "Ana Hashimoto",
         description: "Conectando o mundo físico ao digital através de dispositivos IoT inteligentes.",
@@ -368,7 +368,7 @@ const talks = [
     },
     {
         id: 10,
-        time: "12:42 - 13:00",
+        time: "12:25 - 12:40",
         title: "Arquitetura de Software Escalável",
         speaker: "Andrea Simone",
         description: "Projetando sistemas robustos e escaláveis que suportam milhões de usuários.",
@@ -376,10 +376,10 @@ const talks = [
         block: "morning"
     },
     
-    // BLOCO 2 - TARDE (14:00 - 17:00)
+    // BLOCO 2 - TARDE (14:00 - 16:30)
     {
         id: 11,
-        time: "14:00 - 14:18",
+        time: "14:00 - 14:15",
         title: "Quantum Computing: A Nova Fronteira",
         speaker: "Bruna Valentim",
         description: "Explorando os conceitos fundamentais da computação quântica e suas aplicações futuras.",
@@ -388,7 +388,7 @@ const talks = [
     },
     {
         id: 12,
-        time: "14:18 - 14:36",
+        time: "14:15 - 14:30",
         title: "Realidade Virtual e Aumentada",
         speaker: "Cecilia Silva",
         description: "Criando experiências imersivas através de tecnologias de VR e AR.",
@@ -397,7 +397,7 @@ const talks = [
     },
     {
         id: 13,
-        time: "14:36 - 14:54",
+        time: "14:30 - 14:45",
         title: "Metodologias Ágeis e Scrum",
         speaker: "Jessica Alexandra",
         description: "Implementando metodologias ágeis para aumentar a produtividade e qualidade do software.",
@@ -406,7 +406,7 @@ const talks = [
     },
     {
         id: 14,
-        time: "14:54 - 15:12",
+        time: "14:45 - 15:00",
         title: "Big Data e Analytics",
         speaker: "Jessica Borges",
         description: "Processando e analisando grandes volumes de dados para insights estratégicos.",
@@ -415,7 +415,7 @@ const talks = [
     },
     {
         id: 15,
-        time: "15:12 - 15:30",
+        time: "15:00 - 15:15",
         title: "Automação e Robótica",
         speaker: "Karina Kaori",
         description: "Como a automação e robótica estão revolucionando indústrias inteiras.",
@@ -424,7 +424,7 @@ const talks = [
     },
     {
         id: 16,
-        time: "15:30 - 15:48",
+        time: "15:15 - 15:30",
         title: "Liderança Técnica Feminina",
         speaker: "Keline",
         description: "Desenvolvendo habilidades de liderança e quebrando barreiras na área técnica.",
@@ -433,7 +433,7 @@ const talks = [
     },
     {
         id: 17,
-        time: "15:48 - 16:06",
+        time: "15:30 - 15:45",
         title: "Open Source e Comunidades Tech",
         speaker: "Luciana Damasceno",
         description: "A importância do código aberto e como contribuir para comunidades tecnológicas.",
@@ -442,7 +442,7 @@ const talks = [
     },
     {
         id: 18,
-        time: "16:06 - 16:24",
+        time: "15:45 - 16:00",
         title: "Sustentabilidade na Tecnologia",
         speaker: "Rhaissa Barbosa",
         description: "Como a tecnologia pode ser uma ferramenta poderosa para a sustentabilidade ambiental.",
@@ -451,7 +451,7 @@ const talks = [
     },
     {
         id: 19,
-        time: "16:24 - 16:42",
+        time: "16:00 - 16:15",
         title: "Empreendedorismo Tech Feminino",
         speaker: "Helena",
         description: "Construindo startups de sucesso e superando desafios no ecossistema empreendedor.",
@@ -460,7 +460,7 @@ const talks = [
     },
     {
         id: 20,
-        time: "16:42 - 17:00",
+        time: "16:15 - 16:30",
         title: "O Futuro das Mulheres na Tecnologia",
         speaker: "Juliana Lisboa",
         description: "Reflexões sobre conquistas, desafios e o futuro promissor das mulheres no setor tech.",
@@ -472,11 +472,11 @@ const talks = [
 // Dados da agenda atualizada para 2 blocos
 const scheduleItems = [
     { time: "09:00", title: "Credenciamento", description: "Recepção e entrega de materiais" },
-    { time: "09:30", title: "Abertura", description: "Cerimônia de abertura e boas-vindas" },
-    { time: "10:00", title: "Bloco 1 - Manhã", description: "10 palestras técnicas (18 min cada)" },
-    { time: "13:00", title: "Almoço", description: "Intervalo para almoço e networking" },
-    { time: "14:00", title: "Bloco 2 - Tarde", description: "10 palestras técnicas (18 min cada)" },
-    { time: "17:00", title: "Encerramento", description: "Cerimônia de formatura e networking final" }
+    { time: "10:00", title: "Abertura", description: "Cerimônia de abertura e boas-vindas (10 minutos)" },
+    { time: "10:10", title: "Bloco 1 - Manhã", description: "10 palestras técnicas (15 min cada)" },
+    { time: "12:40", title: "Almoço", description: "Intervalo para almoço e networking" },
+    { time: "14:00", title: "Bloco 2 - Tarde", description: "10 palestras técnicas (15 min cada)" },
+    { time: "16:30", title: "Encerramento", description: "Cerimônia de formatura e networking final" }
 ];
 
 // Função para renderizar palestrantes
@@ -542,7 +542,7 @@ function renderSchedule() {
             <div class="schedule-block">
                 <div class="block-header">
                     <div class="block-title">Bloco 1 - Manhã</div>
-                    <div class="block-time">10:00 - 13:00</div>
+                    <div class="block-time">10:10 - 12:40</div>
                 </div>
                 <div class="block-talks">
                     ${morningTalks.map(talk => `
@@ -560,7 +560,7 @@ function renderSchedule() {
             <div class="schedule-block">
                 <div class="block-header">
                     <div class="block-title">Bloco 2 - Tarde</div>
-                    <div class="block-time">14:00 - 17:00</div>
+                    <div class="block-time">14:00 - 16:30</div>
                 </div>
                 <div class="block-talks">
                     ${afternoonTalks.map(talk => `
