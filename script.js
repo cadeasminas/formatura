@@ -289,7 +289,7 @@ const talks = [
         id: 1,
         time: "10:00 - 10:18",
         title: "Inteligência Artificial e o Futuro do Trabalho",
-        speaker: "Ana Silva",
+        speaker: "Midian Brandão",
         description: "Como a IA está transformando o mercado de trabalho e criando novas oportunidades para mulheres na tecnologia.",
         tags: ["IA", "Carreira", "Futuro"],
         block: "morning"
@@ -298,7 +298,7 @@ const talks = [
         id: 2,
         time: "10:18 - 10:36",
         title: "Desenvolvimento Frontend Moderno",
-        speaker: "Carla Santos",
+        speaker: "Camila Marques de Oliveira",
         description: "Explorando as últimas tendências em React, Vue.js e as melhores práticas para desenvolvimento frontend.",
         tags: ["Frontend", "React", "Vue.js"],
         block: "morning"
@@ -307,7 +307,7 @@ const talks = [
         id: 3,
         time: "10:36 - 10:54",
         title: "Segurança Cibernética: Protegendo o Futuro Digital",
-        speaker: "Marina Costa",
+        speaker: "Gabriela Milet Matias",
         description: "Estratégias essenciais de segurança cibernética e como as mulheres estão liderando essa área crítica.",
         tags: ["Segurança", "Cibersegurança", "Proteção"],
         block: "morning"
@@ -316,7 +316,7 @@ const talks = [
         id: 4,
         time: "10:54 - 11:12",
         title: "DevOps e Cloud Computing",
-        speaker: "Juliana Oliveira",
+        speaker: "Laryssa Viana Rocha",
         description: "Implementando práticas DevOps eficientes e aproveitando o poder da computação em nuvem.",
         tags: ["DevOps", "Cloud", "AWS"],
         block: "morning"
@@ -325,7 +325,7 @@ const talks = [
         id: 5,
         time: "11:12 - 11:30",
         title: "Data Science e Machine Learning",
-        speaker: "Fernanda Lima",
+        speaker: "Elizabeth Cristina de Souza",
         description: "Descobrindo insights valiosos através da ciência de dados e algoritmos de aprendizado de máquina.",
         tags: ["Data Science", "ML", "Python"],
         block: "morning"
@@ -334,7 +334,7 @@ const talks = [
         id: 6,
         time: "11:30 - 11:48",
         title: "UX/UI Design: Criando Experiências Incríveis",
-        speaker: "Isabela Rodrigues",
+        speaker: "Bianca Pinto Cardoso",
         description: "Princípios fundamentais de design de experiência do usuário e interface que fazem a diferença.",
         tags: ["UX", "UI", "Design"],
         block: "morning"
@@ -343,7 +343,7 @@ const talks = [
         id: 7,
         time: "11:48 - 12:06",
         title: "Blockchain e Criptomoedas",
-        speaker: "Rafaela Ferreira",
+        speaker: "Juliana de Jesus de Oliveira",
         description: "Entendendo a tecnologia blockchain e seu impacto revolucionário nos sistemas financeiros.",
         tags: ["Blockchain", "Crypto", "Fintech"],
         block: "morning"
@@ -352,7 +352,7 @@ const talks = [
         id: 8,
         time: "12:06 - 12:24",
         title: "Mobile Development: iOS e Android",
-        speaker: "Gabriela Almeida",
+        speaker: "Marília Melo Favalesso",
         description: "Desenvolvimento de aplicativos móveis nativos e cross-platform para iOS e Android.",
         tags: ["Mobile", "iOS", "Android"],
         block: "morning"
@@ -361,7 +361,7 @@ const talks = [
         id: 9,
         time: "12:24 - 12:42",
         title: "Internet das Coisas (IoT)",
-        speaker: "Larissa Pereira",
+        speaker: "Ana Hashimoto",
         description: "Conectando o mundo físico ao digital através de dispositivos IoT inteligentes.",
         tags: ["IoT", "Hardware", "Sensores"],
         block: "morning"
@@ -370,7 +370,7 @@ const talks = [
         id: 10,
         time: "12:42 - 13:00",
         title: "Arquitetura de Software Escalável",
-        speaker: "Beatriz Souza",
+        speaker: "Andrea Simone",
         description: "Projetando sistemas robustos e escaláveis que suportam milhões de usuários.",
         tags: ["Arquitetura", "Escalabilidade", "Sistema"],
         block: "morning"
@@ -381,7 +381,7 @@ const talks = [
         id: 11,
         time: "14:00 - 14:18",
         title: "Quantum Computing: A Nova Fronteira",
-        speaker: "Camila Martins",
+        speaker: "Bruna Valentim",
         description: "Explorando os conceitos fundamentais da computação quântica e suas aplicações futuras.",
         tags: ["Quantum", "Computação", "Física"],
         block: "afternoon"
@@ -390,7 +390,7 @@ const talks = [
         id: 12,
         time: "14:18 - 14:36",
         title: "Realidade Virtual e Aumentada",
-        speaker: "Natália Barbosa",
+        speaker: "Cecilia Silva",
         description: "Criando experiências imersivas através de tecnologias de VR e AR.",
         tags: ["VR", "AR", "Imersão"],
         block: "afternoon"
@@ -399,7 +399,7 @@ const talks = [
         id: 13,
         time: "14:36 - 14:54",
         title: "Metodologias Ágeis e Scrum",
-        speaker: "Amanda Torres",
+        speaker: "Jessica Alexandra",
         description: "Implementando metodologias ágeis para aumentar a produtividade e qualidade do software.",
         tags: ["Agile", "Scrum", "Gestão"],
         block: "afternoon"
@@ -408,7 +408,7 @@ const talks = [
         id: 14,
         time: "14:54 - 15:12",
         title: "Big Data e Analytics",
-        speaker: "Priscila Gomes",
+        speaker: "Jessica Borges",
         description: "Processando e analisando grandes volumes de dados para insights estratégicos.",
         tags: ["Big Data", "Analytics", "Hadoop"],
         block: "afternoon"
@@ -417,7 +417,7 @@ const talks = [
         id: 15,
         time: "15:12 - 15:30",
         title: "Automação e Robótica",
-        speaker: "Letícia Ribeiro",
+        speaker: "Karina Kaori",
         description: "Como a automação e robótica estão revolucionando indústrias inteiras.",
         tags: ["Automação", "Robótica", "Indústria 4.0"],
         block: "afternoon"
@@ -426,7 +426,7 @@ const talks = [
         id: 16,
         time: "15:30 - 15:48",
         title: "Liderança Técnica Feminina",
-        speaker: "Daniela Castro",
+        speaker: "Keline",
         description: "Desenvolvendo habilidades de liderança e quebrando barreiras na área técnica.",
         tags: ["Liderança", "Carreira", "Empoderamento"],
         block: "afternoon"
@@ -435,7 +435,7 @@ const talks = [
         id: 17,
         time: "15:48 - 16:06",
         title: "Open Source e Comunidades Tech",
-        speaker: "Vanessa Cardoso",
+        speaker: "Luciana Damasceno",
         description: "A importância do código aberto e como contribuir para comunidades tecnológicas.",
         tags: ["Open Source", "Comunidade", "Colaboração"],
         block: "afternoon"
@@ -444,7 +444,7 @@ const talks = [
         id: 18,
         time: "16:06 - 16:24",
         title: "Sustentabilidade na Tecnologia",
-        speaker: "Carolina Nunes",
+        speaker: "Rhaissa Barbosa",
         description: "Como a tecnologia pode ser uma ferramenta poderosa para a sustentabilidade ambiental.",
         tags: ["Sustentabilidade", "Green Tech", "Meio Ambiente"],
         block: "afternoon"
@@ -453,7 +453,7 @@ const talks = [
         id: 19,
         time: "16:24 - 16:42",
         title: "Empreendedorismo Tech Feminino",
-        speaker: "Roberta Moraes",
+        speaker: "Helena",
         description: "Construindo startups de sucesso e superando desafios no ecossistema empreendedor.",
         tags: ["Empreendedorismo", "Startup", "Inovação"],
         block: "afternoon"
@@ -462,7 +462,7 @@ const talks = [
         id: 20,
         time: "16:42 - 17:00",
         title: "O Futuro das Mulheres na Tecnologia",
-        speaker: "Patricia Dias",
+        speaker: "Juliana Lisboa",
         description: "Reflexões sobre conquistas, desafios e o futuro promissor das mulheres no setor tech.",
         tags: ["Futuro", "Mulheres", "Tecnologia"],
         block: "afternoon"
