@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug CSS - Palestrantes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="extras.css">
+    <style>
+        .debug-info {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #ff0000;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 9999;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        .css-test {
+            background: #00ff00;
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid #0000ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="debug-info">CSS Debug Test</div>
+    
+    <div class="css-test">
+        <h1>Teste de CSS</h1>
+        <p>Se você está vendo este texto em verde com borda azul, o CSS inline está funcionando.</p>
+    </div>
+    
+    <!-- Header teste -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <img src="logo.png" alt="O Palco é Delas" class="nav-logo">
+                <div class="nav-text">
+                    <h1>O Palco é Delas</h1>
+                    <span>Evento de Formatura</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero teste -->
+    <section class="hero-simple">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Teste Hero Simple</h1>
+                <p class="hero-subtitle">Verificando se o CSS está carregando</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        console.log('CSS debug test loaded');
+        
+        // Verificar se CSS foi carregado
+        const header = document.querySelector('.header');
+        const heroSimple = document.querySelector('.hero-simple');
+        
+        console.log('Header element:', header);
+        console.log('Hero simple element:', heroSimple);
+        
+        if (header) {
+            const headerStyles = window.getComputedStyle(header);
+            console.log('Header background:', headerStyles.background);
+            console.log('Header position:', headerStyles.position);
+        }
+        
+        if (heroSimple) {
+            const heroStyles = window.getComputedStyle(heroSimple);
+            console.log('Hero background:', heroStyles.background);
+            console.log('Hero padding:', heroStyles.padding);
+        }
+    </script>
+</body>
+</html>
