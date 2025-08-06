@@ -881,12 +881,21 @@ function addCardInteractions() {
             this.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.1)';
         });
     });
+    
+    console.log('✅ Interações dos cards configuradas');
 }
 
-// Função para contagem regressiva (opcional)
+// ============================================================================
+// ⏰ CONTAGEM REGRESSIVA PARA O EVENTO
+// ============================================================================
+/*
+Cria uma contagem regressiva até a data do evento (23 de agosto de 2025).
+Atualiza automaticamente a cada minuto.
+NOTA: Precisa de um elemento com id 'countdown' no HTML para funcionar.
+*/
 function addCountdown() {
-    // Aqui você pode adicionar uma data específica do evento
-    const eventDate = new Date('2025-12-15T09:00:00');
+    // Data do evento: Sábado, 23 de Agosto de 2025 às 09:00
+    const eventDate = new Date('2025-08-23T09:00:00');
     
     function updateCountdown() {
         const now = new Date();
@@ -897,26 +906,42 @@ function addCountdown() {
             const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
             
-            // Você pode adicionar um elemento no HTML para mostrar a contagem
+            // Elemento HTML onde mostrar a contagem (opcional)
             const countdownEl = document.getElementById('countdown');
             if (countdownEl) {
-                countdownEl.innerHTML = `${days}d ${hours}h ${minutes}m`;
+                countdownEl.innerHTML = `${days}d ${hours}h ${minutes}m para o evento!`;
             }
         }
     }
     
     // Atualizar a cada minuto
     setInterval(updateCountdown, 60000);
-    updateCountdown();
+    updateCountdown(); // Executar imediatamente
+    
+    console.log('✅ Contagem regressiva configurada para 23/08/2025');
 }
 
-// Função para busca de palestras
+// ============================================================================
+// 🔍 BUSCA DE PALESTRAS
+// ============================================================================
+/*
+Permite buscar palestras por título, palestrante, descrição ou tags.
+Filtra e re-renderiza os resultados em tempo real.
+NOTA: Precisa de um elemento com id 'search-talks' no HTML para funcionar.
+*/
 function addSearchFunction() {
     const searchInput = document.getElementById('search-talks');
-    if (!searchInput) return;
+    
+    // Verificar se o elemento existe na página atual
+    if (!searchInput) {
+        console.log('Campo de busca não encontrado nesta página');
+        return;
+    }
     
     searchInput.addEventListener('input', function() {
         const searchTerm = this.value.toLowerCase();
+        
+        // Filtrar palestras baseado no termo de busca
         const filteredTalks = talks.filter(talk => 
             talk.title.toLowerCase().includes(searchTerm) ||
             talk.speaker.toLowerCase().includes(searchTerm) ||
@@ -925,8 +950,19 @@ function addSearchFunction() {
         );
         
         renderFilteredTalks(filteredTalks);
+        console.log(`🔍 Busca: "${searchTerm}" - ${filteredTalks.length} resultados`);
     });
+    
+    console.log('✅ Função de busca configurada');
 }
+
+// ============================================================================
+// 📋 RENDERIZAR PALESTRAS FILTRADAS
+// ============================================================================
+/*
+Versão simplificada da renderização para resultados de busca.
+Não inclui sistema de placeholders pois foca na busca.
+*/
 
 function renderFilteredTalks(filteredTalks) {
     const container = document.getElementById('talks-container');
