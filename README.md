@@ -1,6 +1,5 @@
 # O Palco é Delas - Site do Evento de Formatura
-> "Empoderando mulheres para transformar a tecnologia através da voz e da representação"poderar mulheres na tecnologia através da oratória e representação.
-
+> "Empoderando mulheres para transformar a tecnologia através da voz e da representação"
 ## 📋 Sobre o Projeto
 
 "O Palco é Delas" é um programa que combina:
