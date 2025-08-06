@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palestrantes - O Palco é Delas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="extras.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <img src="logo.png" alt="O Palco é Delas" class="logo">
+                <span class="brand-text">O Palco é Delas</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Início</a></li>
+                <li><a href="palestrantes.html" class="nav-link active">Palestrantes</a></li>
+                <li><a href="palestras.html" class="nav-link">Palestras</a></li>
+                <li><a href="index.html#agenda" class="nav-link">Agenda</a></li>
+                <li><a href="index.html#sobre" class="nav-link">Sobre</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-simple">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Nossas Palestrantes</h1>
+                <p class="hero-subtitle">Conheça as mulheres que estão transformando a tecnologia</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="search-speakers" placeholder="Buscar palestrantes por nome, especialidade ou empresa...">
+            </div>
+            <div class="filter-tags">
+                <button class="filter-tag active" data-filter="all">Todas</button>
+                <button class="filter-tag" data-filter="tech-lead">Tech Lead</button>
+                <button class="filter-tag" data-filter="developer">Developer</button>
+                <button class="filter-tag" data-filter="engineer">Engineer</button>
+                <button class="filter-tag" data-filter="designer">Designer</button>
+                <button class="filter-tag" data-filter="data">Data Science</button>
+                <button class="filter-tag" data-filter="other">Outras</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section class="speakers-page">
+        <div class="container">
+            <div class="speakers-stats">
+                <div class="stat-item">
+                    <span class="stat-number">20</span>
+                    <span class="stat-label">Palestrantes</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Especialidades</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">6h</span>
+                    <span class="stat-label">de Conteúdo</span>
+                </div>
+            </div>
+            
+            <div class="speakers-grid" id="speakers-container">
+                <!-- Speakers will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Quer ser uma palestrante?</h2>
+                <p>Faça parte da nossa comunidade e compartilhe seu conhecimento</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary">Inscreva-se</a>
+                    <a href="COMO-ATUALIZAR.md" class="btn btn-secondary">Guia de Contribuição</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>O Palco é Delas</h3>
+                    <p>Empoderando mulheres na tecnologia através da arte de falar em público.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="palestrantes.html">Palestrantes</a></li>
+                        <li><a href="palestras.html">Palestras</a></li>
+                        <li><a href="index.html#agenda">Agenda</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Conecte-se</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 O Palco é Delas. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="palestrantes.js"></script>
+</body>
+</html>
