@@ -22,11 +22,35 @@ Mulheres em tecnologia que:
 - ✔️ Querem vencer o medo de falar em público
 - ✔️ Buscam visibilidade na carreira
 
-## 🗣️ Palestras do Evento
+## 🗣️ Palestrantes e Palestras
 
-O evento de formatura conta com 20 palestras inspiradoras sobre diversos temas de tecnologia:
+O evento de formatura conta com 20 palestrantes reais do programa "O Palco é Delas", organizadas em 2 blocos:
 
-TBD
+### 🌅 BLOCO 1 - MANHÃ (10:00 - 13:00)
+1. **Midian Brandão** - Inteligência Artificial e o Futuro do Trabalho
+2. **Camila Marques de Oliveira** - Desenvolvimento Frontend Moderno
+3. **Gabriela Milet Matias** - Segurança Cibernética: Protegendo o Futuro Digital
+4. **Laryssa Viana Rocha** - DevOps e Cloud Computing
+5. **Elizabeth Cristina de Souza** - Data Science e Machine Learning
+6. **Bianca Pinto Cardoso** - UX/UI Design: Criando Experiências Incríveis
+7. **Juliana de Jesus de Oliveira** - Blockchain e Criptomoedas
+8. **Marília Melo Favalesso** - Mobile Development: iOS e Android
+9. **Ana Hashimoto** - Internet das Coisas (IoT)
+10. **Andrea Simone** - Arquitetura de Software Escalável
+
+### 🌇 BLOCO 2 - TARDE (14:00 - 17:00)
+11. **Bruna Valentim** - Quantum Computing: A Nova Fronteira
+12. **Cecilia Silva** - Realidade Virtual e Aumentada
+13. **Jessica Alexandra** - Metodologias Ágeis e Scrum
+14. **Jessica Borges** - Big Data e Analytics
+15. **Karina Kaori** - Automação e Robótica
+16. **Keline** - Liderança Técnica Feminina
+17. **Luciana Damasceno** - Open Source e Comunidades Tech
+18. **Rhaissa Barbosa** - Sustentabilidade na Tecnologia
+19. **Helena** - Empreendedorismo Tech Feminino
+20. **Juliana Lisboa** - O Futuro das Mulheres na Tecnologia
+
+> ⚠️ **Nota importante**: Atualmente o site contém placeholders para as informações profissionais das palestrantes. Como este é um projeto **open source**, cada palestrante pode atualizar suas próprias informações editando o arquivo `script.js`. Consulte o arquivo [`COMO-ATUALIZAR.md`](COMO-ATUALIZAR.md) para instruções detalhadas.
 ## 🏗️ Estrutura do Projeto
 
 ```
