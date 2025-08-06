@@ -276,19 +276,33 @@ function addSpeakerCardEffects() {
 
 // Inicialização da página de palestrantes
 document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM carregado, inicializando página de palestrantes...');
+    
     // Verificar se estamos na página de palestrantes
     if (document.querySelector('.speakers-page')) {
-        renderSpeakersPage();
-        setupSpeakerSearch();
-        setupCategoryFilters();
-        updateSpeakersStats();
+        console.log('Página de palestrantes detectada');
         
-        // Pequeno delay para animações
+        // Aguardar um pouco para garantir que todos os scripts carregaram
         setTimeout(() => {
-            animateSpeakerCards();
-            addSpeakerCardEffects();
-            updateResultsCount();
-        }, 100);
+            if (checkSpeakersData()) {
+                console.log('Iniciando renderização...');
+                renderSpeakersPage();
+                setupSpeakerSearch();
+                setupCategoryFilters();
+                updateSpeakersStats();
+                
+                // Pequeno delay para animações
+                setTimeout(() => {
+                    animateSpeakerCards();
+                    addSpeakerCardEffects();
+                    updateResultsCount();
+                }, 100);
+            } else {
+                console.error('Falha na verificação dos dados dos palestrantes');
+            }
+        }, 200);
+    } else {
+        console.log('Não é a página de palestrantes');
     }
 });
 
