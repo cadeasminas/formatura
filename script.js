@@ -2,10 +2,10 @@
 const speakers = [
     {
         id: 1,
-        name: "Ana Silva",
+        name: "Midian Brandão",
         role: "Tech Lead",
-        company: "Google",
-        bio: "Especialista em Inteligência Artificial com mais de 8 anos de experiência. Lidera equipes de desenvolvimento de IA no Google.",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["IA", "Machine Learning", "Python"],
         social: {
             linkedin: "#",
@@ -16,10 +16,10 @@ const speakers = [
     },
     {
         id: 2,
-        name: "Carla Santos",
-        role: "Frontend Architect",
-        company: "Microsoft",
-        bio: "Desenvolvedora frontend sênior, especialista em React e Vue.js. Mentora ativa na comunidade tech brasileira.",
+        name: "Camila Marques de Oliveira",
+        role: "Frontend Developer",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["React", "Vue.js", "JavaScript"],
         social: {
             linkedin: "#",
@@ -30,10 +30,10 @@ const speakers = [
     },
     {
         id: 3,
-        name: "Marina Costa",
+        name: "Gabriela Milet Matias",
         role: "Security Engineer",
-        company: "AWS",
-        bio: "Engenheira de segurança cibernética, focada em proteção de sistemas cloud e infraestrutura crítica.",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["Segurança", "Cloud", "DevSecOps"],
         social: {
             linkedin: "#",
@@ -44,10 +44,10 @@ const speakers = [
     },
     {
         id: 4,
-        name: "Juliana Oliveira",
+        name: "Laryssa Viana Rocha",
         role: "DevOps Engineer",
-        company: "Spotify",
-        bio: "Especialista em DevOps e cloud computing, com experiência em escalar sistemas para milhões de usuários.",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["DevOps", "Kubernetes", "AWS"],
         social: {
             linkedin: "#",
@@ -58,10 +58,10 @@ const speakers = [
     },
     {
         id: 5,
-        name: "Fernanda Lima",
+        name: "Elizabeth Cristina de Souza",
         role: "Data Scientist",
-        company: "Netflix",
-        bio: "Cientista de dados com foco em machine learning e análise preditiva para sistemas de recomendação.",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["Data Science", "Python", "ML"],
         social: {
             linkedin: "#",
@@ -72,10 +72,10 @@ const speakers = [
     },
     {
         id: 6,
-        name: "Isabela Rodrigues",
-        role: "UX Director",
-        company: "Airbnb",
-        bio: "Diretora de UX com mais de 10 anos criando experiências digitais que impactam milhões de usuários.",
+        name: "Bianca Pinto Cardoso",
+        role: "UX Designer",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["UX", "Design", "Research"],
         social: {
             linkedin: "#",
@@ -86,10 +86,10 @@ const speakers = [
     },
     {
         id: 7,
-        name: "Rafaela Ferreira",
+        name: "Juliana de Jesus de Oliveira",
         role: "Blockchain Developer",
-        company: "Ethereum Foundation",
-        bio: "Desenvolvedora blockchain especializada em contratos inteligentes e sistemas financeiros descentralizados.",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["Blockchain", "Solidity", "DeFi"],
         social: {
             linkedin: "#",
@@ -100,10 +100,10 @@ const speakers = [
     },
     {
         id: 8,
-        name: "Gabriela Almeida",
-        role: "Mobile Tech Lead",
-        company: "Uber",
-        bio: "Líder técnica em desenvolvimento mobile, especialista em arquiteturas nativas e cross-platform.",
+        name: "Marília Melo Favalesso",
+        role: "Mobile Developer",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["iOS", "Android", "React Native"],
         social: {
             linkedin: "#",
@@ -114,10 +114,10 @@ const speakers = [
     },
     {
         id: 9,
-        name: "Larissa Pereira",
+        name: "Ana Hashimoto",
         role: "IoT Engineer",
-        company: "Tesla",
-        bio: "Engenheira de IoT trabalhando em sistemas automotivos conectados e cidades inteligentes.",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["IoT", "Hardware", "Embedded"],
         social: {
             linkedin: "#",
@@ -128,11 +128,11 @@ const speakers = [
     },
     {
         id: 10,
-        name: "Beatriz Souza",
+        name: "Andrea Simone",
         role: "Software Architect",
-        company: "Meta",
-        bio: "Arquiteta de software especializada em sistemas distribuídos e arquiteturas de alta escala.",
-        expertise: ["Arquitetura", "Microservices", "Scala"],
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
+        expertise: ["Arquitetura", "Microservices", "Java"],
         social: {
             linkedin: "#",
             twitter: "#",
@@ -142,10 +142,10 @@ const speakers = [
     },
     {
         id: 11,
-        name: "Camila Martins",
+        name: "Bruna Valentim",
         role: "Quantum Researcher",
-        company: "IBM Research",
-        bio: "Pesquisadora em computação quântica, trabalhando no futuro da computação e algoritmos quânticos.",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["Quantum", "Physics", "Research"],
         social: {
             linkedin: "#",
@@ -156,10 +156,10 @@ const speakers = [
     },
     {
         id: 12,
-        name: "Natália Barbosa",
+        name: "Cecilia Silva",
         role: "VR/AR Developer",
-        company: "Magic Leap",
-        bio: "Desenvolvedora especializada em realidade virtual e aumentada, criando experiências imersivas inovadoras.",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["VR", "AR", "Unity"],
         social: {
             linkedin: "#",
@@ -170,10 +170,10 @@ const speakers = [
     },
     {
         id: 13,
-        name: "Amanda Torres",
+        name: "Jessica Alexandra",
         role: "Agile Coach",
-        company: "Atlassian",
-        bio: "Coach ágil e Scrum Master certificada, ajudando equipes a alcançar alta performance e entrega contínua.",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["Agile", "Scrum", "Leadership"],
         social: {
             linkedin: "#",
@@ -184,10 +184,10 @@ const speakers = [
     },
     {
         id: 14,
-        name: "Priscila Gomes",
+        name: "Jessica Borges",
         role: "Big Data Engineer",
-        company: "LinkedIn",
-        bio: "Engenheira de big data especializada em processamento em larga escala e analytics em tempo real.",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["Big Data", "Spark", "Hadoop"],
         social: {
             linkedin: "#",
@@ -198,10 +198,10 @@ const speakers = [
     },
     {
         id: 15,
-        name: "Letícia Ribeiro",
+        name: "Karina Kaori",
         role: "Robotics Engineer",
-        company: "Boston Dynamics",
-        bio: "Engenheira de robótica focada em automação industrial e robôs colaborativos para a Indústria 4.0.",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["Robotics", "Automation", "AI"],
         social: {
             linkedin: "#",
@@ -212,10 +212,10 @@ const speakers = [
     },
     {
         id: 16,
-        name: "Daniela Castro",
-        role: "CTO",
-        company: "Stone Pagamentos",
-        bio: "CTO com mais de 15 anos de experiência, líder em transformação digital e cultura de inovação.",
+        name: "Keline",
+        role: "Tech Lead",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["Leadership", "Management", "Strategy"],
         social: {
             linkedin: "#",
@@ -226,10 +226,10 @@ const speakers = [
     },
     {
         id: 17,
-        name: "Vanessa Cardoso",
-        role: "Open Source Maintainer",
-        company: "Apache Foundation",
-        bio: "Mantenedora de projetos open source, defensora do código aberto e diversidade na tecnologia.",
+        name: "Luciana Damasceno",
+        role: "Open Source Advocate",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["Open Source", "Community", "Python"],
         social: {
             linkedin: "#",
@@ -240,10 +240,10 @@ const speakers = [
     },
     {
         id: 18,
-        name: "Carolina Nunes",
-        role: "Green Tech Lead",
-        company: "Tesla Energy",
-        bio: "Líder em tecnologias sustentáveis, focada em soluções tech para energia limpa e sustentabilidade.",
+        name: "Rhaissa Barbosa",
+        role: "Green Tech Specialist",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["GreenTech", "Sustainability", "Energy"],
         social: {
             linkedin: "#",
@@ -254,10 +254,10 @@ const speakers = [
     },
     {
         id: 19,
-        name: "Roberta Moraes",
-        role: "Founder & CEO",
-        company: "TechStartup",
-        bio: "Empreendedora serial, fundadora de 3 startups de sucesso, mentora de mulheres empreendedoras.",
+        name: "Helena",
+        role: "Entrepreneur",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["Entrepreneurship", "Startups", "Business"],
         social: {
             linkedin: "#",
@@ -268,10 +268,10 @@ const speakers = [
     },
     {
         id: 20,
-        name: "Patricia Dias",
+        name: "Juliana Lisboa",
         role: "Tech Evangelist",
-        company: "Microsoft",
-        bio: "Evangelista de tecnologia, palestrante internacional e defensora da diversidade e inclusão no setor tech.",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
         expertise: ["Diversity", "Inclusion", "Future"],
         social: {
             linkedin: "#",
