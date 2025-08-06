@@ -1,6 +1,13 @@
 # O Palco é Delas - Site do Evento de Formatura
 
-Este é o site oficial do evento de formatura do programa "O Palco é Delas", um projeto dedicado a empoderar mulheres na tecnologia através da oratória e representação.
+Este é o site oficial do evento de formatura do programa "O Palco é Delas", um projeto dedic## 📞 Contato
+
+- **Email**: <contato@opalcoedelas.com>
+- **Telefone**: (11) 99999-9999
+
+---
+
+> "Empoderando mulheres para transformar a tecnologia através da voz e da representação"poderar mulheres na tecnologia através da oratória e representação.
 
 ## 📋 Sobre o Projeto
 
@@ -134,11 +141,17 @@ O site é totalmente responsivo e se adapta a:
 
 Este projeto é dedicado ao empoderamento feminino na tecnologia. Sugestões e melhorias são bem-vindas!
 
-## 📞 Contato
+## � Informações do Evento
+
+- **Data**: Sábado, 23 de Agosto de 2025
+- **Horário**: 10:10 - 16:30 (com intervalo para almoço: 12:40 - 14:00)
+- **Local**: São Paulo, SP
+- **Formato**: 2 blocos com 10 palestras de 15 minutos cada
+
+## �📞 Contato
 
 - **Email**: contato@opalcoedelas.com
 - **Telefone**: (11) 99999-9999
-- **Local**: São Paulo, SP
 
 ---
 
