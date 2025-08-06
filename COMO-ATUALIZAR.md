@@ -29,29 +29,29 @@ Este site é **open source** e cada uma de vocês pode atualizar suas próprias 
 
 ### Palestras por bloco :
 
-**🌅 BLOCO 1 - MANHÃ (10:00 - 13:00):**
-1. Midian Brandão - IA e Futuro do Trabalho
-2. Camila Marques de Oliveira - Frontend Moderno
-3. Gabriela Milet Matias - Segurança Cibernética
-4. Laryssa Viana Rocha - DevOps e Cloud
-5. Elizabeth Cristina de Souza - Data Science
-6. Bianca Pinto Cardoso - UX/UI Design
-7. Juliana de Jesus de Oliveira - Blockchain
-8. Marília Melo Favalesso - Mobile Development
-9. Ana Hashimoto - IoT
-10. Andrea Simone - Arquitetura de Software
+**🌅 BLOCO 1 - MANHÃ (10:10 - 12:40):**
+1. Midian Brandão
+2. Camila Marques de Oliveira
+3. Gabriela Milet Matias
+4. Laryssa Viana Rocha
+5. Elizabeth Cristina de Souza
+6. Bianca Pinto Cardoso
+7. Juliana de Jesus de Oliveira
+8. Marília Melo Favalesso
+9. Ana Hashimoto
+10. Andrea Simone
 
-**🌇 BLOCO 2 - TARDE (14:00 - 17:00):**
-11. Bruna Valentim - Quantum Computing
-12. Cecilia Silva - VR/AR
-13. Jessica Alexandra - Metodologias Ágeis
-14. Jessica Borges - Big Data
-15. Karina Kaori - Automação e Robótica
-16. Keline - Liderança Técnica
-17. Luciana Damasceno - Open Source
-18. Rhaissa Barbosa - Sustentabilidade
-19. Helena - Empreendedorismo
-20. Juliana Lisboa - Futuro das Mulheres na Tech
+**🌇 BLOCO 2 - TARDE (14:00 - 16:30):**
+11. Bruna Valentim
+12. Cecilia Silva
+13. Jessica Alexandra
+14. Jessica Borges
+15. Karina Kaori
+16. Keline
+17. Luciana Damasceno
+18. Rhaissa Barbosa
+19. Helena
+20. Juliana Lisboa
 
 ## 🔧 Como editar:
 
