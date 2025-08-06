@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Palco é Delas - Evento de Formatura</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="extras.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Skip Link para Acessibilidade -->
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>O Palco é Delas</h1>
+                <span>Evento de Formatura</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#programa">Programa</a></li>
+                <li><a href="#palestrantes">Palestrantes</a></li>
+                <li><a href="#palestras">Palestras</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main id="main-content">
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">O Palco é Delas</h1>
+            <h2 class="hero-subtitle">Empoderando mulheres para transformar a tecnologia através da voz e da representação</h2>
+            <p class="hero-description">Evento de Formatura - 20 Palestras Inspiradoras</p>
+            <div class="hero-buttons">
+                <a href="#palestras" class="btn btn-primary">Ver Palestras</a>
+                <a href="#agenda" class="btn btn-secondary">Agenda do Evento</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-graphic">
+                <i class="fas fa-microphone"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>O Desafio</h2>
+                <p>Transformando estatísticas em oportunidades</p>
+            </div>
+            <div class="challenge-stats">
+                <div class="stat-card">
+                    <div class="stat-number">25%</div>
+                    <div class="stat-text">dos palestrantes em eventos tech são mulheres</div>
+                </div>
+                <div class="barriers">
+                    <h3>As barreiras são claras:</h3>
+                    <ul class="barriers-list">
+                        <li><i class="fas fa-times-circle"></i> Falta de confiança</li>
+                        <li><i class="fas fa-times-circle"></i> Dificuldade em estruturar palestras técnicas</li>
+                        <li><i class="fas fa-times-circle"></i> Pouco acesso a oportunidades</li>
+                    </ul>
+                    <div class="solution">
+                        <strong>Nós estamos aqui para mudar isso.</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programa Section -->
+    <section id="programa" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>✨ O Programa</h2>
+                <p>Um curso imersivo que combina</p>
+            </div>
+            <div class="program-features">
+                <div class="feature-card">
+                    <div class="feature-icon">🎤</div>
+                    <h3>Aulas Práticas</h3>
+                    <p>Oratória, storytelling técnico e CFPs</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>Mentorias Coletivas</h3>
+                    <p>Suporte e orientação em grupo</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌟</div>
+                    <h3>Evento Final</h3>
+                    <p>Palestras reais com público</p>
+                </div>
+            </div>
+            
+            <div class="target-audience">
+                <h3>Para quem é?</h3>
+                <p>Mulheres em tecnologia que:</p>
+                <ul class="audience-list">
+                    <li><i class="fas fa-check"></i> Têm conhecimento para compartilhar</li>
+                    <li><i class="fas fa-check"></i> Querem vencer o medo de falar em público</li>
+                    <li><i class="fas fa-check"></i> Buscam visibilidade na carreira</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Palestrantes Section -->
+    <section id="palestrantes" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossas Palestrantes</h2>
+                <p>Conheça as mulheres inspiradoras que compartilharão seu conhecimento</p>
+            </div>
+            <div class="speakers-grid" id="speakers-container">
+                <!-- Palestrantes serão carregadas pelo JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Palestras Section -->
+    <section id="palestras" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Palestras do Evento</h2>
+                <p>20 apresentações inspiradoras sobre tecnologia</p>
+            </div>
+            
+            <!-- Search e Filtros -->
+            <div class="search-container">
+                <input type="text" id="search-talks" class="search-box" placeholder="🔍 Buscar palestras por título, palestrante ou tema...">
+            </div>
+            
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">Todas</button>
+                <button class="filter-btn" data-filter="IA">IA & ML</button>
+                <button class="filter-btn" data-filter="Frontend">Frontend</button>
+                <button class="filter-btn" data-filter="Backend">Backend</button>
+                <button class="filter-btn" data-filter="Mobile">Mobile</button>
+                <button class="filter-btn" data-filter="Carreira">Carreira</button>
+            </div>
+            
+            <div class="talks-grid" id="talks-container">
+                <!-- Palestras serão carregadas pelo JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Agenda Section -->
+    <section id="agenda" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Agenda do Evento</h2>
+                <p>Programação completa do dia</p>
+            </div>
+            
+            <!-- Estatísticas do Evento -->
+            <div class="stats-container">
+                <div class="stat-item">
+                    <span class="stat-number" id="attendees-count">150+</span>
+                    <div class="stat-label">Participantes</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">20</span>
+                    <div class="stat-label">Palestras</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">2</span>
+                    <div class="stat-label">Blocos</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">7h</span>
+                    <div class="stat-label">de Conteúdo</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <div class="stat-label">Palestrantes Mulheres</div>
+                </div>
+            </div>
+            
+            <div class="timeline" id="schedule-container">
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Junte-se à Transformação</h2>
+                <p>Seja parte desta jornada de empoderamento feminino na tecnologia</p>
+                <a href="#contato" class="btn btn-primary">Entre em Contato</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contato</h2>
+                <p>Entre em contato conosco</p>
+            </div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>contato@opalcoedelas.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Telefone</h4>
+                        <p>(11) 99999-9999</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Local do Evento</h4>
+                        <p>São Paulo, SP</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>O Palco é Delas</h3>
+                    <p>Empoderando mulheres na tecnologia</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#programa">Programa</a></li>
+                        <li><a href="#palestras">Palestras</a></li>
+                        <li><a href="#agenda">Agenda</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 O Palco é Delas. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    </main>
+
+    <!-- Modal para detalhes das palestras -->
+    <div id="talk-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <div id="modal-body">
+                <!-- Conteúdo será inserido pelo JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Botão voltar ao topo -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Toast notifications -->
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
