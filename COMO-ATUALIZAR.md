@@ -4,6 +4,13 @@ Olá, alunas do programa "O Palco é Delas"! 👋
 
 Este site é **open source** e cada uma de vocês pode atualizar suas próprias informações. Atualmente o site possui placeholders com seus nomes reais, mas as informações profissionais são genéricas.
 
+## 🚀 Contribuindo:
+
+1. Fork do repositório
+2. Edite suas informações
+3. Abra um Pull Request
+4. Suas mudanças serão revisadas e aprovadas
+
 ## 🎯 O que você pode personalizar:
 
 ### 👩‍💼 **Seção de Palestrantes** (`script.js` - linha ~285)
@@ -96,12 +103,7 @@ Este site é **open source** e cada uma de vocês pode atualizar suas próprias 
 - ❌ **Não altere** o `id` nem o `name`
 - ❌ **Não quebre** a sintaxe do JavaScript
 
-## 🚀 Contribuindo:
 
-1. Fork do repositório
-2. Edite suas informações
-3. Abra um Pull Request
-4. Suas mudanças serão revisadas e aprovadas
 
 ---
 
