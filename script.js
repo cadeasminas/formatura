@@ -1,4 +1,18 @@
-// Dados das palestrantes
+/*
+================================================================================
+                      📊 DADOS DO EVENTO "O PALCO É DELAS"
+================================================================================
+Este arquivo contém todos os dados e funcionalidades do site do evento.
+Cada seção está bem documentada para facilitar a compreensão e manutenção.
+*/
+
+// ============================================================================
+// 👩‍💻 DADOS DAS PALESTRANTES
+// ============================================================================
+/*
+Array com informações de todas as 20 palestrantes do evento.
+Cada palestrante tem: id, nome, cargo, empresa, bio, especialidades e redes sociais.
+*/
 const speakers = [
     {
         id: 1,
@@ -282,9 +296,21 @@ const speakers = [
     }
 ];
 
-// Dados das palestras - Placeholders para as palestrantes preencherem
+// ============================================================================
+// 🎤 DADOS DAS PALESTRAS
+// ============================================================================
+/*
+Array com todas as 20 palestras do evento, divididas em 2 blocos:
+- BLOCO 1 (Manhã): 10:10 - 12:40 (10 palestras)
+- BLOCO 2 (Tarde): 14:00 - 16:30 (10 palestras)
+
+IMPORTANTE: Todas as palestras começam como placeholders (isPlaceholder: true)
+para que cada palestrante possa personalizar sua apresentação.
+*/
 const talks = [
-    // BLOCO 1 - MANHÃ (10:10 - 12:40)
+    // ========================================================================
+    // 🌅 BLOCO 1 - MANHÃ (10:10 - 12:40)
+    // ========================================================================
     {
         id: 1,
         time: "10:10 - 10:25",
@@ -386,7 +412,9 @@ const talks = [
         isPlaceholder: true
     },
     
-    // BLOCO 2 - TARDE (14:00 - 16:30)
+    // ========================================================================
+    // 🌇 BLOCO 2 - TARDE (14:00 - 16:30)
+    // ========================================================================
     {
         id: 11,
         time: "14:00 - 14:15",
@@ -489,7 +517,13 @@ const talks = [
     }
 ];
 
-// Dados da agenda atualizada para 2 blocos
+// ============================================================================
+// 📅 AGENDA GERAL DO EVENTO
+// ============================================================================
+/*
+Cronograma completo do evento desde o credenciamento até o encerramento.
+Inclui horários de abertura, blocos de palestras, almoço e cerimônia final.
+*/
 const scheduleItems = [
     { time: "09:00", title: "Credenciamento", description: "Recepção e entrega de materiais" },
     { time: "10:00", title: "Abertura", description: "Cerimônia de abertura e boas-vindas (10 minutos)" },
@@ -500,10 +534,28 @@ const scheduleItems = [
     { time: "16:30", title: "Encerramento", description: "Cerimônia de formatura e networking final" }
 ];
 
-// Função para renderizar palestrantes
+/*
+================================================================================
+                        🛠️ FUNÇÕES DE RENDERIZAÇÃO
+================================================================================
+Estas funções são responsáveis por criar o HTML dinâmico das diferentes seções.
+*/
+
+// ============================================================================
+// 👥 RENDERIZAR PALESTRANTES
+// ============================================================================
+/*
+Função que cria os cards das palestrantes para a página principal.
+Cada card inclui: foto (ícone), nome, cargo, empresa, bio, especialidades e redes sociais.
+*/
 function renderSpeakers() {
     const container = document.getElementById('speakers-container');
-    if (!container) return;
+    
+    // Verificar se o elemento existe na página atual
+    if (!container) {
+        console.log('Container speakers-container não encontrado nesta página');
+        return;
+    }
 
     container.innerHTML = speakers.map(speaker => `
         <div class="speaker-card fade-in">
@@ -526,12 +578,27 @@ function renderSpeakers() {
             </div>
         </div>
     `).join('');
+    
+    console.log(`✅ ${speakers.length} palestrantes renderizadas com sucesso!`);
 }
 
-// Função para renderizar palestras
+// ============================================================================
+// 🎤 RENDERIZAR PALESTRAS
+// ============================================================================
+/*
+Função que cria os cards das palestras com sistema de placeholders.
+- Palestras com isPlaceholder: true mostram aviso para personalização
+- Links dos nomes direcionam para a página de palestrantes
+- Tags são estilizadas diferentemente para placeholders
+*/
 function renderTalks() {
     const container = document.getElementById('talks-container');
-    if (!container) return;
+    
+    // Verificar se o elemento existe na página atual
+    if (!container) {
+        console.log('Container talks-container não encontrado nesta página');
+        return;
+    }
 
     container.innerHTML = talks.map(talk => {
         const placeholderClass = talk.isPlaceholder ? 'placeholder-talk' : '';
@@ -559,12 +626,26 @@ function renderTalks() {
         </div>
     `;
     }).join('');
+    
+    console.log(`✅ ${talks.length} palestras renderizadas com sucesso!`);
 }
 
-// Função para renderizar agenda
+// ============================================================================
+// 📋 RENDERIZAR AGENDA
+// ============================================================================
+/*
+Função que cria a visualização da agenda em dois formatos:
+1. Blocos de palestras (manhã e tarde) com detalhes
+2. Timeline geral do evento com todos os horários
+*/
 function renderSchedule() {
     const container = document.getElementById('schedule-container');
-    if (!container) return;
+    
+    // Verificar se o elemento existe na página atual
+    if (!container) {
+        console.log('Container schedule-container não encontrado nesta página');
+        return;
+    }
 
     const morningTalks = talks.filter(talk => talk.block === 'morning');
     const afternoonTalks = talks.filter(talk => talk.block === 'afternoon');
@@ -618,9 +699,24 @@ function renderSchedule() {
             `).join('')}
         </div>
     `;
+    
+    console.log('✅ Agenda renderizada com sucesso!');
 }
 
-// Função para smooth scroll
+/*
+================================================================================
+                        🎨 FUNÇÕES DE INTERATIVIDADE
+================================================================================
+Estas funções adicionam comportamentos dinâmicos e melhoram a experiência do usuário.
+*/
+
+// ============================================================================
+// 🔗 NAVEGAÇÃO SUAVE (SMOOTH SCROLL)
+// ============================================================================
+/*
+Adiciona efeito de scroll suave para links internos (que começam com #).
+Melhora a experiência de navegação entre seções da mesma página.
+*/
 function smoothScroll() {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
@@ -634,9 +730,17 @@ function smoothScroll() {
             }
         });
     });
+    
+    console.log('✅ Navegação suave ativada para links internos');
 }
 
-// Função para animação de fade-in
+// ============================================================================
+// ✨ ANIMAÇÕES DE ENTRADA (FADE-IN)
+// ============================================================================
+/*
+Observa elementos com classe 'fade-in' e adiciona classe 'visible' quando
+entram na tela, criando efeito de aparição suave.
+*/
 function fadeInAnimation() {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
@@ -652,9 +756,17 @@ function fadeInAnimation() {
     document.querySelectorAll('.fade-in').forEach(el => {
         observer.observe(el);
     });
+    
+    console.log('✅ Animações fade-in configuradas');
 }
 
-// Menu mobile toggle
+// ============================================================================
+// 📱 MENU MOBILE
+// ============================================================================
+/*
+Controla a abertura/fechamento do menu de navegação em dispositivos móveis.
+Adiciona/remove classe 'active' para mostrar/esconder o menu.
+*/
 function mobileMenu() {
     const navToggle = document.querySelector('.nav-toggle');
     const navMenu = document.querySelector('.nav-menu');
@@ -663,10 +775,19 @@ function mobileMenu() {
         navToggle.addEventListener('click', () => {
             navMenu.classList.toggle('active');
         });
+        
+        console.log('✅ Menu mobile configurado');
     }
 }
 
-// Header scroll effect
+// ============================================================================
+// 📜 EFEITO DE SCROLL NO HEADER
+// ============================================================================
+/*
+Muda a aparência do header quando o usuário faz scroll:
+- Adiciona sombra e aumenta opacidade para melhor legibilidade
+- Remove efeitos quando volta ao topo da página
+*/
 function headerScrollEffect() {
     const header = document.querySelector('.header');
     
@@ -679,9 +800,61 @@ function headerScrollEffect() {
             header.style.boxShadow = 'none';
         }
     });
+    
+    console.log('✅ Efeito de scroll no header configurado');
 }
 
-// Função para adicionar interatividade aos cards
+/*
+================================================================================
+                        🎯 FUNÇÕES DE INICIALIZAÇÃO
+================================================================================
+Estas funções são executadas quando a página carrega.
+*/
+
+// ============================================================================
+// 🚀 INICIALIZAÇÃO PRINCIPAL
+// ============================================================================
+/*
+Função executada quando o DOM está completamente carregado.
+Chama todas as funções necessárias para inicializar o site.
+*/
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('🎉 Iniciando site "O Palco é Delas"...');
+    
+    // Renderizar conteúdo principal
+    renderTalks();
+    renderSchedule();
+    
+    // Configurar interatividade
+    smoothScroll();
+    mobileMenu();
+    headerScrollEffect();
+    
+    // Aguardar um pouco para animações e configurações adicionais
+    setTimeout(() => {
+        fadeInAnimation();
+        addCardInteractions();
+        addCountdown();
+        addSearchFunction();
+        
+        console.log('✅ Site inicializado com sucesso!');
+    }, 100);
+});
+
+/*
+================================================================================
+                        🔧 FUNÇÕES UTILITÁRIAS AVANÇADAS
+================================================================================
+Funcionalidades extras para melhorar a experiência do usuário.
+*/
+
+// ============================================================================
+// 🎨 INTERAÇÕES DOS CARDS
+// ============================================================================
+/*
+Adiciona efeitos hover nos cards de palestras e features.
+Cria animações suaves de elevação e sombra.
+*/
 function addCardInteractions() {
     // Efeito hover nos cards de palestra
     document.querySelectorAll('.talk-card').forEach(card => {
