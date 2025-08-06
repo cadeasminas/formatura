@@ -34,7 +34,7 @@ O evento de formatura conta com 20 palestrantes reais do programa "O Palco é De
 ## � Informações do Evento
 
 - **Data**: Sábado, 23 de Agosto de 2025
-- **Horário**: 10:00 - 17:00 (com intervalo para almoço: 12:40 - 14:00)
+- **Horário**: 10:00 - 17:00 (com intervalo para almoço: 13:00 - 14:00)
 - **Local**: ONLINE
 - **Formato**: 2 blocos com 10 palestras de 15 minutos cada
 
