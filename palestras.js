@@ -43,7 +43,7 @@ function renderTalksPage() {
                 <div class="placeholder-notice-detailed">
                     <i class="fas fa-edit"></i>
                     <span>Esta palestra será personalizada pela palestrante</span>
-                    <a href="COMO-ATUALIZAR.md" class="edit-guide-link">Ver guia de edição</a>
+                    <a href="GUIA-CONTRIBUICAO.md" class="edit-guide-link">Ver guia de edição</a>
                 </div>
                 ` : ''}
             </div>
