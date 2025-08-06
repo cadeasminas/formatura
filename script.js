@@ -984,32 +984,30 @@ function renderFilteredTalks(filteredTalks) {
         </div>
     `).join('');
     
+    // Re-aplicar interações nos novos elementos
     addCardInteractions();
 }
 
-// Inicialização quando o DOM estiver pronto
-document.addEventListener('DOMContentLoaded', function() {
-    renderTalks();
-    renderSchedule();
-    smoothScroll();
-    mobileMenu();
-    headerScrollEffect();
-    
-    // Pequeno delay para animações
-    setTimeout(() => {
-        fadeInAnimation();
-        addCardInteractions();
-        addCountdown();
-        addSearchFunction();
-    }, 100);
-});
+/*
+================================================================================
+                        🌐 FUNÇÕES DE COMPARTILHAMENTO SOCIAL
+================================================================================
+Permitem compartilhar o evento nas principais redes sociais.
+*/
 
-// Função para compartilhar nas redes sociais
+// ============================================================================
+// 📤 COMPARTILHAR NAS REDES SOCIAIS
+// ============================================================================
+/*
+Abre janelas popup para compartilhar o evento no Twitter, LinkedIn ou Facebook.
+Parâmetros: plataforma, texto e URL para compartilhar.
+*/
 function shareOnSocial(platform, text, url) {
     const shareText = encodeURIComponent(text);
     const shareUrl = encodeURIComponent(url);
     let shareLink = '';
     
+    // Definir URL de compartilhamento baseada na plataforma
     switch(platform) {
         case 'twitter':
             shareLink = `https://twitter.com/intent/tweet?text=${shareText}&url=${shareUrl}`;
@@ -1020,16 +1018,31 @@ function shareOnSocial(platform, text, url) {
         case 'facebook':
             shareLink = `https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`;
             break;
+        default:
+            console.log('Plataforma de compartilhamento não suportada:', platform);
+            return;
     }
     
-    if (shareLink) {
-        window.open(shareLink, '_blank', 'width=600,height=400');
-    }
+    // Abrir janela popup para compartilhamento
+    window.open(shareLink, '_blank', 'width=600,height=400');
+    console.log(`📤 Compartilhando no ${platform}`);
 }
 
-// Adicionar botões de compartilhamento (opcional)
+// ============================================================================
+// 🔗 CONFIGURAR BOTÕES DE COMPARTILHAMENTO
+// ============================================================================
+/*
+Adiciona eventos de clique nos botões com classe 'share-btn'.
+Os botões devem ter atributo data-platform com o nome da rede social.
+*/
 function addSocialSharing() {
     const shareButtons = document.querySelectorAll('.share-btn');
+    
+    if (shareButtons.length === 0) {
+        console.log('Nenhum botão de compartilhamento encontrado');
+        return;
+    }
+    
     shareButtons.forEach(btn => {
         btn.addEventListener('click', function() {
             const platform = this.dataset.platform;
@@ -1038,14 +1051,33 @@ function addSocialSharing() {
             shareOnSocial(platform, text, url);
         });
     });
+    
+    console.log(`✅ ${shareButtons.length} botões de compartilhamento configurados`);
 }
 
-// Função para mostrar detalhes da palestra em modal (opcional)
+/*
+================================================================================
+                        🎪 FUNCIONALIDADES EXTRAS
+================================================================================
+Recursos adicionais que podem ser implementados conforme necessário.
+*/
+
+// ============================================================================
+// 📋 MODAL DE DETALHES DA PALESTRA
+// ============================================================================
+/*
+Exibe detalhes completos de uma palestra em modal popup.
+NOTA: Função opcional - precisa de CSS correspondente para o modal.
+*/
 function showTalkDetails(talkId) {
+    // Buscar palestra pelo ID
     const talk = talks.find(t => t.id === talkId);
-    if (!talk) return;
+    if (!talk) {
+        console.log('Palestra não encontrada:', talkId);
+        return;
+    }
     
-    // Criar modal (você precisará adicionar o CSS correspondente)
+    // Criar estrutura do modal
     const modal = document.createElement('div');
     modal.className = 'modal';
     modal.innerHTML = `
@@ -1063,19 +1095,29 @@ function showTalkDetails(talkId) {
     
     document.body.appendChild(modal);
     
-    // Fechar modal
-    modal.querySelector('.close').addEventListener('click', () => {
+    // Configurar fechamento do modal
+    const closeBtn = modal.querySelector('.close');
+    closeBtn.addEventListener('click', () => {
         document.body.removeChild(modal);
     });
     
+    // Fechar clicando fora do modal
     modal.addEventListener('click', (e) => {
         if (e.target === modal) {
             document.body.removeChild(modal);
         }
     });
+    
+    console.log('📋 Modal aberto para palestra:', talk.title);
 }
 
-// Adicionar função de impressão da agenda
+// ============================================================================
+// 🖨️ IMPRESSÃO DA AGENDA
+// ============================================================================
+/*
+Gera uma versão para impressão da agenda do evento.
+Abre nova janela com layout otimizado para papel.
+*/
 function printSchedule() {
     const printWindow = window.open('', '_blank');
     printWindow.document.write(`
