@@ -995,3 +995,68 @@
         color: var(--text-color);
     }
 }
+
+/* Responsive Design para Página de Palestrantes */
+@media (max-width: 768px) {
+    .hero-simple {
+        padding: 6rem 0 3rem;
+    }
+    
+    .hero-simple .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .speakers-page .speakers-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .speaker-card-detailed {
+        padding: 1.5rem;
+    }
+    
+    .speakers-stats {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1.5rem;
+    }
+    
+    .stat-number {
+        font-size: 2.5rem;
+    }
+    
+    .filter-tags {
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding-bottom: 0.5rem;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cta-buttons .btn {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .search-box input {
+        font-size: 16px; /* Evita zoom no iOS */
+    }
+    
+    .speaker-social-detailed {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .speaker-actions {
+        flex-direction: column;
+    }
+    
+    .social-btn {
+        justify-content: center;
+    }
+}

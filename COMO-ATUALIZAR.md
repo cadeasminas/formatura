@@ -27,7 +27,7 @@ Este site é **open source** e cada uma de vocês pode atualizar suas próprias 
 
 ## 📂 Como encontrar suas informações:
 
-### Palestras por bloco:
+### Palestras por bloco :
 
 **🌅 BLOCO 1 - MANHÃ (10:00 - 13:00):**
 1. Midian Brandão - IA e Futuro do Trabalho

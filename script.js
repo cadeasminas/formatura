@@ -749,7 +749,6 @@ function renderFilteredTalks(filteredTalks) {
 
 // Inicialização quando o DOM estiver pronto
 document.addEventListener('DOMContentLoaded', function() {
-    renderSpeakers();
     renderTalks();
     renderSchedule();
     smoothScroll();
