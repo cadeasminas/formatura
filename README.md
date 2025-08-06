@@ -57,7 +57,7 @@ O evento de formatura conta com 20 palestrantes reais do programa "O Palco é De
 19. **Helena** - Empreendedorismo Tech Feminino
 20. **Juliana Lisboa** - O Futuro das Mulheres na Tecnologia
 
-> ⚠️ **Nota importante**: Atualmente o site contém placeholders para as informações profissionais das palestrantes. Como este é um projeto **open source**, cada palestrante pode atualizar suas próprias informações editando o arquivo `script.js`. Consulte o arquivo [`COMO-ATUALIZAR.md`](COMO-ATUALIZAR.md) para instruções detalhadas.
+> ⚠️ **Nota importante**: Atualmente o site contém placeholders para as informações profissionais das palestrantes. Como este é um projeto **open source**, cada palestrante pode atualizar suas próprias informações editando o arquivo `script.js`. Consulte o arquivo [`GUIA-CONTRIBUICAO.md`](GUIA-CONTRIBUICAO.md) para instruções detalhadas.
 ## 🏗️ Estrutura do Projeto
 
 ```
