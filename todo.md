@@ -1,1 +1,0 @@
-remover as palestras que estao apenas de exemplo atualmente e criar um card de palestras placeholder com o nome das palestrantes, e umr guia para as palestrarntes de como adiciona sua palestra no site (titulo da palestra e descricao.) no nome delas, teremos um hyperlink que vai pro perfil da palestrante

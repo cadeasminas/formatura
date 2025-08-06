@@ -282,190 +282,210 @@ const speakers = [
     }
 ];
 
-// Dados das palestras reorganizadas em 2 blocos
+// Dados das palestras - Placeholders para as palestrantes preencherem
 const talks = [
-    // BLOCO 1 - MANHÃ (10:10 - 13:00)
+    // BLOCO 1 - MANHÃ (10:10 - 12:40)
     {
         id: 1,
         time: "10:10 - 10:25",
-        title: "Inteligência Artificial e o Futuro do Trabalho",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Midian Brandão",
-        description: "Como a IA está transformando o mercado de trabalho e criando novas oportunidades para mulheres na tecnologia.",
-        tags: ["IA", "Carreira", "Futuro"],
-        block: "morning"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "morning",
+        isPlaceholder: true
     },
     {
         id: 2,
         time: "10:25 - 10:40",
-        title: "Desenvolvimento Frontend Moderno",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Camila Marques de Oliveira",
-        description: "Explorando as últimas tendências em React, Vue.js e as melhores práticas para desenvolvimento frontend.",
-        tags: ["Frontend", "React", "Vue.js"],
-        block: "morning"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "morning",
+        isPlaceholder: true
     },
     {
         id: 3,
         time: "10:40 - 10:55",
-        title: "Segurança Cibernética: Protegendo o Futuro Digital",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Gabriela Milet Matias",
-        description: "Estratégias essenciais de segurança cibernética e como as mulheres estão liderando essa área crítica.",
-        tags: ["Segurança", "Cibersegurança", "Proteção"],
-        block: "morning"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "morning",
+        isPlaceholder: true
     },
     {
         id: 4,
         time: "10:55 - 11:10",
-        title: "DevOps e Cloud Computing",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Laryssa Viana Rocha",
-        description: "Implementando práticas DevOps eficientes e aproveitando o poder da computação em nuvem.",
-        tags: ["DevOps", "Cloud", "AWS"],
-        block: "morning"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "morning",
+        isPlaceholder: true
     },
     {
         id: 5,
         time: "11:10 - 11:25",
-        title: "Data Science e Machine Learning",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Elizabeth Cristina de Souza",
-        description: "Descobrindo insights valiosos através da ciência de dados e algoritmos de aprendizado de máquina.",
-        tags: ["Data Science", "ML", "Python"],
-        block: "morning"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "morning",
+        isPlaceholder: true
     },
     {
         id: 6,
         time: "11:25 - 11:40",
-        title: "UX/UI Design: Criando Experiências Incríveis",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Bianca Pinto Cardoso",
-        description: "Princípios fundamentais de design de experiência do usuário e interface que fazem a diferença.",
-        tags: ["UX", "UI", "Design"],
-        block: "morning"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "morning",
+        isPlaceholder: true
     },
     {
         id: 7,
         time: "11:40 - 11:55",
-        title: "Blockchain e Criptomoedas",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Juliana de Jesus de Oliveira",
-        description: "Entendendo a tecnologia blockchain e seu impacto revolucionário nos sistemas financeiros.",
-        tags: ["Blockchain", "Crypto", "Fintech"],
-        block: "morning"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "morning",
+        isPlaceholder: true
     },
     {
         id: 8,
         time: "11:55 - 12:10",
-        title: "Mobile Development: iOS e Android",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Marília Melo Favalesso",
-        description: "Desenvolvimento de aplicativos móveis nativos e cross-platform para iOS e Android.",
-        tags: ["Mobile", "iOS", "Android"],
-        block: "morning"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "morning",
+        isPlaceholder: true
     },
     {
         id: 9,
         time: "12:10 - 12:25",
-        title: "Internet das Coisas (IoT)",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Ana Hashimoto",
-        description: "Conectando o mundo físico ao digital através de dispositivos IoT inteligentes.",
-        tags: ["IoT", "Hardware", "Sensores"],
-        block: "morning"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "morning",
+        isPlaceholder: true
     },
     {
         id: 10,
         time: "12:25 - 12:40",
-        title: "Arquitetura de Software Escalável",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Andrea Simone",
-        description: "Projetando sistemas robustos e escaláveis que suportam milhões de usuários.",
-        tags: ["Arquitetura", "Escalabilidade", "Sistema"],
-        block: "morning"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "morning",
+        isPlaceholder: true
     },
     
     // BLOCO 2 - TARDE (14:00 - 16:30)
     {
         id: 11,
         time: "14:00 - 14:15",
-        title: "Quantum Computing: A Nova Fronteira",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Bruna Valentim",
-        description: "Explorando os conceitos fundamentais da computação quântica e suas aplicações futuras.",
-        tags: ["Quantum", "Computação", "Física"],
-        block: "afternoon"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "afternoon",
+        isPlaceholder: true
     },
     {
         id: 12,
         time: "14:15 - 14:30",
-        title: "Realidade Virtual e Aumentada",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Cecilia Silva",
-        description: "Criando experiências imersivas através de tecnologias de VR e AR.",
-        tags: ["VR", "AR", "Imersão"],
-        block: "afternoon"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "afternoon",
+        isPlaceholder: true
     },
     {
         id: 13,
         time: "14:30 - 14:45",
-        title: "Metodologias Ágeis e Scrum",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Jessica Alexandra",
-        description: "Implementando metodologias ágeis para aumentar a produtividade e qualidade do software.",
-        tags: ["Agile", "Scrum", "Gestão"],
-        block: "afternoon"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "afternoon",
+        isPlaceholder: true
     },
     {
         id: 14,
         time: "14:45 - 15:00",
-        title: "Big Data e Analytics",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Jessica Borges",
-        description: "Processando e analisando grandes volumes de dados para insights estratégicos.",
-        tags: ["Big Data", "Analytics", "Hadoop"],
-        block: "afternoon"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "afternoon",
+        isPlaceholder: true
     },
     {
         id: 15,
         time: "15:00 - 15:15",
-        title: "Automação e Robótica",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Karina Kaori",
-        description: "Como a automação e robótica estão revolucionando indústrias inteiras.",
-        tags: ["Automação", "Robótica", "Indústria 4.0"],
-        block: "afternoon"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "afternoon",
+        isPlaceholder: true
     },
     {
         id: 16,
         time: "15:15 - 15:30",
-        title: "Liderança Técnica Feminina",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Keline",
-        description: "Desenvolvendo habilidades de liderança e quebrando barreiras na área técnica.",
-        tags: ["Liderança", "Carreira", "Empoderamento"],
-        block: "afternoon"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "afternoon",
+        isPlaceholder: true
     },
     {
         id: 17,
         time: "15:30 - 15:45",
-        title: "Open Source e Comunidades Tech",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Luciana Damasceno",
-        description: "A importância do código aberto e como contribuir para comunidades tecnológicas.",
-        tags: ["Open Source", "Comunidade", "Colaboração"],
-        block: "afternoon"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "afternoon",
+        isPlaceholder: true
     },
     {
         id: 18,
         time: "15:45 - 16:00",
-        title: "Sustentabilidade na Tecnologia",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Rhaissa Barbosa",
-        description: "Como a tecnologia pode ser uma ferramenta poderosa para a sustentabilidade ambiental.",
-        tags: ["Sustentabilidade", "Green Tech", "Meio Ambiente"],
-        block: "afternoon"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "afternoon",
+        isPlaceholder: true
     },
     {
         id: 19,
         time: "16:00 - 16:15",
-        title: "Empreendedorismo Tech Feminino",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Helena",
-        description: "Construindo startups de sucesso e superando desafios no ecossistema empreendedor.",
-        tags: ["Empreendedorismo", "Startup", "Inovação"],
-        block: "afternoon"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "afternoon",
+        isPlaceholder: true
     },
     {
         id: 20,
         time: "16:15 - 16:30",
-        title: "O Futuro das Mulheres na Tecnologia",
+        title: "Título da palestra será definido pela palestrante",
         speaker: "Juliana Lisboa",
-        description: "Reflexões sobre conquistas, desafios e o futuro promissor das mulheres no setor tech.",
-        tags: ["Futuro", "Mulheres", "Tecnologia"],
-        block: "afternoon"
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
+        block: "afternoon",
+        isPlaceholder: true
     }
 ];
 
@@ -513,21 +533,32 @@ function renderTalks() {
     const container = document.getElementById('talks-container');
     if (!container) return;
 
-    container.innerHTML = talks.map(talk => `
-        <div class="talk-card fade-in">
+    container.innerHTML = talks.map(talk => {
+        const placeholderClass = talk.isPlaceholder ? 'placeholder-talk' : '';
+        const speakerLink = `<a href="palestrantes.html?speaker=${encodeURIComponent(talk.speaker)}" class="speaker-link">${talk.speaker}</a>`;
+        
+        return `
+        <div class="talk-card fade-in ${placeholderClass}">
             <div class="talk-header">
                 <div class="talk-time">${talk.time}</div>
                 <div class="talk-title">${talk.title}</div>
-                <div class="talk-speaker">por ${talk.speaker}</div>
+                <div class="talk-speaker">por ${speakerLink}</div>
             </div>
             <div class="talk-content">
                 <div class="talk-description">${talk.description}</div>
                 <div class="talk-tags">
-                    ${talk.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                    ${talk.tags.map(tag => `<span class="tag ${talk.isPlaceholder ? 'tag-placeholder' : ''}">${tag}</span>`).join('')}
                 </div>
+                ${talk.isPlaceholder ? `
+                <div class="placeholder-notice">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Esta palestra será personalizada pela palestrante</span>
+                </div>
+                ` : ''}
             </div>
         </div>
-    `).join('');
+    `;
+    }).join('');
 }
 
 // Função para renderizar agenda
