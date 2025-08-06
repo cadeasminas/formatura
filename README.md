@@ -26,27 +26,7 @@ Mulheres em tecnologia que:
 
 O evento de formatura conta com 20 palestras inspiradoras sobre diversos temas de tecnologia:
 
-1. **Inteligência Artificial e o Futuro do Trabalho** - Ana Silva
-2. **Desenvolvimento Frontend Moderno** - Carla Santos
-3. **Segurança Cibernética** - Marina Costa
-4. **DevOps e Cloud Computing** - Juliana Oliveira
-5. **Data Science e Machine Learning** - Fernanda Lima
-6. **UX/UI Design** - Isabela Rodrigues
-7. **Blockchain e Criptomoedas** - Rafaela Ferreira
-8. **Mobile Development** - Gabriela Almeida
-9. **Internet das Coisas (IoT)** - Larissa Pereira
-10. **Arquitetura de Software Escalável** - Beatriz Souza
-11. **Quantum Computing** - Camila Martins
-12. **Realidade Virtual e Aumentada** - Natália Barbosa
-13. **Metodologias Ágeis e Scrum** - Amanda Torres
-14. **Big Data e Analytics** - Priscila Gomes
-15. **Automação e Robótica** - Letícia Ribeiro
-16. **Liderança Técnica Feminina** - Daniela Castro
-17. **Open Source e Comunidades Tech** - Vanessa Cardoso
-18. **Sustentabilidade na Tecnologia** - Carolina Nunes
-19. **Empreendedorismo Tech Feminino** - Roberta Moraes
-20. **O Futuro das Mulheres na Tecnologia** - Patricia Dias
-
+TBD
 ## 🏗️ Estrutura do Projeto
 
 ```

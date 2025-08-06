@@ -321,7 +321,7 @@
 .stat-number {
     font-size: 2rem;
     font-weight: 700;
-    color: #6b46c1;
+    color: #3a8197;
     display: block;
 }
 
@@ -344,7 +344,7 @@
     top: 0;
     bottom: 0;
     width: 2px;
-    background: linear-gradient(to bottom, #6b46c1, #e11d48);
+    background: linear-gradient(to bottom, #3a8197, #91c9cd);
 }
 
 .timeline-item {
