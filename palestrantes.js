@@ -1,9 +1,37 @@
 // JavaScript específico para a página de palestrantes
 
+// Verificar se os dados dos palestrantes estão disponíveis
+function checkSpeakersData() {
+    if (typeof speakers === 'undefined') {
+        console.error('Erro: Dados dos palestrantes não encontrados');
+        return false;
+    }
+    if (!Array.isArray(speakers) || speakers.length === 0) {
+        console.error('Erro: Array de palestrantes vazio ou inválido');
+        return false;
+    }
+    console.log('✓ Dados dos palestrantes carregados:', speakers.length, 'palestrantes');
+    return true;
+}
+
 // Função para renderizar palestrantes na página dedicada
 function renderSpeakersPage() {
     const container = document.getElementById('speakers-container');
-    if (!container) return;
+    if (!container) {
+        console.error('Erro: Container speakers-container não encontrado');
+        return;
+    }
+
+    if (!checkSpeakersData()) {
+        container.innerHTML = `
+            <div style="text-align: center; padding: 40px; background: #ffebee; border-radius: 8px; color: #c62828;">
+                <h3>⚠️ Erro ao carregar dados</h3>
+                <p>Os dados dos palestrantes não foram carregados corretamente.</p>
+                <p>Verifique se o arquivo script.js está sendo carregado antes deste script.</p>
+            </div>
+        `;
+        return;
+    }
 
     container.innerHTML = speakers.map(speaker => `
         <div class="speaker-card-detailed fade-in" data-category="${getCategoryFromRole(speaker.role)}">
@@ -169,6 +197,8 @@ function updateResultsCount() {
 
 // Função para ver palestras de uma palestrante específica
 function viewSpeakerTalks(speakerId) {
+    if (!checkSpeakersData()) return;
+    
     const speaker = speakers.find(s => s.id === speakerId);
     if (!speaker) return;
     
@@ -178,6 +208,8 @@ function viewSpeakerTalks(speakerId) {
 
 // Função para contatar palestrante
 function contactSpeaker(speakerId) {
+    if (!checkSpeakersData()) return;
+    
     const speaker = speakers.find(s => s.id === speakerId);
     if (!speaker) return;
     
@@ -191,6 +223,8 @@ function contactSpeaker(speakerId) {
 
 // Função para estatísticas das palestrantes
 function updateSpeakersStats() {
+    if (!checkSpeakersData()) return;
+    
     const totalSpeakers = speakers.length;
     const uniqueExpertises = new Set();
     

@@ -20,10 +20,13 @@ Este site é **open source** e cada uma de vocês pode atualizar suas próprias 
 - **Áreas de expertise** (`expertise`)
 - **Links para redes sociais** (`social`)
 
-### 🎤 **Palestras** (`script.js` - linha ~490)
+### 🎤 **Palestras** (`script.js` - linha ~285)
 - **Título da palestra** (`title`)
 - **Descrição** (`description`)
 - **Tags/categorias** (`tags`)
+- **Remover flag placeholder** (`isPlaceholder: false`)
+
+📖 **[Ver Guia Completo para Palestrantes](GUIA-PALESTRANTES.md)**
 
 ## 📂 Como encontrar suas informações:
 

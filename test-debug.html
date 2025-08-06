@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug Palestrantes</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .debug { background: #f0f0f0; padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .error { background: #ffebee; color: #c62828; }
+        .success { background: #e8f5e8; color: #2e7d32; }
+    </style>
+</head>
+<body>
+    <h1>Debug da Página de Palestrantes</h1>
+    
+    <div id="debug-container"></div>
+    
+    <script src="script.js"></script>
+    <script>
+        const debugContainer = document.getElementById('debug-container');
+        
+        function addDebug(message, type = 'info') {
+            const div = document.createElement('div');
+            div.className = `debug ${type}`;
+            div.innerHTML = `<strong>${new Date().toLocaleTimeString()}:</strong> ${message}`;
+            debugContainer.appendChild(div);
+        }
+        
+        addDebug('Página carregada');
+        
+        // Verificar se speakers está definido
+        if (typeof speakers !== 'undefined') {
+            addDebug(`✓ Variable speakers encontrada com ${speakers.length} palestrantes`, 'success');
+            addDebug(`Primeiro palestrante: ${speakers[0].name}`, 'success');
+        } else {
+            addDebug('✗ Variable speakers não encontrada', 'error');
+        }
+        
+        // Simular renderização
+        function testRenderSpeakers() {
+            if (typeof speakers === 'undefined') {
+                addDebug('✗ Não foi possível renderizar - speakers undefined', 'error');
+                return;
+            }
+            
+            const testContainer = document.createElement('div');
+            testContainer.innerHTML = speakers.map(speaker => `
+                <div style="border: 1px solid #ccc; padding: 10px; margin: 5px;">
+                    <h3>${speaker.name}</h3>
+                    <p>${speaker.role} - ${speaker.company}</p>
+                </div>
+            `).join('');
+            
+            document.body.appendChild(testContainer);
+            addDebug(`✓ Renderização teste concluída com ${speakers.length} cards`, 'success');
+        }
+        
+        setTimeout(() => {
+            addDebug('Executando teste de renderização...');
+            testRenderSpeakers();
+        }, 100);
+    </script>
+</body>
+</html>

@@ -130,6 +130,14 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        // Garantir que os dados estão carregados antes de executar palestrantes.js
+        if (typeof speakers === 'undefined') {
+            console.error('Erro: Dados dos palestrantes não carregados');
+        } else {
+            console.log('✓ Dados carregados:', speakers.length, 'palestrantes');
+        }
+    </script>
     <script src="palestrantes.js"></script>
 </body>
 </html>
