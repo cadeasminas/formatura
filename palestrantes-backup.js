@@ -1,4 +1,5 @@
-// JavaScript específico para a página de palestrantes
+// JavaScript específico para a pág    container.innerHTML = speakers.map(speaker => `
+        <div class="speaker-card-detailed fade-in visible" data-category="${getCategoryFromRole(speaker.role)}">`a de palestrantes
 
 // Verificar se os dados dos palestrantes estão disponíveis
 function checkSpeakersData() {
@@ -34,7 +35,7 @@ function renderSpeakersPage() {
     }
 
     container.innerHTML = speakers.map(speaker => `
-        <div class="speaker-card-detailed fade-in visible" data-category="${getCategoryFromRole(speaker.role)}">
+        <div class="speaker-card-detailed fade-in" data-category="${getCategoryFromRole(speaker.role)}">
             <div class="speaker-image-large">
                 <i class="fas fa-user"></i>
                 <div class="speaker-status">
@@ -90,8 +91,6 @@ function renderSpeakersPage() {
             </div>
         </div>
     `).join('');
-    
-    console.log('✓ Palestrantes renderizados com sucesso');
 }
 
 // Função para determinar categoria baseada no role
@@ -191,9 +190,7 @@ function updateResultsCount() {
         counter = document.createElement('div');
         counter.className = 'results-counter';
         const searchSection = document.querySelector('.search-section .container');
-        if (searchSection) {
-            searchSection.appendChild(counter);
-        }
+        searchSection.appendChild(counter);
     }
     
     counter.innerHTML = `Mostrando ${visibleCards.length} de ${totalCards.length} palestrantes`;
@@ -309,3 +306,49 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Não é a página de palestrantes');
     }
 });
+
+// Função para exportar lista de palestrantes
+function exportSpeakersList() {
+    const speakersData = speakers.map(speaker => ({
+        nome: speaker.name,
+        cargo: speaker.role,
+        empresa: speaker.company,
+        especialidades: speaker.expertise.join(', '),
+        palestras: speaker.talks.join(', ')
+    }));
+    
+    const csv = [
+        Object.keys(speakersData[0]).join(','),
+        ...speakersData.map(row => Object.values(row).join(','))
+    ].join('\n');
+    
+    const blob = new Blob([csv], { type: 'text/csv' });
+    const url = window.URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'palestrantes-o-palco-e-delas.csv';
+    a.click();
+    window.URL.revokeObjectURL(url);
+}
+
+// Função para compartilhar palestrante específica
+function shareSpeaker(speakerId) {
+    const speaker = speakers.find(s => s.id === speakerId);
+    if (!speaker) return;
+    
+    const shareData = {
+        title: `${speaker.name} - O Palco é Delas`,
+        text: `Conheça ${speaker.name}, ${speaker.role} que vai palestrar sobre ${speaker.talks.join(', ')}`,
+        url: `${window.location.origin}/palestrantes.html#speaker-${speakerId}`
+    };
+    
+    if (navigator.share) {
+        navigator.share(shareData);
+    } else {
+        // Fallback para navegadores que não suportam Web Share API
+        const text = `${shareData.text} - ${shareData.url}`;
+        navigator.clipboard.writeText(text).then(() => {
+            alert('Link copiado para a área de transferência!');
+        });
+    }
+}
