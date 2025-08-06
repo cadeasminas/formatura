@@ -429,6 +429,549 @@
     color: #95a5a6;
 }
 
+/* Página de Palestras */
+.hero-talks {
+    background: linear-gradient(135deg, #3a8197 0%, #91c9cd 100%);
+    padding: 8rem 0 4rem;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-talks .hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #fff9f3;
+}
+
+.hero-talks .hero-subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.hero-stats .stat-item {
+    text-align: center;
+}
+
+.hero-stats .stat-number {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff9f3;
+}
+
+.hero-stats .stat-label {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/* Schedule Overview */
+.schedule-overview {
+    padding: 3rem 0;
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.schedule-blocks-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.block-nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    border: 2px solid #f0f0f0;
+    border-radius: 50px;
+    background: #fff;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.block-nav-btn:hover,
+.block-nav-btn.active {
+    border-color: #91c9cd;
+    background: #91c9cd;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* Talks Filters */
+.talks-filters {
+    padding: 3rem 0;
+    background: #fff9f3;
+}
+
+.search-container {
+    margin-bottom: 2rem;
+}
+
+.filter-categories h3 {
+    color: #3a8197;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.category-tags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.category-tag {
+    padding: 0.5rem 1rem;
+    border: 2px solid #f0f0f0;
+    border-radius: 25px;
+    background: #fff;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.category-tag:hover,
+.category-tag.active {
+    border-color: #3a8197;
+    background: #3a8197;
+    color: #fff;
+}
+
+/* Talks Page */
+.talks-page {
+    padding: 4rem 0;
+    background: #fff;
+}
+
+.talks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+}
+
+/* Talk Card Detailed */
+.talk-card-detailed {
+    background: #fff;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(30px);
+    border-left: 5px solid #91c9cd;
+}
+
+.talk-card-detailed.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.talk-header-detailed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.talk-time-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.talk-time-badge.morning {
+    background: linear-gradient(135deg, #f39c12, #e67e22);
+}
+
+.talk-time-badge.afternoon {
+    background: linear-gradient(135deg, #8e44ad, #9b59b6);
+}
+
+.talk-block-badge {
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.talk-block-badge.morning {
+    background: rgba(243, 156, 18, 0.1);
+    color: #e67e22;
+}
+
+.talk-block-badge.afternoon {
+    background: rgba(142, 68, 173, 0.1);
+    color: #8e44ad;
+}
+
+.talk-content-detailed {
+    margin-bottom: 1.5rem;
+}
+
+.talk-title-detailed {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #3a8197;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+.talk-speaker-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    color: #91c9cd;
+    font-weight: 600;
+}
+
+.talk-description-detailed {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.talk-tags-detailed {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.tag-detailed {
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* Tag Colors */
+.tag-ai { background: linear-gradient(135deg, #e74c3c, #c0392b); }
+.tag-dev { background: linear-gradient(135deg, #3498db, #2980b9); }
+.tag-security { background: linear-gradient(135deg, #e67e22, #d35400); }
+.tag-devops { background: linear-gradient(135deg, #27ae60, #229954); }
+.tag-cloud { background: linear-gradient(135deg, #3498db, #85c1e9); }
+.tag-data { background: linear-gradient(135deg, #9b59b6, #8e44ad); }
+.tag-design { background: linear-gradient(135deg, #e91e63, #ad1457); }
+.tag-blockchain { background: linear-gradient(135deg, #f39c12, #e67e22); }
+.tag-mobile { background: linear-gradient(135deg, #16a085, #138d75); }
+.tag-iot { background: linear-gradient(135deg, #34495e, #2c3e50); }
+.tag-leadership { background: linear-gradient(135deg, #8e44ad, #6c3483); }
+.tag-career { background: linear-gradient(135deg, #2ecc71, #27ae60); }
+.tag-default { background: linear-gradient(135deg, #95a5a6, #7f8c8d); }
+
+.talk-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: #f8f9fa;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-icon:hover {
+    background: #91c9cd;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* No Results */
+.no-results {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: #666;
+}
+
+.no-results i {
+    font-size: 4rem;
+    color: #91c9cd;
+    margin-bottom: 1rem;
+}
+
+.no-results h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #3a8197;
+}
+
+/* Schedule Timeline */
+.schedule-timeline {
+    padding: 4rem 0;
+    background: #fff9f3;
+}
+
+.schedule-timeline h2 {
+    text-align: center;
+    color: #3a8197;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.timeline-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline-block {
+    margin-bottom: 3rem;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-header {
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.timeline-header.morning {
+    background: linear-gradient(135deg, #f39c12, #e67e22);
+}
+
+.timeline-header.afternoon {
+    background: linear-gradient(135deg, #8e44ad, #9b59b6);
+}
+
+.timeline-header h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0;
+}
+
+.block-time {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.timeline-talks {
+    padding: 0;
+}
+
+.timeline-talk {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.timeline-talk:hover {
+    background: #fff9f3;
+}
+
+.timeline-talk:last-child {
+    border-bottom: none;
+}
+
+.timeline-time {
+    flex-shrink: 0;
+    width: 80px;
+    font-weight: 600;
+    color: #3a8197;
+}
+
+.timeline-content {
+    flex: 1;
+    margin-left: 1rem;
+}
+
+.timeline-content h4 {
+    margin: 0 0 0.3rem 0;
+    color: #333;
+    font-size: 1rem;
+}
+
+.timeline-speaker {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.timeline-break {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.break-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    color: #3a8197;
+}
+
+.break-info i {
+    font-size: 1.5rem;
+    color: #91c9cd;
+}
+
+.break-info h4 {
+    margin: 0;
+    color: #3a8197;
+}
+
+.break-info span {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Talks Counter */
+.talks-counter {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+/* Notification */
+.notification {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: #27ae60;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transform: translateX(400px);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+.notification.show {
+    transform: translateX(0);
+}
+
+/* Responsive Design para Página de Palestras */
+@media (max-width: 768px) {
+    .hero-talks {
+        padding: 6rem 0 3rem;
+    }
+    
+    .hero-talks .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-stats {
+        gap: 1.5rem;
+    }
+    
+    .hero-stats .stat-number {
+        font-size: 2rem;
+    }
+    
+    .schedule-blocks-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .block-nav-btn {
+        width: 100%;
+        max-width: 300px;
+        justify-content: center;
+    }
+    
+    .talks-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .talk-card-detailed {
+        padding: 1.5rem;
+    }
+    
+    .talk-header-detailed {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: flex-start;
+    }
+    
+    .category-tags {
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding-bottom: 0.5rem;
+    }
+    
+    .timeline-talk {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+    
+    .timeline-time {
+        width: auto;
+        margin-bottom: 0.5rem;
+    }
+    
+    .timeline-content {
+        margin-left: 0;
+    }
+    
+    .timeline-header {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .talk-actions {
+        justify-content: space-around;
+    }
+    
+    .btn-icon {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .break-info {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+}
+
 /* Seção de Palestrantes */
 .speakers-grid {
     display: grid;
