@@ -248,7 +248,7 @@
 }
 
 .modal-close:hover {
-    color: #e11d48;
+    color: #3a8197;
 }
 
 /* Search box para palestras */
@@ -364,13 +364,13 @@
     top: 1.5rem;
     width: 12px;
     height: 12px;
-    background: #6b46c1;
+    background: #3a8197;
     border-radius: 50%;
     border: 3px solid white;
 }
 
 .timeline-time {
-    background: #6b46c1;
+    background: #3a8197;
     color: white;
     padding: 0.3rem 0.8rem;
     border-radius: 15px;
@@ -387,7 +387,7 @@
     right: 2rem;
     width: 50px;
     height: 50px;
-    background: #6b46c1;
+    background: #3a8197;
     color: white;
     border: none;
     border-radius: 50%;
@@ -401,7 +401,7 @@
 }
 
 .back-to-top:hover {
-    background: #5b21b6;
+    background: #2d6a7a;
     transform: translateY(-2px);
 }
 
@@ -421,7 +421,7 @@
     width: 40px;
     height: 40px;
     border: 4px solid #f3f3f3;
-    border-top: 4px solid #6b46c1;
+    border-top: 4px solid #3a8197;
     border-radius: 50%;
     animation: spin 1s linear infinite;
 }
@@ -459,7 +459,7 @@
     position: absolute;
     top: -40px;
     left: 6px;
-    background: #6b46c1;
+    background: #3a8197;
     color: white;
     padding: 8px;
     text-decoration: none;

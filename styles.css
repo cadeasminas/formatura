@@ -36,13 +36,24 @@ body {
     padding: 1rem 2rem;
 }
 
-.nav-brand h1 {
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-logo {
+    height: 50px;
+    width: auto;
+}
+
+.nav-text h1 {
     color: #3a8197;
     font-size: 1.5rem;
     font-weight: 700;
 }
 
-.nav-brand span {
+.nav-text span {
     color: #91c9cd;
     font-size: 0.9rem;
     font-weight: 400;
@@ -389,11 +400,12 @@ body {
 }
 
 .tag {
-    background: #f1f5f9;
-    color: #475569;
+    background: #fff9f3;
+    color: #3a8197;
     padding: 0.3rem 0.8rem;
     border-radius: 15px;
     font-size: 0.8rem;
+    border: 1px solid #91c9cd;
 }
 
 /* Schedule */
