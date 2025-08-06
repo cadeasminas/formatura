@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palestras - O Palco é Delas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="extras.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <img src="logo.png" alt="O Palco é Delas" class="logo">
+                <span class="brand-text">O Palco é Delas</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Início</a></li>
+                <li><a href="palestrantes.html" class="nav-link">Palestrantes</a></li>
+                <li><a href="palestras.html" class="nav-link active">Palestras</a></li>
+                <li><a href="index.html#agenda" class="nav-link">Agenda</a></li>
+                <li><a href="index.html#sobre" class="nav-link">Sobre</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-talks">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Palestras do Evento</h1>
+                <p class="hero-subtitle">20 apresentações inspiradoras sobre tecnologia em 2 blocos</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">20</span>
+                        <span class="stat-label">Palestras</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">15min</span>
+                        <span class="stat-label">Cada</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Blocos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Overview -->
+    <section class="schedule-overview">
+        <div class="container">
+            <div class="schedule-blocks-nav">
+                <button class="block-nav-btn active" data-block="all">
+                    <i class="fas fa-list"></i>
+                    Todas as Palestras
+                </button>
+                <button class="block-nav-btn" data-block="morning">
+                    <i class="fas fa-sun"></i>
+                    Bloco Manhã (10:10-12:40)
+                </button>
+                <button class="block-nav-btn" data-block="afternoon">
+                    <i class="fas fa-moon"></i>
+                    Bloco Tarde (14:00-16:30)
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search and Filters -->
+    <section class="talks-filters">
+        <div class="container">
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="search-talks" placeholder="Buscar palestras por título, palestrante ou tema...">
+                </div>
+            </div>
+            
+            <div class="filter-categories">
+                <h3>Filtrar por Categoria:</h3>
+                <div class="category-tags">
+                    <button class="category-tag active" data-category="all">Todas</button>
+                    <button class="category-tag" data-category="tech">Tecnologia</button>
+                    <button class="category-tag" data-category="development">Desenvolvimento</button>
+                    <button class="category-tag" data-category="design">Design</button>
+                    <button class="category-tag" data-category="data">Dados</button>
+                    <button class="category-tag" data-category="career">Carreira</button>
+                    <button class="category-tag" data-category="innovation">Inovação</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Talks Grid -->
+    <section class="talks-page">
+        <div class="container">
+            <div class="talks-grid" id="talks-container">
+                <!-- Talks will be dynamically loaded here -->
+            </div>
+            
+            <!-- No Results Message -->
+            <div class="no-results" id="no-results" style="display: none;">
+                <i class="fas fa-search"></i>
+                <h3>Nenhuma palestra encontrada</h3>
+                <p>Tente ajustar os filtros ou termo de busca</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Timeline -->
+    <section class="schedule-timeline">
+        <div class="container">
+            <h2>Cronograma Completo</h2>
+            <div class="timeline-container" id="timeline-container">
+                <!-- Timeline will be dynamically loaded -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Quer apresentar uma palestra?</h2>
+                <p>Compartilhe seu conhecimento com nossa comunidade</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary">
+                        <i class="fas fa-microphone"></i>
+                        Propor Palestra
+                    </a>
+                    <a href="COMO-ATUALIZAR.md" class="btn btn-secondary">
+                        <i class="fas fa-book"></i>
+                        Guia de Contribuição
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>O Palco é Delas</h3>
+                    <p>Empoderando mulheres na tecnologia através da arte de falar em público.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="palestrantes.html">Palestrantes</a></li>
+                        <li><a href="palestras.html">Palestras</a></li>
+                        <li><a href="index.html#agenda">Agenda</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Conecte-se</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 O Palco é Delas. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="palestras.js"></script>
+</body>
+</html>
