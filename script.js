@@ -44,17 +44,17 @@ const speakers = [
     },
     {
         id: 3,
-        name: "Gabriela Milet Matias",
-        role: "Security Engineer",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Segurança", "Cloud", "DevSecOps"],
+        name: "Gabriela Matias",
+        role: "Gameplay Programmer",
+        company: "ARVORE Immersive Experiences",
+        bio: "Programadora de jogos desde 2021, com foco em Unreal Engine e Unity. Participa frequentemente de game jams, e acredita que aprender na prática é a melhor maneira de crescer como game dev. Nas horas vagas, está sempre jogando jogos de terror com os amigos ou lendo algum webtoon.",
+        expertise: ["Unreal Engine 5", "C++", "Blueprints", "Unity", "C#"],
         social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#"
+            linkedin: "https://www.linkedin.com/in/gabrielamilet",
+            twitter: "https://x.com/jasbrela",
+            github: "https://github.com/jasbrela"
         },
-        talks: ["Segurança Cibernética: Protegendo o Futuro Digital"]
+        talks: ["Level 1: Primeiros passos na área de Games"]
     },
     {
         id: 4,
