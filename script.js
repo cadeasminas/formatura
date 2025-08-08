@@ -198,7 +198,7 @@ const speakers = [
     },
     {
         id: 14,
-        name: "Jessica Manssur",
+        name: "Jessica Borges",
         role: "Analista de Dados",
         company: "Deloitte",
         bio: "Analista de Dados na Deloitte, formada em Engenharia da Computação e pós-graduada em Inteligência Artificial e Aprendizado de Máquina. Já atuei em projetos de Visão Computacional, desenvolvendo soluções de IA aplicadas a diferentes contextos.",
@@ -449,7 +449,7 @@ const talks = [
         id: 14,
         time: "14:45 - 15:00",
         title: "Entre o Código e a Consciência: Os Dilemas Éticos da IA",
-        speaker: "Jessica Manssur",
+        speaker: "Jessica Borges",
         description: "Entre o Código e a Consciência traz reflexões sobre os dilemas éticos da IA, mostrando casos reais e como essa tecnologia impacta a sociedade.",
         tags: ["A definir"],
         block: "afternoon",
