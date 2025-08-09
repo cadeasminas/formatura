@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre o Programa - O Palco é Delas</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="extras.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header class="header" role="banner">
+    <nav class="nav" role="navigation" aria-label="Navegação principal">
+      <a class="nav-brand" href="index.html" aria-label="Página inicial">
+        <img src="logo.png" alt="Logo O Palco é Delas" class="nav-logo" width="50" height="50">
+        <div class="nav-text">
+          <span class="site-name" aria-hidden="true">O Palco é Delas</span>
+          <span class="site-tagline">Evento de Formatura</span>
+        </div>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Abrir menu">
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+      </button>
+      <ul class="nav-menu" id="primary-navigation">
+        <li><a href="sobre.html" class="active" data-external>Sobre</a></li>
+        <li><a href="#programa" data-nav-section="programa">Programa</a></li>
+        <li><a href="palestrantes.html" data-external>Palestrantes</a></li>
+        <li><a href="palestras.html" data-external>Palestras</a></li>
+        <li><a href="index.html#agenda" data-external>Agenda</a></li>
+        <li><a href="index.html#contato" data-external>Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="sobre" class="section" style="padding-top:140px;">
+      <div class="container">
+        <div class="section-header">
+          <h1>O Desafio</h1>
+          <p>Transformando estatísticas em oportunidades</p>
+        </div>
+        <div class="challenge-stats">
+          <div class="stat-card">
+            <div class="stat-number">25%</div>
+            <div class="stat-text">dos palestrantes em eventos tech são mulheres</div>
+          </div>
+          <div class="barriers">
+            <h3>As barreiras são claras:</h3>
+            <ul class="barriers-list">
+              <li><i class="fas fa-times-circle"></i> Falta de confiança</li>
+              <li><i class="fas fa-times-circle"></i> Dificuldade em estruturar palestras técnicas</li>
+              <li><i class="fas fa-times-circle"></i> Pouco acesso a oportunidades</li>
+            </ul>
+            <div class="solution">
+              <strong>Nós estamos aqui para mudar isso.</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="programa" class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <h2>✨ O Programa</h2>
+          <p>Um curso imersivo que combina</p>
+        </div>
+        <div class="program-features">
+          <div class="feature-card">
+            <div class="feature-icon">🎤</div>
+            <h3>Aulas Práticas</h3>
+            <p>Oratória, storytelling técnico e CFPs</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">💬</div>
+            <h3>Mentorias Coletivas</h3>
+            <p>Suporte e orientação em grupo</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🌟</div>
+            <h3>Evento Final</h3>
+            <p>Palestras reais com público</p>
+          </div>
+        </div>
+        <div class="target-audience">
+          <h3>Para quem é?</h3>
+          <p>Mulheres em tecnologia que:</p>
+          <ul class="audience-list">
+            <li><i class="fas fa-check"></i> Têm conhecimento para compartilhar</li>
+            <li><i class="fas fa-check"></i> Querem vencer o medo de falar em público</li>
+            <li><i class="fas fa-check"></i> Buscam visibilidade na carreira</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>O Palco é Delas</h3>
+          <p>Empoderando mulheres na tecnologia.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="#programa">Programa</a></li>
+            <li><a href="palestrantes.html">Palestrantes</a></li>
+            <li><a href="palestras.html">Palestras</a></li>
+            <li><a href="index.html#agenda">Agenda</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Transmissão</h4>
+          <a href="https://www.youtube.com/watch?v=CNGzkwtKt1s" class="btn btn-youtube" target="_blank" rel="noopener" style="margin-top:.5rem;">
+            <i class="fab fa-youtube" aria-hidden="true"></i>
+            <span>Assistir</span>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 O Palco é Delas. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function(){
+      const toggle = document.getElementById('nav-toggle');
+      const menu = document.getElementById('primary-navigation');
+      if(toggle && menu){
+        toggle.addEventListener('click',()=>{
+          const expanded = toggle.getAttribute('aria-expanded') === 'true';
+          toggle.setAttribute('aria-expanded', String(!expanded));
+          menu.classList.toggle('active');
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
