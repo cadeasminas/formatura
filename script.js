@@ -1,6 +1,6 @@
 /*
 ================================================================================
-                      📊 DADOS DO EVENTO "O PALCO É DELAS"
+                      📊 DADOS DO EVENTO "O PALCO É DELAS "
 ================================================================================
 Este arquivo contém todos os dados e funcionalidades do site do evento.
 Cada seção está bem documentada para facilitar a compreensão e manutenção.
@@ -17,16 +17,14 @@ const speakers = [
     {
         id: 1,
         name: "Midian Brandão",
-        role: "Tech Lead",
+        role: "Software Engineer",
         company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
+        bio: "Pós-graduada em Análise e Proteção de Dados, atuou em diferentes multinacionais, em projetos de Customer Experience, análise de mercado, gestão de stakeholders e transformação digital.",
         expertise: ["IA", "Machine Learning", "Python"],
         social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#"
+            linkedin: "http://linkedin.com/in/midian-brandao/"
         },
-        talks: ["Inteligência Artificial e o Futuro do Trabalho"]
+        talks: ["Segurança cibernética na era da Inteligência Artificial"]
     },
     {
         id: 2,
@@ -86,31 +84,29 @@ const speakers = [
     },
     {
         id: 6,
-        name: "Bianca Pinto Cardoso",
-        role: "UX Designer",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["UX", "Design", "Research"],
+        name: "Bianca Cardoso",
+        role: "Frontend Developer",
+        company: "ISH Tecnologia",
+        bio: "Desenvolvedora com mais de 6 anos de experiência, apaixonada por vue.js e com formação em ciência da computação. Trabalho em uma empresa de cibersegurança e participo de iniciativas para mulheres em tecnologia que promovem diversidade na área.",
+        expertise: ["Frontend", "Vue", "Python", "Cibersegurança"],
         social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#"
+            linkedin: "https://www.linkedin.com/in/biancacardosop/",
+            twitter: "https://x.com/Biancaacardoso",
+            github: "https://github.com/biigue"
         },
-        talks: ["UX/UI Design: Criando Experiências Incríveis"]
+        talks: ["Descomplicando o Frontend com Vue.js"]
     },
     {
         id: 7,
-        name: "Juliana de Jesus de Oliveira",
-        role: "Blockchain Developer",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Blockchain", "Solidity", "DeFi"],
+        name: "Juliana de Oliveira",
+        role: "Desenvolvedora Fullstack",
+        company: "Itaú Unibanco",
+        bio: "Juliana de Oliveira é desenvolvedora fullstack. Formada em Farmácia e Bioquímica, fez transição de carreira e concluiu o tecnólogo em ADS em 2024. É apaixonada por aprendizado contínuo, tecnologia, arte e música, e incentiva mulheres a ingressarem com confiança no setor de tecnologia.",
+        expertise: ["Frontend", "Transição de Carreira", "AWS", "Engenharia de Plataforma"],
         social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#"
+            linkedin: "https://www.linkedin.com/in/julianajesusoliveira/"
         },
-        talks: ["Blockchain e Criptomoedas"]
+        talks: ["De pílulas a códigos: minha mudança de carreira da farmácia para a tecnologia"]
     },
     {
         id: 8,
@@ -296,6 +292,7 @@ const speakers = [
     }
 ];
 
+
 // ============================================================================
 // 🎤 DADOS DAS PALESTRAS
 // ============================================================================
@@ -307,6 +304,7 @@ Array com todas as 20 palestras do evento, divididas em 2 blocos:
 IMPORTANTE: Todas as palestras começam como placeholders (isPlaceholder: true)
 para que cada palestrante possa personalizar sua apresentação.
 */
+
 const talks = [
     // ========================================================================
     // 🌅 BLOCO 1 - MANHÃ (10:10 - 12:40)
@@ -314,12 +312,12 @@ const talks = [
     {
         id: 1,
         time: "10:10 - 10:25",
-        title: "Título da palestra será definido pela palestrante",
+        title: "Segurança cibernética na era da Inteligência Artificial",
         speaker: "Midian Brandão",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        description: "Ameaças digitais potencializadas pela inteligência artificial e como mitigá-las. Estratégias práticas para proteção de dados, sistemas e usuários.",
+        tags: ["IA", "Data","LGPD","segurança"],
         block: "morning",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 2,
@@ -359,27 +357,27 @@ const talks = [
         description: "Nesta apresentação vou falar, de forma clara e prática, o conceito de virtualização de servidores, seus principais benefícios, e como ela pode ajudar empresas a otimizarem seus recursos de TI. Se você é uma pessoa querendo aprender um pouco sobre esta área, esta palestra foi feita pensando em você.",
         tags: ["virtualização, cloud, datecenters"],
         block: "morning",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 6,
-        time: "11:25 - 11:40",
-        title: "Título da palestra será definido pela palestrante",
-        speaker: "Bianca Pinto Cardoso",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        time: "11:45 - 12:00",
+        title: "Descomplicando o frontend com vue.js",
+        speaker: "Bianca Cardoso",
+        description: "Vue.js, embora não tenha a popularidade do React, tem uma curva de aprendizado mais suave, sendo ideal para iniciantes. Esta palestra abordaremos termos técnicos de forma mais amigável e mostraremos como funcionalidades como reatividade (atualização automática da tela) e componentes (códigos reutilizáveis) tornam o desenvolvimento mais organizado e acessível.",
+        tags: ["Frontend", "Vue"],
         block: "morning",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 7,
-        time: "11:40 - 11:55",
-        title: "Título da palestra será definido pela palestrante",
-        speaker: "Juliana de Jesus de Oliveira",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        time: "10:45 - 11:00",
+        title: "De pílulas a códigos: minha mudança de carreira da farmácia para a tecnologia",
+        speaker: "Juliana de Oliveira",
+        description: "Na palestra 'De Pílulas a Códigos', compartilharei minha jornada da Farmácia à Programação, oferecendo dicas práticas e mostrando as estratégias que utilizei durante a transição de carreira. Uma conversa para quem busca um caminho para mudar e se reinventar em uma nova área.",
+        tags: ["Transição de carreira", "Desenvolvimento profissional", "Carreira em tecnologia", "Mudança profissional"],
         block: "morning",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 8,
@@ -453,7 +451,7 @@ const talks = [
         description: "Entre o Código e a Consciência traz reflexões sobre os dilemas éticos da IA, mostrando casos reais e como essa tecnologia impacta a sociedade.",
         tags: ["A definir"],
         block: "afternoon",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 15,
