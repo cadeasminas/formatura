@@ -140,17 +140,18 @@ const speakers = [
     },
     {
         id: 10,
-        name: "Andrea Simone",
-        role: "Software Architect",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Arquitetura", "Microservices", "Java"],
+        name: "Andréa Simone",
+        role: "Especialista em Inteligência Artificial",
+        company: "Consultora de IA e Governança Digital",
+        bio: "Especialista em IA voltada à implementação, automatização e oportunidades para negócios. Consultora em IA, LGPD, ética e governança de IA.",
+        expertise: ["Inteligência Artificial", "Automatização de Processos", "LGPD", "Ética e Governança de IA", "Transformação Digital"],
         social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#"
+            site: "https://andreasimone.com.br",
+            instagram: "https://www.instagram.com/andreasimone_ia",
+            linkedin: "http://linkedin.com/in/andr%C3%A9a-simone-silva-38487820b",
+            github: "https://github.com/andreasimone141-dot"
         },
-        talks: ["Arquitetura de Software Escalável"]
+        talks: ["Inteligência Artificial - Uma Revolução Silenciosa"]
     },
     {
         id: 11,
@@ -404,12 +405,12 @@ const talks = [
     {
         id: 10,
         time: "12:25 - 12:40",
-        title: "Título da palestra será definido pela palestrante",
-        speaker: "Andrea Simone",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        title: "Inteligência Artificial - Uma Revolução Silenciosa",
+        speaker: "Andréa Simone",
+        description: "A palestra abordará a revolução que a Inteligência Artificial está mudando todos os aspectos da nossa vida, desde o trabalho, estudos, negócios, tornando acessível a todos, independentemente de seu nível de conhecimento.",
+        tags: ["Inteligência Artificial", "Tecnologia", "Inovação"],
         block: "morning",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     
     // ========================================================================
