@@ -357,7 +357,7 @@ const talks = [
         description: "Nesta apresentação vou falar, de forma clara e prática, o conceito de virtualização de servidores, seus principais benefícios, e como ela pode ajudar empresas a otimizarem seus recursos de TI. Se você é uma pessoa querendo aprender um pouco sobre esta área, esta palestra foi feita pensando em você.",
         tags: ["virtualização, cloud, datecenters"],
         block: "morning",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 6,
@@ -367,7 +367,7 @@ const talks = [
         description: "Vue.js, embora não tenha a popularidade do React, tem uma curva de aprendizado mais suave, sendo ideal para iniciantes. Esta palestra abordaremos termos técnicos de forma mais amigável e mostraremos como funcionalidades como reatividade (atualização automática da tela) e componentes (códigos reutilizáveis) tornam o desenvolvimento mais organizado e acessível.",
         tags: ["Frontend", "Vue"],
         block: "morning",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 7,
@@ -377,7 +377,7 @@ const talks = [
         description: "Na palestra 'De Pílulas a Códigos', compartilharei minha jornada da Farmácia à Programação, oferecendo dicas práticas e mostrando as estratégias que utilizei durante a transição de carreira. Uma conversa para quem busca um caminho para mudar e se reinventar em uma nova área.",
         tags: ["Transição de carreira", "Desenvolvimento profissional", "Carreira em tecnologia", "Mudança profissional"],
         block: "morning",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 8,
@@ -451,7 +451,7 @@ const talks = [
         description: "Entre o Código e a Consciência traz reflexões sobre os dilemas éticos da IA, mostrando casos reais e como essa tecnologia impacta a sociedade.",
         tags: ["A definir"],
         block: "afternoon",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 15,
