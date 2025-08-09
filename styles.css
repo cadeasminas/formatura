@@ -86,7 +86,9 @@ body {
 
 .hero-content {
     flex: 1;
-    max-width: 600px;
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .hero-title {
@@ -117,6 +119,7 @@ body {
     gap: 2rem;
     margin-bottom: 2rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .date-highlight, .time-highlight {
@@ -183,6 +186,7 @@ body {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .btn {
