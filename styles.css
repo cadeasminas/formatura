@@ -200,6 +200,32 @@ body {
     color: #3a8197;
 }
 
+/* Botão YouTube */
+.btn-youtube {
+    background: #ff0000;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    box-shadow: 0 6px 18px rgba(255,0,0,0.3);
+    position: relative;
+}
+.btn-youtube .fab.fa-youtube { font-size: 1.3rem; }
+.btn-youtube .btn-note {
+    font-weight: 500;
+    background: rgba(255,255,255,0.15);
+    padding: 0.25rem 0.6rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+.btn-youtube:hover {
+    background: #e00000;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(255,0,0,0.4);
+}
+
 .hero-image {
     flex: 1;
     display: flex;
