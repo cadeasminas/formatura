@@ -100,17 +100,15 @@ const speakers = [
     },
     {
         id: 7,
-        name: "Juliana de Jesus de Oliveira",
-        role: "Blockchain Developer",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Blockchain", "Solidity", "DeFi"],
+        name: "Juliana de Oliveira",
+        role: "Desenvolvedora Fullstack",
+        company: "Itaú Unibanco",
+        bio: "Juliana de Oliveira é desenvolvedora fullstack. Formada em Farmácia e Bioquímica, fez transição de carreira e concluiu o tecnólogo em ADS em 2024. É apaixonada por aprendizado contínuo, tecnologia, arte e música, e incentiva mulheres a ingressarem com confiança no setor de tecnologia.",
+        expertise: ["Frontend", "Transição de Carreira", "AWS", "Engenharia de Plataforma"],
         social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#"
+            linkedin: "https://www.linkedin.com/in/julianajesusoliveira/"
         },
-        talks: ["Blockchain e Criptomoedas"]
+        talks: ["De pílulas a códigos: minha mudança de carreira da farmácia para a tecnologia"]
     },
     {
         id: 8,
@@ -373,11 +371,11 @@ const talks = [
     },
     {
         id: 7,
-        time: "11:40 - 11:55",
-        title: "Título da palestra será definido pela palestrante",
-        speaker: "Juliana de Jesus de Oliveira",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        time: "10:45 - 11:00",
+        title: "De pílulas a códigos: minha mudança de carreira da farmácia para a tecnologia",
+        speaker: "Juliana de Oliveira",
+        description: "Na palestra 'De Pílulas a Códigos', compartilharei minha jornada da Farmácia à Programação, oferecendo dicas práticas e mostrando as estratégias que utilizei durante a transição de carreira. Uma conversa para quem busca um caminho para mudar e se reinventar em uma nova área.",
+        tags: ["Transição de carreira", "Desenvolvimento profissional", "Carreira em tecnologia", "Mudança profissional"],
         block: "morning",
         isPlaceholder: true
     },
