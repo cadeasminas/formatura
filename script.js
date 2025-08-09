@@ -1,4 +1,18 @@
-// Dados das palestrantes
+/*
+================================================================================
+                      📊 DADOS DO EVENTO "O PALCO É DELAS "
+================================================================================
+Este arquivo contém todos os dados e funcionalidades do site do evento.
+Cada seção está bem documentada para facilitar a compreensão e manutenção.
+*/
+
+// ============================================================================
+// 👩‍💻 DADOS DAS PALESTRANTES
+// ============================================================================
+/*
+Array com informações de todas as 20 palestrantes do evento.
+Cada palestrante tem: id, nome, cargo, empresa, bio, especialidades e redes sociais.
+*/
 const speakers = [
     {
         id: 1,
@@ -30,17 +44,17 @@ const speakers = [
     },
     {
         id: 3,
-        name: "Gabriela Milet Matias",
-        role: "Security Engineer",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Segurança", "Cloud", "DevSecOps"],
+        name: "Gabriela Matias",
+        role: "Gameplay Programmer",
+        company: "ARVORE Immersive Experiences",
+        bio: "Programadora de jogos desde 2021, com foco em Unreal Engine e Unity. Participa frequentemente de game jams, e acredita que aprender na prática é a melhor maneira de crescer como game dev. Nas horas vagas, está sempre jogando jogos de terror com os amigos ou lendo algum webtoon.",
+        expertise: ["Unreal Engine 5", "C++", "Blueprints", "Unity", "C#"],
         social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#"
+            linkedin: "https://www.linkedin.com/in/gabrielamilet",
+            twitter: "https://x.com/jasbrela",
+            github: "https://github.com/jasbrela"
         },
-        talks: ["Segurança Cibernética: Protegendo o Futuro Digital"]
+        talks: ["Level 1: Primeiros passos na área de Games"]
     },
     {
         id: 4,
@@ -59,44 +73,42 @@ const speakers = [
     {
         id: 5,
         name: "Elizabeth Cristina de Souza",
-        role: "Data Scientist",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Data Science", "Python", "ML"],
+    role: "Infrastructure Analyst",
+        company: "ConectaQ",
+    bio: `Elizabeth é palestrante apaixonada por infraestrutura de TI, cloud e proteção de dados, com foco no protagonismo feminino na tecnologia. Após mais de 30 anos de experiência, está em transição para uma nova fase profissional, contribuindo ativamente para fortalecer e dar visibilidade às mulheres na área de tecnologia. Tem um estilo didático e prático, com uma abordagem que une conhecimento técnico e propósito humano. Contribui para a construção de uma comunidade para mulheres que querem crescer e transformar o mundo com tecnologia.`,
+        expertise: ["Cloud", "Data Center", "Virtualização", "Proteção de Dados"],
         social: {
-            linkedin: "#",
-            twitter: "#",
+            linkedin: "https://www.linkedin.com/in/bethcsouza",
+            twitter: "@bethcsouza",
             github: "#"
         },
-        talks: ["Data Science e Machine Learning"]
+        talks: ["Tornando Infraestruturas de TI mais eficientes e sustentáveis com a virtualização"]
     },
     {
         id: 6,
-        name: "Bianca Pinto Cardoso",
-        role: "UX Designer",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["UX", "Design", "Research"],
+        name: "Bianca Cardoso",
+        role: "Frontend Developer",
+        company: "ISH Tecnologia",
+        bio: "Desenvolvedora com mais de 6 anos de experiência, apaixonada por vue.js e com formação em ciência da computação. Trabalho em uma empresa de cibersegurança e participo de iniciativas para mulheres em tecnologia que promovem diversidade na área.",
+        expertise: ["Frontend", "Vue", "Python", "Cibersegurança"],
         social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#"
+            linkedin: "https://www.linkedin.com/in/biancacardosop/",
+            twitter: "https://x.com/Biancaacardoso",
+            github: "https://github.com/biigue"
         },
-        talks: ["UX/UI Design: Criando Experiências Incríveis"]
+        talks: ["Descomplicando o Frontend com Vue.js"]
     },
     {
         id: 7,
-        name: "Juliana de Jesus de Oliveira",
-        role: "Blockchain Developer",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Blockchain", "Solidity", "DeFi"],
+        name: "Juliana de Oliveira",
+        role: "Desenvolvedora Fullstack",
+        company: "Itaú Unibanco",
+        bio: "Juliana de Oliveira é desenvolvedora fullstack. Formada em Farmácia e Bioquímica, fez transição de carreira e concluiu o tecnólogo em ADS em 2024. É apaixonada por aprendizado contínuo, tecnologia, arte e música, e incentiva mulheres a ingressarem com confiança no setor de tecnologia.",
+        expertise: ["Frontend", "Transição de Carreira", "AWS", "Engenharia de Plataforma"],
         social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#"
+            linkedin: "https://www.linkedin.com/in/julianajesusoliveira/"
         },
-        talks: ["Blockchain e Criptomoedas"]
+        talks: ["De pílulas a códigos: minha mudança de carreira da farmácia para a tecnologia"]
     },
     {
         id: 8,
@@ -185,16 +197,16 @@ const speakers = [
     {
         id: 14,
         name: "Jessica Borges",
-        role: "Big Data Engineer",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Big Data", "Spark", "Hadoop"],
+        role: "Analista de Dados",
+        company: "Deloitte",
+        bio: "Analista de Dados na Deloitte, formada em Engenharia da Computação e pós-graduada em Inteligência Artificial e Aprendizado de Máquina. Já atuei em projetos de Visão Computacional, desenvolvendo soluções de IA aplicadas a diferentes contextos.",
+        expertise: ["Python", "Visão Computacional"],
         social: {
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/jessicafborges/",
             twitter: "#",
-            github: "#"
+            github: "https://github.com/jessicamfborges"
         },
-        talks: ["Big Data e Analytics"]
+        talks: ["Entre o Código e a Consciência: Os Dilemas Éticos da IA"]
     },
     {
         id: 15,
@@ -282,9 +294,23 @@ const speakers = [
     }
 ];
 
-// Dados das palestras - Placeholders para as palestrantes preencherem aaaaa 
+
+// ============================================================================
+// 🎤 DADOS DAS PALESTRAS
+// ============================================================================
+/*
+Array com todas as 20 palestras do evento, divididas em 2 blocos:
+- BLOCO 1 (Manhã): 10:10 - 12:40 (10 palestras)
+- BLOCO 2 (Tarde): 14:00 - 16:30 (10 palestras)
+
+IMPORTANTE: Todas as palestras começam como placeholders (isPlaceholder: true)
+para que cada palestrante possa personalizar sua apresentação.
+*/
+
 const talks = [
-    // BLOCO 1 - MANHÃ (10:10 - 12:40)
+    // ========================================================================
+    // 🌅 BLOCO 1 - MANHÃ (10:10 - 12:40)
+    // ========================================================================
     {
         id: 1,
         time: "10:10 - 10:25",
@@ -328,30 +354,30 @@ const talks = [
     {
         id: 5,
         time: "11:10 - 11:25",
-        title: "Título da palestra será definido pela palestrante",
+        title: "Tornando Infraestruturas de TI mais eficientes e sustentáveis com a virtualização",
         speaker: "Elizabeth Cristina de Souza",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        description: "Nesta apresentação vou falar, de forma clara e prática, o conceito de virtualização de servidores, seus principais benefícios, e como ela pode ajudar empresas a otimizarem seus recursos de TI. Se você é uma pessoa querendo aprender um pouco sobre esta área, esta palestra foi feita pensando em você.",
+        tags: ["virtualização, cloud, datecenters"],
         block: "morning",
         isPlaceholder: true
     },
     {
         id: 6,
-        time: "11:25 - 11:40",
-        title: "Título da palestra será definido pela palestrante",
-        speaker: "Bianca Pinto Cardoso",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        time: "11:45 - 12:00",
+        title: "Descomplicando o frontend com vue.js",
+        speaker: "Bianca Cardoso",
+        description: "Vue.js, embora não tenha a popularidade do React, tem uma curva de aprendizado mais suave, sendo ideal para iniciantes. Esta palestra abordaremos termos técnicos de forma mais amigável e mostraremos como funcionalidades como reatividade (atualização automática da tela) e componentes (códigos reutilizáveis) tornam o desenvolvimento mais organizado e acessível.",
+        tags: ["Frontend", "Vue"],
         block: "morning",
         isPlaceholder: true
     },
     {
         id: 7,
-        time: "11:40 - 11:55",
-        title: "Título da palestra será definido pela palestrante",
-        speaker: "Juliana de Jesus de Oliveira",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        time: "10:45 - 11:00",
+        title: "De pílulas a códigos: minha mudança de carreira da farmácia para a tecnologia",
+        speaker: "Juliana de Oliveira",
+        description: "Na palestra 'De Pílulas a Códigos', compartilharei minha jornada da Farmácia à Programação, oferecendo dicas práticas e mostrando as estratégias que utilizei durante a transição de carreira. Uma conversa para quem busca um caminho para mudar e se reinventar em uma nova área.",
+        tags: ["Transição de carreira", "Desenvolvimento profissional", "Carreira em tecnologia", "Mudança profissional"],
         block: "morning",
         isPlaceholder: true
     },
@@ -386,7 +412,9 @@ const talks = [
         isPlaceholder: true
     },
     
-    // BLOCO 2 - TARDE (14:00 - 16:30)
+    // ========================================================================
+    // 🌇 BLOCO 2 - TARDE (14:00 - 16:30)
+    // ========================================================================
     {
         id: 11,
         time: "14:00 - 14:15",
@@ -420,9 +448,9 @@ const talks = [
     {
         id: 14,
         time: "14:45 - 15:00",
-        title: "Título da palestra será definido pela palestrante",
+        title: "Entre o Código e a Consciência: Os Dilemas Éticos da IA",
         speaker: "Jessica Borges",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        description: "Entre o Código e a Consciência traz reflexões sobre os dilemas éticos da IA, mostrando casos reais e como essa tecnologia impacta a sociedade.",
         tags: ["A definir"],
         block: "afternoon",
         isPlaceholder: true
@@ -489,7 +517,13 @@ const talks = [
     }
 ];
 
-// Dados da agenda atualizada para 2 blocos
+// ============================================================================
+// 📅 AGENDA GERAL DO EVENTO
+// ============================================================================
+/*
+Cronograma completo do evento desde o credenciamento até o encerramento.
+Inclui horários de abertura, blocos de palestras, almoço e cerimônia final.
+*/
 const scheduleItems = [
     { time: "09:00", title: "Credenciamento", description: "Recepção e entrega de materiais" },
     { time: "10:00", title: "Abertura", description: "Cerimônia de abertura e boas-vindas (10 minutos)" },
@@ -500,10 +534,28 @@ const scheduleItems = [
     { time: "16:30", title: "Encerramento", description: "Cerimônia de formatura e networking final" }
 ];
 
-// Função para renderizar palestrantes
+/*
+================================================================================
+                        🛠️ FUNÇÕES DE RENDERIZAÇÃO
+================================================================================
+Estas funções são responsáveis por criar o HTML dinâmico das diferentes seções.
+*/
+
+// ============================================================================
+// 👥 RENDERIZAR PALESTRANTES
+// ============================================================================
+/*
+Função que cria os cards das palestrantes para a página principal.
+Cada card inclui: foto (ícone), nome, cargo, empresa, bio, especialidades e redes sociais.
+*/
 function renderSpeakers() {
     const container = document.getElementById('speakers-container');
-    if (!container) return;
+    
+    // Verificar se o elemento existe na página atual
+    if (!container) {
+        console.log('Container speakers-container não encontrado nesta página');
+        return;
+    }
 
     container.innerHTML = speakers.map(speaker => `
         <div class="speaker-card fade-in">
@@ -526,12 +578,27 @@ function renderSpeakers() {
             </div>
         </div>
     `).join('');
+    
+    console.log(`✅ ${speakers.length} palestrantes renderizadas com sucesso!`);
 }
 
-// Função para renderizar palestras
+// ============================================================================
+// 🎤 RENDERIZAR PALESTRAS
+// ============================================================================
+/*
+Função que cria os cards das palestras com sistema de placeholders.
+- Palestras com isPlaceholder: true mostram aviso para personalização
+- Links dos nomes direcionam para a página de palestrantes
+- Tags são estilizadas diferentemente para placeholders
+*/
 function renderTalks() {
     const container = document.getElementById('talks-container');
-    if (!container) return;
+    
+    // Verificar se o elemento existe na página atual
+    if (!container) {
+        console.log('Container talks-container não encontrado nesta página');
+        return;
+    }
 
     container.innerHTML = talks.map(talk => {
         const placeholderClass = talk.isPlaceholder ? 'placeholder-talk' : '';
@@ -559,12 +626,26 @@ function renderTalks() {
         </div>
     `;
     }).join('');
+    
+    console.log(`✅ ${talks.length} palestras renderizadas com sucesso!`);
 }
 
-// Função para renderizar agenda
+// ============================================================================
+// 📋 RENDERIZAR AGENDA
+// ============================================================================
+/*
+Função que cria a visualização da agenda em dois formatos:
+1. Blocos de palestras (manhã e tarde) com detalhes
+2. Timeline geral do evento com todos os horários
+*/
 function renderSchedule() {
     const container = document.getElementById('schedule-container');
-    if (!container) return;
+    
+    // Verificar se o elemento existe na página atual
+    if (!container) {
+        console.log('Container schedule-container não encontrado nesta página');
+        return;
+    }
 
     const morningTalks = talks.filter(talk => talk.block === 'morning');
     const afternoonTalks = talks.filter(talk => talk.block === 'afternoon');
@@ -618,9 +699,24 @@ function renderSchedule() {
             `).join('')}
         </div>
     `;
+    
+    console.log('✅ Agenda renderizada com sucesso!');
 }
 
-// Função para smooth scroll
+/*
+================================================================================
+                        🎨 FUNÇÕES DE INTERATIVIDADE
+================================================================================
+Estas funções adicionam comportamentos dinâmicos e melhoram a experiência do usuário.
+*/
+
+// ============================================================================
+// 🔗 NAVEGAÇÃO SUAVE (SMOOTH SCROLL)
+// ============================================================================
+/*
+Adiciona efeito de scroll suave para links internos (que começam com #).
+Melhora a experiência de navegação entre seções da mesma página.
+*/
 function smoothScroll() {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
@@ -634,9 +730,17 @@ function smoothScroll() {
             }
         });
     });
+    
+    console.log('✅ Navegação suave ativada para links internos');
 }
 
-// Função para animação de fade-in
+// ============================================================================
+// ✨ ANIMAÇÕES DE ENTRADA (FADE-IN)
+// ============================================================================
+/*
+Observa elementos com classe 'fade-in' e adiciona classe 'visible' quando
+entram na tela, criando efeito de aparição suave.
+*/
 function fadeInAnimation() {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
@@ -652,9 +756,17 @@ function fadeInAnimation() {
     document.querySelectorAll('.fade-in').forEach(el => {
         observer.observe(el);
     });
+    
+    console.log('✅ Animações fade-in configuradas');
 }
 
-// Menu mobile toggle
+// ============================================================================
+// 📱 MENU MOBILE
+// ============================================================================
+/*
+Controla a abertura/fechamento do menu de navegação em dispositivos móveis.
+Adiciona/remove classe 'active' para mostrar/esconder o menu.
+*/
 function mobileMenu() {
     const navToggle = document.querySelector('.nav-toggle');
     const navMenu = document.querySelector('.nav-menu');
@@ -663,10 +775,19 @@ function mobileMenu() {
         navToggle.addEventListener('click', () => {
             navMenu.classList.toggle('active');
         });
+        
+        console.log('✅ Menu mobile configurado');
     }
 }
 
-// Header scroll effect
+// ============================================================================
+// 📜 EFEITO DE SCROLL NO HEADER
+// ============================================================================
+/*
+Muda a aparência do header quando o usuário faz scroll:
+- Adiciona sombra e aumenta opacidade para melhor legibilidade
+- Remove efeitos quando volta ao topo da página
+*/
 function headerScrollEffect() {
     const header = document.querySelector('.header');
     
@@ -679,9 +800,61 @@ function headerScrollEffect() {
             header.style.boxShadow = 'none';
         }
     });
+    
+    console.log('✅ Efeito de scroll no header configurado');
 }
 
-// Função para adicionar interatividade aos cards
+/*
+================================================================================
+                        🎯 FUNÇÕES DE INICIALIZAÇÃO
+================================================================================
+Estas funções são executadas quando a página carrega.
+*/
+
+// ============================================================================
+// 🚀 INICIALIZAÇÃO PRINCIPAL
+// ============================================================================
+/*
+Função executada quando o DOM está completamente carregado.
+Chama todas as funções necessárias para inicializar o site.
+*/
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('🎉 Iniciando site "O Palco é Delas"...');
+    
+    // Renderizar conteúdo principal
+    renderTalks();
+    renderSchedule();
+    
+    // Configurar interatividade
+    smoothScroll();
+    mobileMenu();
+    headerScrollEffect();
+    
+    // Aguardar um pouco para animações e configurações adicionais
+    setTimeout(() => {
+        fadeInAnimation();
+        addCardInteractions();
+        addCountdown();
+        addSearchFunction();
+        
+        console.log('✅ Site inicializado com sucesso!');
+    }, 100);
+});
+
+/*
+================================================================================
+                        🔧 FUNÇÕES UTILITÁRIAS AVANÇADAS
+================================================================================
+Funcionalidades extras para melhorar a experiência do usuário.
+*/
+
+// ============================================================================
+// 🎨 INTERAÇÕES DOS CARDS
+// ============================================================================
+/*
+Adiciona efeitos hover nos cards de palestras e features.
+Cria animações suaves de elevação e sombra.
+*/
 function addCardInteractions() {
     // Efeito hover nos cards de palestra
     document.querySelectorAll('.talk-card').forEach(card => {
@@ -708,12 +881,21 @@ function addCardInteractions() {
             this.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.1)';
         });
     });
+    
+    console.log('✅ Interações dos cards configuradas');
 }
 
-// Função para contagem regressiva (opcional)
+// ============================================================================
+// ⏰ CONTAGEM REGRESSIVA PARA O EVENTO
+// ============================================================================
+/*
+Cria uma contagem regressiva até a data do evento (23 de agosto de 2025).
+Atualiza automaticamente a cada minuto.
+NOTA: Precisa de um elemento com id 'countdown' no HTML para funcionar.
+*/
 function addCountdown() {
-    // Aqui você pode adicionar uma data específica do evento
-    const eventDate = new Date('2025-12-15T09:00:00');
+    // Data do evento: Sábado, 23 de Agosto de 2025 às 09:00
+    const eventDate = new Date('2025-08-23T09:00:00');
     
     function updateCountdown() {
         const now = new Date();
@@ -724,26 +906,42 @@ function addCountdown() {
             const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
             
-            // Você pode adicionar um elemento no HTML para mostrar a contagem
+            // Elemento HTML onde mostrar a contagem (opcional)
             const countdownEl = document.getElementById('countdown');
             if (countdownEl) {
-                countdownEl.innerHTML = `${days}d ${hours}h ${minutes}m`;
+                countdownEl.innerHTML = `${days}d ${hours}h ${minutes}m para o evento!`;
             }
         }
     }
     
     // Atualizar a cada minuto
     setInterval(updateCountdown, 60000);
-    updateCountdown();
+    updateCountdown(); // Executar imediatamente
+    
+    console.log('✅ Contagem regressiva configurada para 23/08/2025');
 }
 
-// Função para busca de palestras
+// ============================================================================
+// 🔍 BUSCA DE PALESTRAS
+// ============================================================================
+/*
+Permite buscar palestras por título, palestrante, descrição ou tags.
+Filtra e re-renderiza os resultados em tempo real.
+NOTA: Precisa de um elemento com id 'search-talks' no HTML para funcionar.
+*/
 function addSearchFunction() {
     const searchInput = document.getElementById('search-talks');
-    if (!searchInput) return;
+    
+    // Verificar se o elemento existe na página atual
+    if (!searchInput) {
+        console.log('Campo de busca não encontrado nesta página');
+        return;
+    }
     
     searchInput.addEventListener('input', function() {
         const searchTerm = this.value.toLowerCase();
+        
+        // Filtrar palestras baseado no termo de busca
         const filteredTalks = talks.filter(talk => 
             talk.title.toLowerCase().includes(searchTerm) ||
             talk.speaker.toLowerCase().includes(searchTerm) ||
@@ -752,8 +950,19 @@ function addSearchFunction() {
         );
         
         renderFilteredTalks(filteredTalks);
+        console.log(`🔍 Busca: "${searchTerm}" - ${filteredTalks.length} resultados`);
     });
+    
+    console.log('✅ Função de busca configurada');
 }
+
+// ============================================================================
+// 📋 RENDERIZAR PALESTRAS FILTRADAS
+// ============================================================================
+/*
+Versão simplificada da renderização para resultados de busca.
+Não inclui sistema de placeholders pois foca na busca.
+*/
 
 function renderFilteredTalks(filteredTalks) {
     const container = document.getElementById('talks-container');
@@ -775,32 +984,30 @@ function renderFilteredTalks(filteredTalks) {
         </div>
     `).join('');
     
+    // Re-aplicar interações nos novos elementos
     addCardInteractions();
 }
 
-// Inicialização quando o DOM estiver pronto
-document.addEventListener('DOMContentLoaded', function() {
-    renderTalks();
-    renderSchedule();
-    smoothScroll();
-    mobileMenu();
-    headerScrollEffect();
-    
-    // Pequeno delay para animações
-    setTimeout(() => {
-        fadeInAnimation();
-        addCardInteractions();
-        addCountdown();
-        addSearchFunction();
-    }, 100);
-});
+/*
+================================================================================
+                        🌐 FUNÇÕES DE COMPARTILHAMENTO SOCIAL
+================================================================================
+Permitem compartilhar o evento nas principais redes sociais.
+*/
 
-// Função para compartilhar nas redes sociais
+// ============================================================================
+// 📤 COMPARTILHAR NAS REDES SOCIAIS
+// ============================================================================
+/*
+Abre janelas popup para compartilhar o evento no Twitter, LinkedIn ou Facebook.
+Parâmetros: plataforma, texto e URL para compartilhar.
+*/
 function shareOnSocial(platform, text, url) {
     const shareText = encodeURIComponent(text);
     const shareUrl = encodeURIComponent(url);
     let shareLink = '';
     
+    // Definir URL de compartilhamento baseada na plataforma
     switch(platform) {
         case 'twitter':
             shareLink = `https://twitter.com/intent/tweet?text=${shareText}&url=${shareUrl}`;
@@ -811,16 +1018,31 @@ function shareOnSocial(platform, text, url) {
         case 'facebook':
             shareLink = `https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`;
             break;
+        default:
+            console.log('Plataforma de compartilhamento não suportada:', platform);
+            return;
     }
     
-    if (shareLink) {
-        window.open(shareLink, '_blank', 'width=600,height=400');
-    }
+    // Abrir janela popup para compartilhamento
+    window.open(shareLink, '_blank', 'width=600,height=400');
+    console.log(`📤 Compartilhando no ${platform}`);
 }
 
-// Adicionar botões de compartilhamento (opcional)
+// ============================================================================
+// 🔗 CONFIGURAR BOTÕES DE COMPARTILHAMENTO
+// ============================================================================
+/*
+Adiciona eventos de clique nos botões com classe 'share-btn'.
+Os botões devem ter atributo data-platform com o nome da rede social.
+*/
 function addSocialSharing() {
     const shareButtons = document.querySelectorAll('.share-btn');
+    
+    if (shareButtons.length === 0) {
+        console.log('Nenhum botão de compartilhamento encontrado');
+        return;
+    }
+    
     shareButtons.forEach(btn => {
         btn.addEventListener('click', function() {
             const platform = this.dataset.platform;
@@ -829,14 +1051,33 @@ function addSocialSharing() {
             shareOnSocial(platform, text, url);
         });
     });
+    
+    console.log(`✅ ${shareButtons.length} botões de compartilhamento configurados`);
 }
 
-// Função para mostrar detalhes da palestra em modal (opcional)
+/*
+================================================================================
+                        🎪 FUNCIONALIDADES EXTRAS
+================================================================================
+Recursos adicionais que podem ser implementados conforme necessário.
+*/
+
+// ============================================================================
+// 📋 MODAL DE DETALHES DA PALESTRA
+// ============================================================================
+/*
+Exibe detalhes completos de uma palestra em modal popup.
+NOTA: Função opcional - precisa de CSS correspondente para o modal.
+*/
 function showTalkDetails(talkId) {
+    // Buscar palestra pelo ID
     const talk = talks.find(t => t.id === talkId);
-    if (!talk) return;
+    if (!talk) {
+        console.log('Palestra não encontrada:', talkId);
+        return;
+    }
     
-    // Criar modal (você precisará adicionar o CSS correspondente)
+    // Criar estrutura do modal
     const modal = document.createElement('div');
     modal.className = 'modal';
     modal.innerHTML = `
@@ -854,34 +1095,78 @@ function showTalkDetails(talkId) {
     
     document.body.appendChild(modal);
     
-    // Fechar modal
-    modal.querySelector('.close').addEventListener('click', () => {
+    // Configurar fechamento do modal
+    const closeBtn = modal.querySelector('.close');
+    closeBtn.addEventListener('click', () => {
         document.body.removeChild(modal);
     });
     
+    // Fechar clicando fora do modal
     modal.addEventListener('click', (e) => {
         if (e.target === modal) {
             document.body.removeChild(modal);
         }
     });
+    
+    console.log('📋 Modal aberto para palestra:', talk.title);
 }
 
-// Adicionar função de impressão da agenda
+// ============================================================================
+// 🖨️ IMPRESSÃO DA AGENDA
+// ============================================================================
+/*
+Gera uma versão para impressão da agenda do evento.
+Abre nova janela com layout otimizado para papel.
+*/
 function printSchedule() {
+    // Criar nova janela para impressão
     const printWindow = window.open('', '_blank');
+    
+    // Gerar HTML otimizado para impressão
     printWindow.document.write(`
         <html>
             <head>
                 <title>Agenda - O Palco é Delas</title>
                 <style>
-                    body { font-family: Arial, sans-serif; margin: 20px; }
-                    h1 { color: #6b46c1; }
-                    .schedule-item { margin-bottom: 15px; padding: 10px; border-left: 4px solid #e11d48; }
-                    .time { font-weight: bold; color: #6b46c1; }
+                    body { 
+                        font-family: Arial, sans-serif; 
+                        margin: 20px; 
+                        color: #333;
+                    }
+                    h1 { 
+                        color: #3a8197; 
+                        text-align: center;
+                        margin-bottom: 30px;
+                    }
+                    .schedule-item { 
+                        margin-bottom: 15px; 
+                        padding: 10px; 
+                        border-left: 4px solid #91c9cd;
+                        page-break-inside: avoid;
+                    }
+                    .time { 
+                        font-weight: bold; 
+                        color: #3a8197; 
+                        font-size: 1.1em;
+                    }
+                    h3 {
+                        margin: 5px 0;
+                        color: #3a8197;
+                    }
+                    p {
+                        margin: 5px 0;
+                        line-height: 1.4;
+                    }
+                    @media print {
+                        body { margin: 0; }
+                    }
                 </style>
             </head>
             <body>
                 <h1>O Palco é Delas - Agenda do Evento</h1>
+                <p style="text-align: center; margin-bottom: 30px;">
+                    <strong>Sábado, 23 de Agosto de 2025</strong>
+                </p>
                 ${scheduleItems.map(item => `
                     <div class="schedule-item">
                         <div class="time">${item.time}</div>
@@ -892,6 +1177,43 @@ function printSchedule() {
             </body>
         </html>
     `);
+    
+    // Finalizar e imprimir
     printWindow.document.close();
     printWindow.print();
+    
+    console.log('🖨️ Agenda enviada para impressão');
 }
+
+/*
+================================================================================
+                              🎯 RESUMO FINAL
+================================================================================
+Este arquivo contém todas as funcionalidades do site "O Palco é Delas":
+
+📊 DADOS:
+- 20 palestrantes com informações completas
+- 20 palestras divididas em 2 blocos (manhã e tarde)
+- Agenda completa do evento
+- Sistema de placeholders para personalização
+
+🛠️ FUNCIONALIDADES:
+- Renderização dinâmica de conteúdo
+- Navegação suave entre seções
+- Menu mobile responsivo
+- Animações de entrada
+- Sistema de busca
+- Contagem regressiva
+- Compartilhamento social
+- Modal de detalhes
+- Impressão de agenda
+
+🚀 INICIALIZAÇÃO:
+- Carregamento automático quando DOM estiver pronto
+- Verificações de segurança para elementos opcionais
+- Logs detalhados para debugging
+- Configuração modular e extensível
+
+Para adicionar novas funcionalidades, seguir o padrão de documentação
+e organização estabelecido neste arquivo.
+*/
