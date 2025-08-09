@@ -147,38 +147,6 @@
     transform: translateY(0);
 }
 
-.speaker-image-large {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    background: linear-gradient(135deg, #91c9cd, #3a8197);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 1.5rem;
-    color: #fff;
-    font-size: 2.5rem;
-}
-
-.speaker-status {
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-    background: #4CAF50;
-    color: #fff;
-    padding: 0.2rem 0.5rem;
-    border-radius: 10px;
-    font-size: 0.7rem;
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
-}
-
-.speaker-status i {
-    font-size: 0.5rem;
-}
-
 .speaker-info-detailed {
     text-align: center;
 }
