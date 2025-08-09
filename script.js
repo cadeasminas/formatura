@@ -17,16 +17,14 @@ const speakers = [
     {
         id: 1,
         name: "Midian Brandão",
-        role: "Tech Lead",
+        role: "Software Engineer",
         company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
+        bio: "Pós-graduada em Análise e Proteção de Dados, atuou em diferentes multinacionais, em projetos de Customer Experience, análise de mercado, gestão de stakeholders e transformação digital.",
         expertise: ["IA", "Machine Learning", "Python"],
         social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#"
+            linkedin: "http://linkedin.com/in/midian-brandao/"
         },
-        talks: ["Inteligência Artificial e o Futuro do Trabalho"]
+        talks: ["Segurança cibernética na era da Inteligência Artificial"]
     },
     {
         id: 2,
@@ -314,12 +312,12 @@ const talks = [
     {
         id: 1,
         time: "10:10 - 10:25",
-        title: "Título da palestra será definido pela palestrante",
+        title: "Segurança cibernética na era da Inteligência Artificial",
         speaker: "Midian Brandão",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        description: "Ameaças digitais potencializadas pela inteligência artificial e como mitigá-las. Estratégias práticas para proteção de dados, sistemas e usuários.",
+        tags: ["IA", "Data","LGPD","segurança"],
         block: "morning",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 2,
