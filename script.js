@@ -359,7 +359,7 @@ const talks = [
         time: "11:10 - 11:25",
         title: "Tornando Infraestruturas de TI mais eficientes e sustentáveis com a virtualização",
         speaker: "Elizabeth Cristina de Souza",
-        description: "Nesta apresentação vou falar, de forma clara e prática, o conceito de virtualização de servidores, seus principais benefícios, e como ela pode ajudar empresas a otimizarem seus recursos de TI.",
+        description: "Nesta apresentação vou falar, de forma clara e prática, o conceito de virtualização de servidores, seus principais benefícios, e como ela pode ajudar empresas a otimizarem seus recursos de TI. Se você é uma pessoa querendo aprender um pouco sobre esta área, esta palestra foi feita pensando em você.",
         tags: ["virtualização, cloud, datecenters"],
         block: "morning",
         isPlaceholder: true
