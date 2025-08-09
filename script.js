@@ -523,13 +523,11 @@ Cronograma completo do evento desde o credenciamento até o encerramento.
 Inclui horários de abertura, blocos de palestras, almoço e cerimônia final.
 */
 const scheduleItems = [
-    { time: "09:00", title: "Credenciamento", description: "Recepção e entrega de materiais" },
     { time: "10:00", title: "Abertura", description: "Cerimônia de abertura e boas-vindas (10 minutos)" },
-    { time: "10:10", title: "Bloco 1 - Manhã", description: "10 palestras técnicas (15 min cada)" },
-    { time: "12:40", title: "Encerramento Bloco 1", description: "Encerramento do bloco da manhã" },
-    { time: "13:00", title: "Almoço", description: "Intervalo para almoço e networking (1 hora)" },
+    { time: "10:15", title: "Bloco 1 - Manhã", description: "10 palestras técnicas (15 min cada)" },
+    { time: "12:45", title: "Encerramento Bloco 1", description: "Encerramento do bloco da manhã" },
     { time: "14:00", title: "Bloco 2 - Tarde", description: "10 palestras técnicas (15 min cada)" },
-    { time: "16:30", title: "Encerramento", description: "Cerimônia de formatura e networking final" }
+    { time: "16:45", title: "Encerramento", description: "Cerimônia de formatura e networking final" }
 ];
 
 /*
