@@ -140,7 +140,7 @@ const speakers = [
     },
     {
         id: 10,
-        name: "Andréa Simone",
+        name: "Andrea Simone",
         role: "Especialista em Inteligência Artificial",
         company: "Consultora de IA e Governança Digital",
         bio: "Especialista em IA voltada à implementação, automatização e oportunidades para negócios. Consultora em IA, LGPD, ética e governança de IA.",
@@ -406,7 +406,7 @@ const talks = [
         id: 10,
         time: "12:25 - 12:40",
         title: "Inteligência Artificial - Uma Revolução Silenciosa",
-        speaker: "Andréa Simone",
+        speaker: "Andrea Simone",
         description: "A palestra abordará a revolução que a Inteligência Artificial está mudando todos os aspectos da nossa vida, desde o trabalho, estudos, negócios, tornando acessível a todos, independentemente de seu nível de conhecimento.",
         tags: ["Inteligência Artificial", "Tecnologia", "Inovação"],
         block: "morning",
