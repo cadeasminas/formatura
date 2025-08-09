@@ -202,7 +202,7 @@ const speakers = [
     {
         id: 14,
         name: "Jessica Borges",
-        role: "Big Data Engineer",
+        role: "Analista de Dados",
         company: "Deloitte",
         bio: "Analista de Dados na Deloitte, formada em Engenharia da Computação e pós-graduada em Inteligência Artificial e Aprendizado de Máquina. Já atuei em projetos de Visão Computacional, desenvolvendo soluções de IA aplicadas a diferentes contextos.",
         expertise: ["Python", "Visão Computacional"],
