@@ -1,4 +1,11 @@
-// JavaScript específico para a pág    container.innerHTML = speakers.map(speaker => `
+// JavaScript específico para a pág     container.innerHTML = speakers.map(speaker => `
+        <div class="speaker-card-detailed fade-in visible" data-category="${getCategoryFromRole(speaker.role)}">
+            <div class="speaker-info-detailed">
+                <div class="speaker-header">
+                    <div class="speaker-name-large">${speaker.name}</div>
+                    <div class="speaker-role-large">${speaker.role}</div>
+                    <div class="speaker-company-large">${speaker.company}</div>
+                </div>nerHTML = speakers.map(speaker => `
         <div class="speaker-card-detailed fade-in visible" data-category="${getCategoryFromRole(speaker.role)}">`a de palestrantes
 
 // Verificar se os dados dos palestrantes estão disponíveis

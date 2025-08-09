@@ -75,10 +75,7 @@ const speakers = [
         name: "Elizabeth Cristina de Souza",
         role: "Infrastrucute Analyst",
         company: "ConectaQ",
-        bio: "Elizabeth é palestrante apaixonada por infraestrutura de TI, cloud e proteção de dados, com foco no protagonismo feminino na tecnologia.
-        Após mais de 30 anos de experiência, está em transição para uma nova fase profissional, contribuindo ativamente para fortalecer e dar visibilidade às mulheres na área de tecnologia.
-        Tem um estilo didático e prático, com uma abordagem que une conhecimento técnico e propósito humano.
-        Contribui para a construção de uma comunidade para mulheres que querem crescer e transformar o mundo com tecnologia.",
+        bio: "Elizabeth é palestrante apaixonada por infraestrutura de TI, cloud e proteção de dados, com foco no protagonismo feminino na tecnologia. Após mais de 30 anos de experiência, está em transição para uma nova fase profissional, contribuindo ativamente para fortalecer e dar visibilidade às mulheres na área de tecnologia. Tem um estilo didático e prático, com uma abordagem que une conhecimento técnico e propósito humano. Contribui para a construção de uma comunidade para mulheres que querem crescer e transformar o mundo com tecnologia.",
         expertise: ["Cloud", "Data Center", "Virtualização", "Proteção de Dados"],
         social: {
             linkedin: "https://www.linkedin.com/in/bethcsouza",

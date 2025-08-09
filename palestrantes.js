@@ -35,13 +35,6 @@ function renderSpeakersPage() {
 
     container.innerHTML = speakers.map(speaker => `
         <div class="speaker-card-detailed fade-in visible" data-category="${getCategoryFromRole(speaker.role)}">
-            <div class="speaker-image-large">
-                <i class="fas fa-user"></i>
-                <div class="speaker-status">
-                    <i class="fas fa-circle"></i>
-                    <span>Disponível</span>
-                </div>
-            </div>
             <div class="speaker-info-detailed">
                 <div class="speaker-header">
                     <div class="speaker-name-large">${speaker.name}</div>
