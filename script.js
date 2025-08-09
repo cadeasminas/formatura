@@ -73,16 +73,19 @@ const speakers = [
     {
         id: 5,
         name: "Elizabeth Cristina de Souza",
-        role: "Data Scientist",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Data Science", "Python", "ML"],
+        role: "Infrastrucute Analyst",
+        company: "ConectaQ",
+        bio: "Elizabeth é palestrante apaixonada por infraestrutura de TI, cloud e proteção de dados, com foco no protagonismo feminino na tecnologia.
+        Após mais de 30 anos de experiência, está em transição para uma nova fase profissional, contribuindo ativamente para fortalecer e dar visibilidade às mulheres na área de tecnologia.
+        Tem um estilo didático e prático, com uma abordagem que une conhecimento técnico e propósito humano.
+        Contribui para a construção de uma comunidade para mulheres que querem crescer e transformar o mundo com tecnologia.",
+        expertise: ["Cloud", "Data Center", "Virtualização", "Proteção de Dados"],
         social: {
-            linkedin: "#",
-            twitter: "#",
+            linkedin: "https://www.linkedin.com/in/bethcsouza",
+            twitter: "@bethcsouza",
             github: "#"
         },
-        talks: ["Data Science e Machine Learning"]
+        talks: ["Tornando Infraestruturas de TI mais eficientes e sustentáveis com a virtualização"]
     },
     {
         id: 6,
