@@ -86,17 +86,17 @@ const speakers = [
     },
     {
         id: 6,
-        name: "Bianca Pinto Cardoso",
-        role: "UX Designer",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["UX", "Design", "Research"],
+        name: "Bianca Cardoso",
+        role: "Frontend Developer",
+        company: "ISH Tecnologia",
+        bio: "Desenvolvedora com mais de 6 anos de experiência, apaixonada por vue.js e com formação em ciência da computação. Trabalho em uma empresa de cibersegurança e participo de iniciativas para mulheres em tecnologia que promovem diversidade na área.",
+        expertise: ["Frontend", "Vue", "Python", "Cibersegurança"],
         social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#"
+            linkedin: "https://www.linkedin.com/in/biancacardosop/",
+            twitter: "https://x.com/Biancaacardoso",
+            github: "https://github.com/biigue"
         },
-        talks: ["UX/UI Design: Criando Experiências Incríveis"]
+        talks: ["Descomplicando o Frontend com Vue.js"]
     },
     {
         id: 7,
@@ -361,11 +361,11 @@ const talks = [
     },
     {
         id: 6,
-        time: "11:25 - 11:40",
-        title: "Título da palestra será definido pela palestrante",
-        speaker: "Bianca Pinto Cardoso",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        time: "11:45 - 12:00",
+        title: "Descomplicando o frontend com vue.js",
+        speaker: "Bianca Cardoso",
+        description: "Vue.js, embora não tenha a popularidade do React, tem uma curva de aprendizado mais suave, sendo ideal para iniciantes. Esta palestra abordaremos termos técnicos de forma mais amigável e mostraremos como funcionalidades como reatividade (atualização automática da tela) e componentes (códigos reutilizáveis) tornam o desenvolvimento mais organizado e acessível.",
+        tags: ["Frontend", "Vue"],
         block: "morning",
         isPlaceholder: true
     },

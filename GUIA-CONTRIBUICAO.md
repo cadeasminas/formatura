@@ -171,7 +171,7 @@ Localize sua palestra no array `talks` (arquivo `script.js`):
 3. Gabriela Milet Matias
 4. Laryssa Viana Rocha
 5. Elizabeth Cristina de Souza
-6. Bianca Pinto Cardoso
+6. Bianca Cardoso
 7. Juliana de Jesus de Oliveira
 8. Marília Melo Favalesso
 9. Ana Hashimoto
