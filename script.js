@@ -202,16 +202,16 @@ const speakers = [
     {
         id: 14,
         name: "Jessica Borges",
-        role: "Big Data Engineer",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Big Data", "Spark", "Hadoop"],
+        role: "Analista de Dados",
+        company: "Deloitte",
+        bio: "Analista de Dados na Deloitte, formada em Engenharia da Computação e pós-graduada em Inteligência Artificial e Aprendizado de Máquina. Já atuei em projetos de Visão Computacional, desenvolvendo soluções de IA aplicadas a diferentes contextos.",
+        expertise: ["Python", "Visão Computacional"],
         social: {
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/jessicafborges/",
             twitter: "#",
-            github: "#"
+            github: "https://github.com/jessicamfborges"
         },
-        talks: ["Big Data e Analytics"]
+        talks: ["Entre o Código e a Consciência: Os Dilemas Éticos da IA"]
     },
     {
         id: 15,
@@ -451,9 +451,9 @@ const talks = [
     {
         id: 14,
         time: "14:45 - 15:00",
-        title: "Título da palestra será definido pela palestrante",
+        title: "Entre o Código e a Consciência: Os Dilemas Éticos da IA",
         speaker: "Jessica Borges",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        description: "Entre o Código e a Consciência traz reflexões sobre os dilemas éticos da IA, mostrando casos reais e como essa tecnologia impacta a sociedade.",
         tags: ["A definir"],
         block: "afternoon",
         isPlaceholder: true
