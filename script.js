@@ -294,6 +294,7 @@ const speakers = [
     }
 ];
 
+
 // ============================================================================
 // 🎤 DADOS DAS PALESTRAS
 // ============================================================================
@@ -305,6 +306,7 @@ Array com todas as 20 palestras do evento, divididas em 2 blocos:
 IMPORTANTE: Todas as palestras começam como placeholders (isPlaceholder: true)
 para que cada palestrante possa personalizar sua apresentação.
 */
+
 const talks = [
     // ========================================================================
     // 🌅 BLOCO 1 - MANHÃ (10:10 - 12:40)
