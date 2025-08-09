@@ -1,6 +1,6 @@
 /*
 ================================================================================
-                      📊 DADOS DO EVENTO "O PALCO É DELAS"
+                      📊 DADOS DO EVENTO "O PALCO É DELAS "
 ================================================================================
 Este arquivo contém todos os dados e funcionalidades do site do evento.
 Cada seção está bem documentada para facilitar a compreensão e manutenção.
