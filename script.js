@@ -357,10 +357,10 @@ const talks = [
     {
         id: 5,
         time: "11:10 - 11:25",
-        title: "Título da palestra será definido pela palestrante",
+        title: "Tornando Infraestruturas de TI mais eficientes e sustentáveis com a virtualização",
         speaker: "Elizabeth Cristina de Souza",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        description: "Nesta apresentação vou falar, de forma clara e prática, o conceito de virtualização de servidores, seus principais benefícios, e como ela pode ajudar empresas a otimizarem seus recursos de TI.",
+        tags: ["virtualização, cloud, datecenters"],
         block: "morning",
         isPlaceholder: true
     },
