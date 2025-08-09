@@ -138,28 +138,61 @@ body {
 .date-highlight, .time-highlight {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    background: rgba(145, 201, 205, 0.1);
-    padding: 0.8rem 1.2rem;
-    border-radius: 15px;
-    border: 2px solid rgba(145, 201, 205, 0.3);
-    transition: all 0.3s ease;
+    gap: 0.6rem;
+    background: #ffffff; /* Alto contraste sobre o gradiente do hero */
+    padding: 0.85rem 1.25rem;
+    border-radius: 18px;
+    border: 1px solid rgba(0,0,0,0.08);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    transition: background .25s ease, transform .25s ease, box-shadow .25s ease;
+    position: relative;
+}
+
+.date-highlight::after, .time-highlight::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 18px;
+    pointer-events: none;
+    box-shadow: 0 0 0 0 rgba(58,129,151,0.35);
+    transition: box-shadow .35s ease;
 }
 
 .date-highlight:hover, .time-highlight:hover {
-    background: rgba(145, 201, 205, 0.2);
-    transform: translateY(-2px);
+    background: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 22px rgba(0,0,0,0.18);
+}
+
+.date-highlight:focus-visible, .time-highlight:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px #ffffff, 0 0 0 6px #ff5555;
+}
+
+.date-highlight:focus-visible::after, .time-highlight:focus-visible::after {
+    box-shadow: 0 0 0 4px rgba(58,129,151,0.35);
 }
 
 .date-highlight i, .time-highlight i {
     color: #3a8197;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
+    filter: drop-shadow(0 1px 1px rgba(0,0,0,0.15));
 }
 
 .date-text, .time-text {
-    font-weight: 500;
-    color: #3a8197;
+    font-weight: 600;
+    color: #1e293b; /* Melhor contraste (≈10:1 sobre branco) */
     font-size: 1rem;
+    letter-spacing: .25px;
+}
+
+@media (prefers-contrast: more) {
+  .date-highlight, .time-highlight {
+    border: 2px solid #1e293b;
+    box-shadow: none;
+  }
+  .date-text, .time-text { color: #000; }
+  .date-highlight i, .time-highlight i { color: #1e293b; }
 }
 
 .hero-buttons {
