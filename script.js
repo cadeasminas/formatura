@@ -153,16 +153,16 @@ const speakers = [
     {
         id: 11,
         name: "Bruna Valentim",
-        role: "Quantum Researcher",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Quantum", "Physics", "Research"],
+        role: "Analista de Cibersegurança",
+        company: "Sicoob",
+        bio: "Bruna Valentim é analista de Segurança Cibernética, atuando diretamente na resposta a incidentes e na análise forense digital, enfrentando ataques virtuais de perto. Apaixonada pelo que faz, ela acredita que proteger o mundo digital vai além da técnica — é também sobre propósito e responsabilidade",
+        expertise: ["Cibersegurança", "Forense Digital"],
         social: {
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/bvalentim/",
             twitter: "#",
             github: "#"
         },
-        talks: ["Quantum Computing: A Nova Fronteira"]
+        talks: ["Hackers, golpes e proteção digital: o que você precisa saber para se defender"]
     },
     {
         id: 12,
@@ -416,9 +416,9 @@ const talks = [
     {
         id: 11,
         time: "14:00 - 14:15",
-        title: "Título da palestra será definido pela palestrante",
+        title: "Hackers, golpes e proteção digital: o que você precisa saber para se defender",
         speaker: "Bruna Valentim",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        description: "Sabe aquele e-mail falso que parece tão real que quase engana todo mundo? Nesta palestra, você vai aprender dicas simples para se proteger no dia a dia — sem precisar ser expert em tecnologia.",
         tags: ["A definir"],
         block: "afternoon",
         isPlaceholder: true
