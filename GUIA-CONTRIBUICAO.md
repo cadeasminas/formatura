@@ -255,7 +255,7 @@ Marque `[x]` quando a palestrante já tiver: (1) personalizado `speakers` + `tal
 
 - [ ] 1. Midian Brandão
 - [ ] 2. Camila Marques de Oliveira
-- [ ] 3. Gabriela Matias *(verificar: talks usa "Gabriela Milet Matias" – unificar depois)*
+- [ ] 3. Gabriela Matias 
 - [ ] 4. Laryssa Viana Rocha
 - [ ] 5. Elizabeth Cristina de Souza
 - [ ] 6. Bianca Cardoso
@@ -274,7 +274,6 @@ Marque `[x]` quando a palestrante já tiver: (1) personalizado `speakers` + `tal
 - [ ] 19. Helena
 - [ ] 20. Juliana Lisboa
 
-### 🔄 Pendências de Padronização
-- Unificar nome da Gabriela ("Gabriela Matias" vs "Gabriela Milet Matias").
+
 
 ---
