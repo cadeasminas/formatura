@@ -253,21 +253,21 @@ Marque `[x]` quando a palestrante já tiver: (1) personalizado `speakers` + `tal
 
 > Dica: Você pode copiar este bloco para a descrição de uma Issue de acompanhamento no GitHub e ir marcando conforme os PRs forem sendo mergeados.
 
-- [ ] 1. Midian Brandão
+- [ x ] 1. Midian Brandão
 - [ ] 2. Camila Marques de Oliveira
-- [ ] 3. Gabriela Matias 
+- [ x ] 3. Gabriela Matias 
 - [ ] 4. Laryssa Viana Rocha
-- [ ] 5. Elizabeth Cristina de Souza
-- [ ] 6. Bianca Cardoso
-- [ ] 7. Juliana de Oliveira
+- [ x ] 5. Elizabeth Cristina de Souza
+- [ x ] 6. Bianca Cardoso
+- [ x ] 7. Juliana de Oliveira
 - [ ] 8. Marília Melo Favalesso
 - [ ] 9. Ana Hashimoto
-- [ ] 10. Andrea Simone
+- [ x ] 10. Andrea Simone
 - [ ] 11. Bruna Valentim
 - [ ] 12. Cecilia Silva
 - [ ] 13. Jessica Alexandra
-- [ ] 14. Jessica Borges
-- [ ] 15. Karina Kaori
+- [ x ] 14. Jessica Borges
+- [ x ] 15. Karina Kaori
 - [ ] 16. Keline
 - [ ] 17. Luciana Damasceno
 - [ ] 18. Rhaissa Barbosa
