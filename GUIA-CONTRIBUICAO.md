@@ -32,7 +32,7 @@ Localize sua palestra no array `talks` (arquivo `script.js`):
 - **Tags/categorias** (`tags`)
 - **Remover flag placeholder** (`isPlaceholder: false`)
 
-## � Encontrando Suas Informações no Código:
+## 🔍 Encontrando Suas Informações no Código:
 
 ### **Para Informações Pessoais:**
 1. Abra o arquivo `script.js`

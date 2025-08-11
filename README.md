@@ -28,10 +28,19 @@ O evento de formatura conta com 20 palestrantes reais do programa "O Palco é De
 
 ### 🌇 BLOCO 2 - TARDE (14:00 - 17:00)
 
-> ⚠️ **Nota importante**: Atualmente o site contém placeholders para as informações profissionais das palestrantes. Como este é um projeto **open source**, cada palestrante pode atualizar suas próprias informações editando o arquivo `script.js`. Consulte o arquivo [`GUIA-CONTRIBUICAO.md`](GUIA-CONTRIBUICAO.md) para instruções detalhadas.
+> ⚠️ **Nota importante**: Atualmente o site contém placeholders para as informações profissionais das palestrantes. Como este é um projeto **open source**, cada palestrante pode atualizar suas próprias informações editando o arquivo `script.js`. Consulte o guia único: [`GUIA-CONTRIBUICAO.md`](GUIA-CONTRIBUICAO.md) para instruções detalhadas.
+
+### 🛠 Como Atualizar (Resumo)
+1. Abrir `script.js`.
+2. Editar seu objeto em `speakers` (cargo, empresa, bio, expertise, social).
+3. Editar sua palestra em `talks` (título, descrição, tags) e ajustar `isPlaceholder: false`.
+4. Não alterar `id`, `name`, `time`, `block`.
+5. Testar abrindo `index.html` e abrir Pull Request.
+
+Guia completo: [`GUIA-CONTRIBUICAO.md`](GUIA-CONTRIBUICAO.md)
 
 
-## � Informações do Evento
+## ℹ️ Informações do Evento
 
 - **Data**: Sábado, 23 de Agosto de 2025
 - **Horário**: 10:00 - 17:00 (com intervalo para almoço: 13:00 - 14:00)
