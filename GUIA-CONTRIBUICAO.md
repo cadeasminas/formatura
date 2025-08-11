@@ -252,27 +252,27 @@ Localize sua palestra no array `talks` (arquivo `script.js`):
 Marque `[x]` quando a palestrante já tiver: (1) personalizado `speakers` + `talks`, (2) removido `isPlaceholder` da palestra e (3) PR aceito.
 
 > Dica: Você pode copiar este bloco para a descrição de uma Issue de acompanhamento no GitHub e ir marcando conforme os PRs forem sendo mergeados.
+ - [ ] Midian Brandão 
+ - [ ] Camila Marques de Oliveira 
+ - [ ] Gabriela Matias 
+ - [ ] Laryssa    Viana Rocha     
+ - [ ] Elizabeth     Cristina de Souza     
+ - [ ] Bianca Cardoso     
+ - [ ] Juliana de    Oliveira     
+ - [ ] Marília Melo Favalesso     
+ - [ ] Ana Hashimoto     
+ - [ ] Andrea Simone     
+ - [ ] Bruna Valentim     
+ - [ ] Cecilia Silva     
+ - [ ] Jessica Alexandra     
+ - [ ] Jessica Borges    
+ - [ ] Karina Kaori     
+ - [ ] Keline     
+ - [ ] Luciana Damasceno     
+ - [ ] Rhaissa Barbosa     
+ - [ ] Helena     
+ - [ ] Juliana    Lisboa
 
-- [ x ] 1. Midian Brandão
-- [ ] 2. Camila Marques de Oliveira
-- [ x ] 3. Gabriela Matias 
-- [ ] 4. Laryssa Viana Rocha
-- [ x ] 5. Elizabeth Cristina de Souza
-- [ x ] 6. Bianca Cardoso
-- [ x ] 7. Juliana de Oliveira
-- [ ] 8. Marília Melo Favalesso
-- [ ] 9. Ana Hashimoto
-- [ x ] 10. Andrea Simone
-- [ ] 11. Bruna Valentim
-- [ ] 12. Cecilia Silva
-- [ ] 13. Jessica Alexandra
-- [ x ] 14. Jessica Borges
-- [ x ] 15. Karina Kaori
-- [ ] 16. Keline
-- [ ] 17. Luciana Damasceno
-- [ ] 18. Rhaissa Barbosa
-- [ ] 19. Helena
-- [ ] 20. Juliana Lisboa
 
 
 
