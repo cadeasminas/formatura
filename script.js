@@ -316,7 +316,7 @@ const talks = [
         title: "Tornando Infraestruturas de TI mais eficientes e sustentáveis com a virtualização",
         speaker: "Elizabeth Cristina de Souza",
         description: "Nesta apresentação vou falar, de forma clara e prática, o conceito de virtualização de servidores, seus principais benefícios, e como ela pode ajudar empresas a otimizarem seus recursos de TI. Se você é uma pessoa querendo aprender um pouco sobre esta área, esta palestra foi feita pensando em você.",
-        tags: ["Vizualização", "Cloud","Data Centers",
+    tags: ["Virtualização", "Cloud", "Data Centers"],
         block: "morning",
         isPlaceholder: false
     },
@@ -335,28 +335,28 @@ const talks = [
         time: "10:45 - 11:00",
         title: "De pílulas a códigos: minha mudança de carreira da farmácia para a tecnologia",
         speaker: "Juliana de Oliveira",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
-        block: "morning",
-        isPlaceholder: true
+    description: "Relato prático de transição de carreira: como identificar habilidades transferíveis da área de saúde, montar um plano de estudo realista, evitar armadilhas comuns e criar evidências (portfolio, projetos, networking) que aceleram a primeira contratação em tecnologia.",
+    tags: ["Transição", "Carreira", "Aprendizado"],
+    block: "morning",
+    isPlaceholder: false
     },
     {
         id: 4,
         time: "11:00- 11:15",
         title: "Level 1: Primeiros passos na área de Games",
         speaker: "Gabriela Matias",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
-        block: "morning",
-        isPlaceholder: true
+    description: "Como começar em desenvolvimento de jogos: escolha de engine (Unreal vs Unity), construção de protótipos rápidos, organização de lógica de gameplay e participação em game jams para acelerar aprendizado e networking na indústria.",
+    tags: ["GameDev", "Unreal", "Unity"],
+    block: "morning",
+    isPlaceholder: false
     },
     {
         id: 5,
         time: "11:15 - 11:30",
         title: "Hackers, golpes e proteção digital: o que você precisa saber para se defender",
-        speaker: "Bruna Valentim ",
-        description: "Nesta apresentação vou falar, de forma clara e prática, o conceito de virtualização de servidores, seus principais benefícios, e como ela pode ajudar empresas a otimizarem seus recursos de TI. Se você é uma pessoa querendo aprender um pouco sobre esta área, esta palestra foi feita pensando em você.",
-        tags: ["virtualização, cloud, datecenters"],
+    speaker: "Bruna Valentim",
+    description: "Panorama de ameaças digitais atuais: engenharia social, golpes de phishing, malware assistido por IA e vazamentos de dados. Boas práticas acessíveis para aumentar proteção pessoal e corporativa sem complicação.",
+    tags: ["Segurança", "Cibersegurança", "Proteção"],
         block: "morning",
         isPlaceholder: false
     },
@@ -383,22 +383,22 @@ const talks = [
     {
         id: 8,
         time: "12:00 - 12:15",
-        title: "Título da palestra será definido pela palestrante",
+    title: "Mobile Multiplataforma: Quando (não) usar React Native",
         speaker: "Marília Melo Favalesso",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
-        block: "morning",
-        isPlaceholder: true
+    description: "Critérios práticos para decidir entre desenvolvimento nativo e frameworks híbridos. Como equilibrar performance, produtividade e experiência do usuário em um único codebase multiplataforma.",
+    tags: ["Mobile", "React Native", "Arquitetura"],
+    block: "morning",
+    isPlaceholder: false
     },
     {
         id: 9,
         time: "12:15 - 12:30",
-        title: "Título da palestra será definido pela palestrante",
+    title: "IoT na prática: do sensor ao dashboard",
         speaker: "Ana Hashimoto",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
-        block: "morning",
-        isPlaceholder: true
+    description: "Fluxo completo de um pequeno projeto IoT: coleta em microcontroladores, protocolos de transmissão, ingestão na nuvem e visualização de métricas. Desafios de energia e confiabilidade.",
+    tags: ["IoT", "Hardware", "Edge"],
+    block: "morning",
+    isPlaceholder: false
     },
     {
         id: 10,
@@ -417,32 +417,32 @@ const talks = [
     {
         id: 11,
         time: "14:15 - 14:30",
-        title: "Título da palestra será definido pela palestrante",
+    title: "Computação Quântica sem mistério",
         speaker: "Bruna Valentim",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
-        block: "afternoon",
-        isPlaceholder: true
+    description: "Conceitos base (qubits, superposição, portas) explicados para desenvolvedoras de software tradicionais e primeiras experiências que já podem ser feitas em simuladores/qubits reais.",
+    tags: ["Quantum", "Conceitos", "Introdução"],
+    block: "afternoon",
+    isPlaceholder: false
     },
     {
         id: 12,
         time: "14:30 - 14:45",
-        title: "Título da palestra será definido pela palestrante",
+    title: "Experiências Imersivas em VR/AR",
         speaker: "Cecilia Silva",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
-        block: "afternoon",
-        isPlaceholder: true
+    description: "Diferenças fundamentais entre VR e AR, noções de interação espacial e boas práticas para evitar desconforto. Demonstração de fluxo básico de criação de cena interativa.",
+    tags: ["VR", "AR", "Imersão"],
+    block: "afternoon",
+    isPlaceholder: false
     },
     {
         id: 13,
         time: "14:45 - 15:00",
-        title: "Título da palestra será definido pela palestrante",
+    title: "Agilidade sustentável além das cerimônias",
         speaker: "Jessica Alexandra",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
-        block: "afternoon",
-        isPlaceholder: true
+    description: "Como criar ciclos de feedback que funcionam, métricas que ajudam (e as que atrapalham) e táticas para retrospectivas realmente gerarem melhoria contínua.",
+    tags: ["Agile", "Scrum", "Times"],
+    block: "afternoon",
+    isPlaceholder: false
     },
     {
         id: 14,
@@ -467,52 +467,52 @@ const talks = [
     {
         id: 16,
         time: "15:30 - 15:45",
-        title: "Título da palestra será definido pela palestrante",
+    title: "Liderança técnica: influência sem autoridade formal",
         speaker: "Keline",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
-        block: "afternoon",
-        isPlaceholder: true
+    description: "Práticas para orientar decisões técnicas, facilitar alinhamento entre áreas, mentorar pessoas e promover inclusão mesmo sem cargo de gestão.",
+    tags: ["Liderança", "Carreira", "Influência"],
+    block: "afternoon",
+    isPlaceholder: false
     },
     {
         id: 17,
         time: "15:45 - 16:00",
-        title: "Título da palestra será definido pela palestrante",
+    title: "Open Source estratégico para sua carreira",
         speaker: "Luciana Damasceno",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
-        block: "afternoon",
-        isPlaceholder: true
+    description: "Como escolher projetos, começar por pequenas contribuições, escrever boas PRs e transformar participação em reputação e oportunidades.",
+    tags: ["Open Source", "Comunidade", "Carreira"],
+    block: "afternoon",
+    isPlaceholder: false
     },
     {
         id: 18,
         time: "16:00 - 16:15",
-        title: "Título da palestra será definido pela palestrante",
+    title: "Tecnologia verde e eficiência digital",
         speaker: "Rhaissa Barbosa",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
-        block: "afternoon",
-        isPlaceholder: true
+    description: "Medindo impacto ambiental de aplicações e infraestrutura; práticas para reduzir consumo de energia e otimizar recursos na nuvem.",
+    tags: ["Sustentabilidade", "GreenTech", "Eficiência"],
+    block: "afternoon",
+    isPlaceholder: false
     },
     {
         id: 19,
         time: "16:15 - 16:30",
-        title: "Título da palestra será definido pela palestrante",
+    title: "Empreendedorismo tech: validando ideias rápido",
         speaker: "Helena",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
-        block: "afternoon",
-        isPlaceholder: true
+    description: "Como estruturar MVP enxuto, coletar feedback inicial, definir métricas de validação e decidir pivotar ou perseverar.",
+    tags: ["Startup", "Produto", "Validação"],
+    block: "afternoon",
+    isPlaceholder: false
     },
     {
         id: 20,
         time: "16:30 - 16:45",
-        title: "Título da palestra será definido pela palestrante",
+    title: "O futuro das mulheres na tecnologia",
         speaker: "Juliana Lisboa",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
-        block: "afternoon",
-        isPlaceholder: true
+    description: "Tendências emergentes (IA responsável, acessibilidade, diversidade) e caminhos para ampliar presença feminina em áreas estratégicas.",
+    tags: ["Diversidade", "Futuro", "Inclusão"],
+    block: "afternoon",
+    isPlaceholder: false
     }
 ];
 
