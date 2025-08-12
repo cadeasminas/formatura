@@ -32,7 +32,7 @@ Localize sua palestra no array `talks` (arquivo `script.js`):
 - **Tags/categorias** (`tags`)
 - **Remover flag placeholder** (`isPlaceholder: false`)
 
-## � Encontrando Suas Informações no Código:
+## 🔍 Encontrando Suas Informações no Código:
 
 ### **Para Informações Pessoais:**
 1. Abra o arquivo `script.js`
@@ -246,3 +246,34 @@ Localize sua palestra no array `talks` (arquivo `script.js`):
 **Vamos juntas tornar este site ainda mais incrível! 💪✨**
 
 *Este projeto representa nossa jornada no "O Palco é Delas" e cada uma de vocês faz parte desta história.*
+
+## ✅ Checklist de Contribuições das Palestrantes
+
+Marque `[x]` quando a palestrante já tiver: (1) personalizado `speakers` + `talks`, (2) removido `isPlaceholder` da palestra e (3) PR aceito.
+
+> Dica: Você pode copiar este bloco para a descrição de uma Issue de acompanhamento no GitHub e ir marcando conforme os PRs forem sendo mergeados.
+ - [x] Midian Brandão 
+ - [ ] Camila Marques de Oliveira 
+ - [x] Gabriela Matias 
+ - [ ] Laryssa    Viana Rocha     
+ - [x] Elizabeth     Cristina de Souza     
+ - [x] Bianca Cardoso     
+ - [x] Juliana de    Oliveira     
+ - [ ] Marília Melo Favalesso     
+ - [ ] Ana Hashimoto     
+ - [x] Andrea Simone     
+ - [ ] Bruna Valentim     
+ - [ ] Cecilia Silva     
+ - [ ] Jessica Alexandra     
+ - [x] Jessica Borges    
+ - [x] Karina Kaori     
+ - [ ] Keline     
+ - [ ] Luciana Damasceno     
+ - [ ] Rhaissa Barbosa     
+ - [ ] Helena     
+ - [ ] Juliana    Lisboa
+
+
+
+
+---

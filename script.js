@@ -139,16 +139,17 @@ const speakers = [
     {
         id: 10,
         name: "Andrea Simone",
-        role: "Software Architect",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Arquitetura", "Microservices", "Java"],
+        role: "Especialista em Inteligência Artificial",
+        company: "Consultora de IA e Governança Digital",
+        bio: "Especialista em IA voltada à implementação, automatização e oportunidades para negócios. Consultora em IA, LGPD, ética e governança de IA.",
+        expertise: ["Inteligência Artificial", "Automatização de Processos", "LGPD", "Ética e Governança de IA", "Transformação Digital"],
         social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#"
+            site: "https://andreasimone.com.br",
+            instagram: "https://www.instagram.com/andreasimone_ia",
+            linkedin: "http://linkedin.com/in/andr%C3%A9a-simone-silva-38487820b",
+            github: "https://github.com/andreasimone141-dot"
         },
-        talks: ["Arquitetura de Software Escalável"]
+        talks: ["Inteligência Artificial - Uma Revolução Silenciosa"]
     },
     {
         id: 11,
@@ -209,16 +210,16 @@ const speakers = [
     {
         id: 15,
         name: "Karina Kaori",
-        role: "Robotics Engineer",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Robotics", "Automation", "AI"],
+        role: "Software Engineer",
+        company: "Itaú Unibanco",
+        bio: "Karina Tanaka, engenheira de software no Itaú, com 7 anos de experiência em desenvolvimento backend e serviços financeiros.Formada em Análise e Desenvolvimento de Sistemas pela FATEC e um MBA em Data Science & Analytics pela USP ESALQ, meu propósito vai além do código. Sou apaixonada por tecnologia e motivada a auxiliar no desenvolvimento de carreira e incentivar a participação de mais mulheres na área de tecnologia, construindo pontes entre o conhecimento técnico e as soft skills essenciais para o sucesso profissional.",
+        expertise: ["COBOL", "CICS", "DB2", "JAVA", "PYTHON","AWS", "SERVIÇOS FINANCEIROS", "SOFT SKILLS"],
         social: {
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/karina-kaori-tanaka/",
             twitter: "#",
-            github: "#"
+            github: "https://github.com/karinakaori"
         },
-        talks: ["Automação e Robótica"]
+        talks: ["O mapa para a sua próxima conquista"]
     },
     {
         id: 16,
@@ -311,66 +312,26 @@ const talks = [
     // ========================================================================
     {
         id: 1,
-        time: "10:10 - 10:25",
-        title: "Segurança cibernética na era da Inteligência Artificial",
-        speaker: "Midian Brandão",
-        description: "Ameaças digitais potencializadas pela inteligência artificial e como mitigá-las. Estratégias práticas para proteção de dados, sistemas e usuários.",
-        tags: ["IA", "Data","LGPD","segurança"],
-        block: "morning",
+        time: "10:15 - 10:30",
+        title: "Tornando Infraestruturas de TI mais eficientes e sustentáveis com a virtualização",
+        speaker: "Elizabeth Cristina de Souza",
+        description: "Nesta apresentação vou falar, de forma clara e prática, o conceito de virtualização de servidores, seus principais benefícios, e como ela pode ajudar empresas a otimizarem seus recursos de TI. Se você é uma pessoa querendo aprender um pouco sobre esta área, esta palestra foi feita pensando em você.",
+    tags: ["Vizualização", "Cloud", "Data Centers"],
+    block: "morning",
         isPlaceholder: false
     },
     {
         id: 2,
-        time: "10:25 - 10:40",
-        title: "Título da palestra será definido pela palestrante",
-        speaker: "Camila Marques de Oliveira",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        time: "10:30 - 10:45",
+        title: "Inteligência Artificial - Uma Revolução Silenciosa",
+        speaker: "Andrea Simone",
+        description: "A palestra abordará a revolução que a Inteligência Artificial está mudando todos os aspectos da nossa vida, desde o trabalho, estudos, negócios, tornando acessível a todos, independentemente de seu nível de conhecimento.",
+        tags: ["IA", "Tecnologia", "Inovação"],
         block: "morning",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 3,
-        time: "10:40 - 10:55",
-        title: "Título da palestra será definido pela palestrante",
-        speaker: "Gabriela Milet Matias",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
-        block: "morning",
-        isPlaceholder: true
-    },
-    {
-        id: 4,
-        time: "10:55 - 11:10",
-        title: "Título da palestra será definido pela palestrante",
-        speaker: "Laryssa Viana Rocha",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
-        block: "morning",
-        isPlaceholder: true
-    },
-    {
-        id: 5,
-        time: "11:10 - 11:25",
-        title: "Tornando Infraestruturas de TI mais eficientes e sustentáveis com a virtualização",
-        speaker: "Elizabeth Cristina de Souza",
-        description: "Nesta apresentação vou falar, de forma clara e prática, o conceito de virtualização de servidores, seus principais benefícios, e como ela pode ajudar empresas a otimizarem seus recursos de TI. Se você é uma pessoa querendo aprender um pouco sobre esta área, esta palestra foi feita pensando em você.",
-        tags: ["virtualização, cloud, datecenters"],
-        block: "morning",
-        isPlaceholder: false
-    },
-    {
-        id: 6,
-        time: "11:45 - 12:00",
-        title: "Descomplicando o frontend com vue.js",
-        speaker: "Bianca Cardoso",
-        description: "Vue.js, embora não tenha a popularidade do React, tem uma curva de aprendizado mais suave, sendo ideal para iniciantes. Esta palestra abordaremos termos técnicos de forma mais amigável e mostraremos como funcionalidades como reatividade (atualização automática da tela) e componentes (códigos reutilizáveis) tornam o desenvolvimento mais organizado e acessível.",
-        tags: ["Frontend", "Vue"],
-        block: "morning",
-        isPlaceholder: false
-    },
-    {
-        id: 7,
         time: "10:45 - 11:00",
         title: "De pílulas a códigos: minha mudança de carreira da farmácia para a tecnologia",
         speaker: "Juliana de Oliveira",
@@ -380,10 +341,50 @@ const talks = [
         isPlaceholder: false
     },
     {
+        id: 4,
+        time: "11:00- 11:15",
+        title: "Level 1: Primeiros passos na área de Games",
+        speaker: "Gabriela Matias",
+        description: "A palestra é uma introdução à indústria de games, passando brevemente pelas áreas que envolvem a criação de um jogo, mas com um foco maior em programação, e depois com dicas de como começar, por exemplo: qual engine escolher, dicas de primeiros projetos, onde encontrar assets gratuitos, bons cursos (gratuitos e pagos) para fazer, e outros sites importantes. O objetivo é dar uma direção a quem tem o interesse de criar um jogo, seja profissionalmente ou apenas como um hobby.",
+        tags: ["Games", "Programação", "Desenvolvimento de Jogos"],
+        block: "morning",
+        isPlaceholder: false
+    },
+    {
+        id: 5,
+        time: "11:15 - 11:30",
+        title: "Hackers, golpes e proteção digital: o que você precisa saber para se defender",
+        speaker: "Bruna Valentim ",
+        description: "Nesta apresentação vou falar, de forma clara e prática, o conceito de virtualização de servidores, seus principais benefícios, e como ela pode ajudar empresas a otimizarem seus recursos de TI. Se você é uma pessoa querendo aprender um pouco sobre esta área, esta palestra foi feita pensando em você.",
+        tags: ["Segurança"],
+        block: "morning",
+        isPlaceholder: true
+    },
+    {
+        id: 6,
+        time: "11:30 - 11:45",
+        title: "IA Generativa e a Ilusão de Pensamento: Implicações para o futuro do trabalho",
+        speaker: "Helena S",
+        description: "",
+        tags: ["Inteligência Artificial", "Futuro do Trabalho"],
+        block: "morning",
+        isPlaceholder: true
+    },
+    {
+        id: 7,
+        time: "11:45 - 12:00",
+        title: "Descomplicando o frontend com vue.js",
+        speaker: "Bianca Cardoso",
+        description: "Vue.js, embora não tenha a popularidade do React, tem uma curva de aprendizado mais suave, sendo ideal para iniciantes. Esta palestra abordaremos termos técnicos de forma mais amigável e mostraremos como funcionalidades como reatividade (atualização automática da tela) e componentes (códigos reutilizáveis) tornam o desenvolvimento mais organizado e acessível.",
+        tags: ["Frontend", "Vue"],
+        block: "morning",
+        isPlaceholder: false
+    },
+    {
         id: 8,
-        time: "11:55 - 12:10",
+        time: "12:00 - 12:15",
         title: "Título da palestra será definido pela palestrante",
-        speaker: "Marília Melo Favalesso",
+    speaker: "TBD",
         description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
         tags: ["A definir"],
         block: "morning",
@@ -391,9 +392,9 @@ const talks = [
     },
     {
         id: 9,
-        time: "12:10 - 12:25",
+        time: "12:15 - 12:30",
         title: "Título da palestra será definido pela palestrante",
-        speaker: "Ana Hashimoto",
+    speaker: "TBD",
         description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
         tags: ["A definir"],
         block: "morning",
@@ -401,13 +402,13 @@ const talks = [
     },
     {
         id: 10,
-        time: "12:25 - 12:40",
+        time: "12:30 - 12:45",
         title: "Título da palestra será definido pela palestrante",
-        speaker: "Andrea Simone",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        speaker: "TBD",
+        description: "A palestra abordará a revolução que a Inteligência Artificial está mudando todos os aspectos da nossa vida, desde o trabalho, estudos, negócios, tornando acessível a todos, independentemente de seu nível de conhecimento.",
+        tags: ["Inteligência Artificial", "Tecnologia", "Inovação"],
         block: "morning",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     
     // ========================================================================
@@ -419,15 +420,19 @@ const talks = [
         title: "Hackers, golpes e proteção digital: o que você precisa saber para se defender",
         speaker: "Bruna Valentim",
         description: "Sabe aquele e-mail falso que parece tão real que quase engana todo mundo? Nesta palestra, você vai aprender dicas simples para se proteger no dia a dia — sem precisar ser expert em tecnologia.",
-        tags: ["A definir"],
+        tags: ["Segurança Digital", "Cibersegurança",
+    "Golpes Online",
+    "Phishing",
+    "Proteção Digital",
+    "Dicas de Segurança"],
         block: "afternoon",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 12,
-        time: "14:15 - 14:30",
+        time: "14:30 - 14:45",
         title: "Título da palestra será definido pela palestrante",
-        speaker: "Cecilia Silva",
+    speaker: "TBD",
         description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
         tags: ["A definir"],
         block: "afternoon",
@@ -435,9 +440,9 @@ const talks = [
     },
     {
         id: 13,
-        time: "14:30 - 14:45",
+        time: "14:45 - 15:00",
         title: "Título da palestra será definido pela palestrante",
-        speaker: "Jessica Alexandra",
+    speaker: "TBD",
         description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
         tags: ["A definir"],
         block: "afternoon",
@@ -445,7 +450,7 @@ const talks = [
     },
     {
         id: 14,
-        time: "14:45 - 15:00",
+        time: "15:00 - 15:15",
         title: "Entre o Código e a Consciência: Os Dilemas Éticos da IA",
         speaker: "Jessica Borges",
         description: "Entre o Código e a Consciência traz reflexões sobre os dilemas éticos da IA, mostrando casos reais e como essa tecnologia impacta a sociedade.",
@@ -455,19 +460,19 @@ const talks = [
     },
     {
         id: 15,
-        time: "15:00 - 15:15",
-        title: "Título da palestra será definido pela palestrante",
+        time: "15:15 - 15:30",
+        title: "O mapa para a sua próxima conquista",
         speaker: "Karina Kaori",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        description: "Já se sentiu perdido sobre os próximos passos da sua carreira? Nesta palestra, vamos desmistificar o Plano de Desenvolvimento Individual (PDI) e mostrar como essa ferramenta pode ser o seu mapa para o sucesso. Vamos aprender, de forma prática, a estruturar um PDI para definir metas claras, identificar as habilidades necessárias (técnicas e soft skills) e, o mais importante, como usar esse plano para ter conversas estratégicas e impactantes com seus líderes. Prepare-se para conquistar o próximo nível, com planejamento e autoconfiança.",
+        tags: ["Carreira, Soft Skills, Planejamento Estratégico, Liderança, Networking"],
         block: "afternoon",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 16,
-        time: "15:15 - 15:30",
+        time: "15:30 - 15:45",
         title: "Título da palestra será definido pela palestrante",
-        speaker: "Keline",
+    speaker: "TBD",
         description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
         tags: ["A definir"],
         block: "afternoon",
@@ -475,9 +480,9 @@ const talks = [
     },
     {
         id: 17,
-        time: "15:30 - 15:45",
+        time: "15:45 - 16:00",
         title: "Título da palestra será definido pela palestrante",
-        speaker: "Luciana Damasceno",
+    speaker: "TBD",
         description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
         tags: ["A definir"],
         block: "afternoon",
@@ -485,9 +490,9 @@ const talks = [
     },
     {
         id: 18,
-        time: "15:45 - 16:00",
+        time: "16:00 - 16:15",
         title: "Título da palestra será definido pela palestrante",
-        speaker: "Rhaissa Barbosa",
+    speaker: "TBD",
         description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
         tags: ["A definir"],
         block: "afternoon",
@@ -495,9 +500,9 @@ const talks = [
     },
     {
         id: 19,
-        time: "16:00 - 16:15",
+        time: "16:15 - 16:30",
         title: "Título da palestra será definido pela palestrante",
-        speaker: "Helena",
+    speaker: "TBD",
         description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
         tags: ["A definir"],
         block: "afternoon",
@@ -505,9 +510,9 @@ const talks = [
     },
     {
         id: 20,
-        time: "16:15 - 16:30",
+        time: "16:30 - 16:45",
         title: "Título da palestra será definido pela palestrante",
-        speaker: "Juliana Lisboa",
+    speaker: "TBD",
         description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
         tags: ["A definir"],
         block: "afternoon",
