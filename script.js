@@ -168,16 +168,16 @@ const speakers = [
     {
         id: 12,
         name: "Cecilia Silva",
-        role: "VR/AR Developer",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["VR", "AR", "Unity"],
+        role: "Analista de Business Intelligence",
+        company: "iFood",
+        bio: "Apaixonada por transformar dados em decisões mais ágeis e estratégicas. Há 5 anos na área de Business Intelligence, atuando em empresas de tecnologia com foco em análise e visualização de dados. Graduanda em Engenharia de Software, certificada Google e IBM.",
+        expertise: ["Análise de Dados", "Inteligência de Negócios"],
         social: {
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/ceciliasilvads/",
             twitter: "#",
-            github: "#"
+            github: "https://github.com/cecisliasilvads"
         },
-        talks: ["Realidade Virtual e Aumentada"]
+        talks: ["Storytelling com dados: a arte de contar histórias"]
     },
     {
         id: 13,
@@ -431,12 +431,12 @@ const talks = [
     {
         id: 12,
         time: "14:30 - 14:45",
-        title: "Título da palestra será definido pela palestrante",
-    speaker: "TBD",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        title: "Storytelling com dados: a arte de contar histórias",
+    speaker: "Cecilia Silva",
+        description: "Nesta palestra, vamos abordar como transformar análises em histórias que convencem: definir contexto, escolher a mensagem central, estruturar em atos e usar visuais simples que respondem e elevam a compreensão da sua análise. Saia com um roteiro prático para apresentar resultados com clareza e impacto.",
+        tags: ["dados", "storytelling", "visualização de dados", "análise de dados", "comunicação"],
         block: "afternoon",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 13,
