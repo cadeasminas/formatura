@@ -280,16 +280,16 @@ const speakers = [
     {
         id: 20,
         name: "Juliana Lisboa",
-        role: "Tech Evangelist",
-        company: "A definir",
+        role: "Product Manager",
+        company: "Rio Endowment",
         bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Diversity", "Inclusion", "Future"],
+        expertise: ["Inovação", "Transformação Digital", "Maternidade e carreira"],
         social: {
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/juliana-goncalves-/",
             twitter: "#",
             github: "#"
         },
-        talks: ["O Futuro das Mulheres na Tecnologia"]
+        talks: ["Carreiras Femininas, Maternidade e Invisibilidade no meio tech."]
     }
 ];
 
@@ -403,10 +403,10 @@ const talks = [
     {
         id: 10,
         time: "12:30 - 12:45",
-        title: "Título da palestra será definido pela palestrante",
-        speaker: "TBD",
-        description: "A palestra abordará a revolução que a Inteligência Artificial está mudando todos os aspectos da nossa vida, desde o trabalho, estudos, negócios, tornando acessível a todos, independentemente de seu nível de conhecimento.",
-        tags: ["Inteligência Artificial", "Tecnologia", "Inovação"],
+        title: "Carreiras Femininas, maternidade e a invisibilidade no meio tech",
+        speaker: "Juliana Lisboa",
+        description: "A palestra abordará as nunaces, dores e sabores da mulher enquanto sua posição do feminino, profissional e pessoal no mundo tech.",
+        tags: ["Inovação", "Transformação Digital", "Maternidade e carreira"],
         block: "morning",
         isPlaceholder: false
     },
