@@ -262,7 +262,7 @@ Marque `[x]` quando a palestrante já tiver: (1) personalizado `speakers` + `tal
  - [ ] Marília Melo Favalesso     
  - [ ] Ana Hashimoto     
  - [x] Andrea Simone     
- - [ ] Bruna Valentim     
+ - [x] Bruna Valentim     
  - [ ] Cecilia Silva     
  - [ ] Jessica Alexandra     
  - [x] Jessica Borges    
