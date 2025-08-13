@@ -153,7 +153,7 @@ const speakers = [
     },
     {
         id: 11,
-        name: "Bruna Valentim",
+        speaker: "Bruna Valentim",
         role: "Analista de Cibersegurança",
         company: "Sicoob",
         bio: "Bruna Valentim é analista de Segurança Cibernética, atuando diretamente na resposta a incidentes e na análise forense digital, enfrentando ataques virtuais de perto. Apaixonada pelo que faz, ela acredita que proteger o mundo digital vai além da técnica — é também sobre propósito e responsabilidade",
@@ -354,7 +354,7 @@ const talks = [
         id: 5,
         time: "11:15 - 11:30",
         title: "Hackers, golpes e proteção digital: o que você precisa saber para se defender",
-        speaker: "Bruna Valentim ",
+        speaker: "Bruna Valentim",
         description: "Nesta apresentação vou falar, de forma clara e prática, o conceito de virtualização de servidores, seus principais benefícios, e como ela pode ajudar empresas a otimizarem seus recursos de TI. Se você é uma pessoa querendo aprender um pouco sobre esta área, esta palestra foi feita pensando em você.",
         tags: ["Segurança"],
         block: "morning",
@@ -464,7 +464,8 @@ const talks = [
         title: "O mapa para a sua próxima conquista",
         speaker: "Karina Kaori",
         description: "Já se sentiu perdido sobre os próximos passos da sua carreira? Nesta palestra, vamos desmistificar o Plano de Desenvolvimento Individual (PDI) e mostrar como essa ferramenta pode ser o seu mapa para o sucesso. Vamos aprender, de forma prática, a estruturar um PDI para definir metas claras, identificar as habilidades necessárias (técnicas e soft skills) e, o mais importante, como usar esse plano para ter conversas estratégicas e impactantes com seus líderes. Prepare-se para conquistar o próximo nível, com planejamento e autoconfiança.",
-        tags: ["Carreira, Soft Skills, Planejamento Estratégico, Liderança, Networking"],
+    // Ajuste: separar string única em múltiplas tags semânticas
+    tags: ["Carreira", "Soft Skills", "Planejamento Estratégico", "Liderança", "Networking"],
         block: "afternoon",
         isPlaceholder: false
     },
