@@ -417,16 +417,12 @@ const talks = [
     {
         id: 11,
         time: "14:00 - 14:15",
-        title: "Hackers, golpes e proteção digital: o que você precisa saber para se defender",
-        speaker: "Bruna Valentim",
-        description: "Sabe aquele e-mail falso que parece tão real que quase engana todo mundo? Nesta palestra, você vai aprender dicas simples para se proteger no dia a dia — sem precisar ser expert em tecnologia.",
-        tags: ["Segurança Digital", "Cibersegurança",
-    "Golpes Online",
-    "Phishing",
-    "Proteção Digital",
-    "Dicas de Segurança"],
+        title: "Título da palestra será definido pela palestrante",
+    speaker: "TBD",
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
         block: "afternoon",
-        isPlaceholder: false
+        isPlaceholder: true
     },
     {
         id: 12,
