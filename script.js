@@ -386,7 +386,7 @@ const talks = [
         title: "Título da palestra será definido pela palestrante",
     speaker: "TBD",
         description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+    tags: ["Ética", "IA", "Responsabilidade", "Impacto Social"],
         block: "morning",
         isPlaceholder: true
     },
