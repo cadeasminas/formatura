@@ -223,17 +223,15 @@ const speakers = [
     },
     {
         id: 16,
-        name: "Keline",
-        role: "Tech Lead",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Leadership", "Management", "Strategy"],
+        name: "Keline Dantas",
+        role: "Assessoria Pedagogica",
+        company: "FioCruz",
+        bio: "Acrescentar.",
+        expertise: ["Inclusão", "Acessibilidade", "Letramento Digital", "Cibersegurança"],
         social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#"
+            linkedin: "https://www.linkedin.com/in/keline-santana-pcd-45631021/",
         },
-        talks: ["Liderança Técnica Feminina"]
+        talks: ["Acrescentar"]
     },
     {
         id: 17,
