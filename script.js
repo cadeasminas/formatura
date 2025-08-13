@@ -153,7 +153,7 @@ const speakers = [
     },
     {
         id: 11,
-        speaker: "Bruna Valentim",
+        name: "Bruna Valentim",
         role: "Analista de Cibersegurança",
         company: "Sicoob",
         bio: "Bruna Valentim é analista de Segurança Cibernética, atuando diretamente na resposta a incidentes e na análise forense digital, enfrentando ataques virtuais de perto. Apaixonada pelo que faz, ela acredita que proteger o mundo digital vai além da técnica — é também sobre propósito e responsabilidade",
@@ -358,7 +358,7 @@ const talks = [
         description: "Nesta apresentação vou falar, de forma clara e prática, o conceito de virtualização de servidores, seus principais benefícios, e como ela pode ajudar empresas a otimizarem seus recursos de TI. Se você é uma pessoa querendo aprender um pouco sobre esta área, esta palestra foi feita pensando em você.",
         tags: ["Segurança"],
         block: "morning",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 6,
