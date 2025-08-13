@@ -236,11 +236,10 @@ Marque `[x]` quando a palestrante já tiver: (1) personalizado `speakers` + `tal
  - [ ] Ana Hashimoto     
  - [x] Andrea Simone     
  - [x] Bruna Valentim     
- - [x] Cecilia Silva     
- - [ ] Jessica Alexandra     
+ - [x] Cecilia Silva        
  - [x] Jessica Borges    
  - [x] Karina Kaori     
- - [ ] Keline     
+ - [x] Keline     
  - [ ] Luciana Damasceno     
  - [ ] Rhaissa Barbosa     
  - [ ] Helena     
