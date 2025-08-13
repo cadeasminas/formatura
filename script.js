@@ -56,17 +56,17 @@ const speakers = [
     },
     {
         id: 4,
-        name: "Laryssa Viana Rocha",
-        role: "DevOps Engineer",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["DevOps", "Kubernetes", "AWS"],
+        name: "Laryssa Rocha",
+        role: "Frontend Engineer",
+        company: "Dexian",
+        bio: "Laryssa é engenheira de software front-end há mais de 10 anos. Já atuou como líder técnica, é mentora e ama aprender e compartilhar conhecimento. Acredita na tecnologia como ferramenta de transformação social. Ela ama cachorrinhos, é ceramista amadora e gamer nas horas vagas 🪴 🐶 🎮",
+        expertise: ["Frontend", "React", "Javascript"],
         social: {
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/laryro/",
             twitter: "#",
-            github: "#"
+            github: "https://github.com/laryro"
         },
-        talks: ["DevOps e Cloud Computing"]
+        talks: ["Por que você deveria ter um site pessoal em 2025?"]
     },
     {
         id: 5,
@@ -501,12 +501,12 @@ const talks = [
     {
         id: 19,
         time: "16:15 - 16:30",
-        title: "Título da palestra será definido pela palestrante",
-    speaker: "TBD",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        title: "Por que você deveria ter um site pessoal em 2025?",
+    speaker: "Laryssa Rocha",
+        description: "Ter um site pessoal não precisa ser só sobre trabalho ou currículo: pode ser seu playground digital, um espaço para experimentar ideias, aprender coisas novas, compartilhar o que você gosta com pessoas que compartilham os mesmos interesses. Nesta palestra vamos falar sobre como criar seu cantinho na internet, e como isso pode te ajudar a assumir o controle dos seus dados, transformar aprendizado em conteúdo e, de quebra, se divertir no processo.",
+        tags: ["frontend", "aprendizado contínuo", "presença digital"],
         block: "afternoon",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 20,
