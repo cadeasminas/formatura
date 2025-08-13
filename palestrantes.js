@@ -108,7 +108,8 @@ function getCategoryFromRole(role) {
         'Open Source Advocate': 'other',
         'Green Tech Specialist': 'other',
         'Entrepreneur': 'other',
-        'Tech Evangelist': 'other'
+        'Tech Evangelist': 'other',
+        'Frontend Engineer': 'engineer',
     };
     return roleMap[role] || 'other';
 }
