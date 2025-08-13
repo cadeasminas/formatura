@@ -161,33 +161,6 @@ Localize sua palestra no array `talks` (arquivo `script.js`):
 
 **Lembre-se:** Suas contribuições tornam este evento ainda mais especial! 💪✨
 
-## 📂 Como encontrar suas informações:
-
-### Palestras por bloco :
-
-**🌅 BLOCO 1 - MANHÃ (10:10 - 12:40):**
-1. Midian Brandão
-2. Camila Marques de Oliveira
-3. Gabriela Milet Matias
-4. Laryssa Viana Rocha
-5. Elizabeth Cristina de Souza
-6. Bianca Cardoso
-7. Juliana de Jesus de Oliveira
-8. Marília Melo Favalesso
-9. Ana Hashimoto
-10. Andrea Simone
-
-**🌇 BLOCO 2 - TARDE (14:00 - 16:30):**
-11. Bruna Valentim
-12. Cecilia Silva
-13. Jessica Alexandra
-14. Jessica Borges
-15. Karina Kaori
-16. Keline
-17. Luciana Damasceno
-18. Rhaissa Barbosa
-19. Helena
-20. Juliana Lisboa
 
 ## 🔧 Como editar:
 
@@ -255,7 +228,7 @@ Marque `[x]` quando a palestrante já tiver: (1) personalizado `speakers` + `tal
  - [x] Midian Brandão 
  - [ ] Camila Marques de Oliveira 
  - [x] Gabriela Matias 
- - [ ] Laryssa    Viana Rocha     
+ - [x] Laryssa    Viana Rocha     
  - [x] Elizabeth     Cristina de Souza     
  - [x] Bianca Cardoso     
  - [x] Juliana de    Oliveira     
@@ -263,7 +236,7 @@ Marque `[x]` quando a palestrante já tiver: (1) personalizado `speakers` + `tal
  - [ ] Ana Hashimoto     
  - [x] Andrea Simone     
  - [x] Bruna Valentim     
- - [ ] Cecilia Silva     
+ - [x] Cecilia Silva     
  - [ ] Jessica Alexandra     
  - [x] Jessica Borges    
  - [x] Karina Kaori     
@@ -271,7 +244,7 @@ Marque `[x]` quando a palestrante já tiver: (1) personalizado `speakers` + `tal
  - [ ] Luciana Damasceno     
  - [ ] Rhaissa Barbosa     
  - [ ] Helena     
- - [ ] Juliana    Lisboa
+ - [x] Juliana    Lisboa
 
 
 
